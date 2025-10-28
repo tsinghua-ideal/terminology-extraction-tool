@@ -1,0 +1,30 @@
+The following is OCR text of the terms index of the book Memory Systems Cache DRAM Disk,  ordered alphabetically. Each term is associated with a page number (or range), e.g.:
+
+capacity-driven update, 219–20
+coarse pointers, 251
+
+Here "capacity-driven update" and "coarse pointers" are terms. Note that there may be line breaks that breaks the terms with the page numbers. You should reconstruct the term, e.g.:
+
+capacity-driven
+update,
+219–20
+
+You should output "capacity-driven update" in this case.
+
+Each term is optionally associated with a list of usages, e.g.:
+
+cache hits, 6
+  partial, 733
+  reuse, 46
+
+An indented item is a sub-item. A sub-item is **not** a term, and you should ignore it. However, the indentation is lost during OCR, and you should filter out the sub-items by seeing if they violate alphabetical order.
+
+Then, you need to extract all the terms and output a list. For example,
+
+capacity-driven update
+coarse pointers
+cache hits
+
+The list should be plain and not be numbered or bulleted.
+
+The following is the OCR text.

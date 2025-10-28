@@ -1,0 +1,4348 @@
+1-bit memory cell, 259–62
+cross-coupled inverters, 259
+physical implementation, 259–60
+soft error rate, 262
+static noise margin (SNM), 260–61
+transistor sizing, 260–62
+2T command timing, 454
+2.5-V Series Stub Terminated Logic
+(SSTL-2), 473–74
+3DWinbench, 548–50
+6-transistor memory cell (6TMC), 856
+164.gzip, 544–45
+close-page systems, 565–66
+defi ned, 544
+maximum sustainable bandwidth,
+563, 565
+open-page systems, 561–62
+SETI@HOME, 566–67
+summary, 543
+trace overview, 544
+172.mgrid, 547
+176.gcc, 545
+178.galgel, 548–50
+179.art, 548–50
+defi ned, 550
+scheduling policy impact, 589
+183.equake, 548–50
+188.ammp, 548–50
+defi ned, 550
+scheduling policy impact, 590
+197.parser, 545–46
+255.vortex, 546–47
+defi ned, 546–47
+maximum sustainable band-
+width, 563
+open-page systems, 562
+overview, 547
+summary, 543
+SETI@HOME, 547–48.
+Index
+A
+access protocol
+DDR SDRAM, 472
+Direct RDRAM, 483–85
+DRAM, 427–28
+FB-DIMM, 526–30
+SDRAM, 469
+access time, estimating, 718–19
+actuators, 634–35
+dual, 711–12
+dual stage, 792–94
+linear, 634
+microactuators, 793–94
+rotary, 634–35
+top views, 634
+VCM, 646
+adaptive formatting, 794–96
+defi ned, 795
+Deskstar 7K500, 808
+effects, 796
+address aliasing, 510–11
+address decoding, 262–68
+concept, 262
+concern, 262–63
+decode hierarchy, 263
+divided wordline (DWL),
+265–66
+hierarchical word decoding (HWD),
+266–67
+nonpartitioned, 265
+predecoding, 263–64
+pulsed wordline, 267–68
+row and column, 264–65
+two-dimensional, 265
+See also decoder implementation
+addresses
+AMB, 530
+distribution, 575
+read transaction percentage, 575
+shadow, 502
+address mapping, 497, 502–11
+baseline, 505–6
+confi guration registers, 507–8
+defi ned, 498
+disk drive, 654–57
+external, 654
+in Intel 82955X MCH, 506–10
+internal, 654
+logical address to physical
+location, 655–57
+parallelism, 503–4
+parameter, 504–5
+per-rank schemes, 508–9
+virtual memory, 886–87
+address spaces
+identifi cation, 96
+identifi er, 886
+multiple processes, 901
+organization taxonomy, 901–6
+single process, 901
+virtual memory, 885–86
+address strobe signal (ADS), 257
+address transition detection (ATD),
+286–87
+defi ned, 286
+illustrated, 287
+See also SRAM
+address translation, 35–38
+Advanced Memory Buffers (AMBs), 44,
+521, 530–32
+addresses, 530
+BIST, 532
+defi ned, 350
+FB-DIMM, 44, 521
+illustrated, 522
+out-of-sync frame resync’ed
+by, 525
+955955
+956 INDEX
+pass-through logic interface
+of, 526
+as pass-through switch, 44
+serial protocol conversion, 44
+SMBus interface, 531–32
+sub-blocks, 531
+thermal sensor, 532
+agent-centric request queuing, 516–18
+aging algorithm, 722–23
+air bearing, 632
+air bearing surface (ABS), 632
+algorithmic locality, 64–65
+defi ned, 63, 64
+Z-buffer algorithm, 64–65
+algorithm-oriented operations,
+214–15
+align strategies, 113–14
+alpha particles, 866
+AMD Opteron, 301–3
+block diagram, 306
+cache hierarchy specifi cations, 302
+features, 301–3
+L1 data cache logical connection,
+306
+pipeline interface, 304
+analytical modeling, 843–44
+AND gates, 263–64
+anti-ferromagnetic material (AFM), 630
+application-controlled fi le caches,
+175–77
+defi ned, 175
+placeholders, 176–77
+swapping, 176–77
+system calls, 175–76
+application-directed fi le caches, 175
+application-direct management,
+203–4
+application launch accelerators, 725
+application profi ling, 180
+application-specifi c integrated cir-
+cuits (ASICs), 373
+architectures
+DDR2 SDRAM, 475
+Direct RDRAM, 480–83
+DRAM, 15, 32, 322
+FB-DIMM, 44, 350, 521–24
+HPL-PD, 170–71
+HWD, 267
+hybrid disk drives, 796–97
+memory controllers, 591
+OSD, 799
+RISC-16, 908–10
+segmentation, 897–98
+XDR, 492, 493
+areal density
+defi ned, 605
+growth trend, 605–6, 688
+technology improvements, 606
+See also disks
+arithmetic mean, 838, 839
+arm fl utter
+defi ned, 803
+reduction, 803–4
+arrays
+data striping, 764
+DRAM, 358–60, 365–67
+indexed, 158
+interleaving, 168–69
+ASIDs, 96
+for address space protection, 225
+management, 225–26
+multiple-owner address space
+versus, 904
+problem, 97
+shared memory and, 225
+assist caches, 103–4
+defi ned, 103, 122
+organization, 122
+See also cache(s)
+asymmetric dual channel mode, 507
+asynchronous DRAM, 324
+defi ned, 322
+devices, 461
+read timing, 325
+See also DRAM
+ATA interface, 702–3
+characteristics, 702–3
+command codes, 703
+defi ned, 702
+PATA, 702
+revisions, 702
+See also disk drive interfaces
+atomic force microscopy (AFM), 607
+attenuation, 380
+factor, 385
+skin depth effect, 384
+attraction memory, 99
+automatic gain control (AGC), 644
+Automatic Locality-Improving Storage
+(ALIS), 726–28
+cluster selection, 727–28
+heat clustering, 726
+run clustering, 726–27
+automatic page layout, 180
+availability assurance, 214–16
+algorithm-oriented operations,
+214–15
+data-oriented operations, 214–15
+name-oriented operations, 215
+repeat-oriented operations, 215–16
+average case, 204–5
+average cycles per instruction (aver-
+age CPI), 838
+average normalized, 839–43
+by number of operations,
+840–41
+by reference times, 839–40
+by times and operation, 841–42
+average of all workloads
+close-page systems, 567
+maximum sustainable bandwidth,
+564, 567
+open-page systems, 562–65
+average seek, 694–98
+disks with ZBR, 695–96
+distance, 697
+B
+backing store, 82
+delayed write driven by, 220
+forms, 247
+Ball Grid Array (BGA), 374
+banded serpentine, 656
+Band Round-Robin (BRR), 572
+bandwidth, 7
+8-banks versus 16-banks, 568–70
+execution time as function, 16, 817
+FB-DIMM read, 45
+latency, characteristics, 592–93
+per pin, 829
+pin, 21
+search catch-22, 822–24
+servo, 792
+sustainable, 578–79
+bank confl icts, 444, 448, 449
+consecutive write requests, 444
+in open-page memory systems, 554
+read following write to different
+banks (same rank), 449
+read following write to same bank,
+448
+banked sequential, 113
+banks, 414–15
+address aliasing, 510–11
+bandwidth improvements, 568–70
+consecutive column read commands
+to same, 438
+consecutive reads to different,
+440–41
+consecutive write requests to open,
+442–44
+DRAM, 317–18, 319
+interleave, 345–46
+parallelism, 504
+read following write to, 446–49
+baseline address mapping,
+505–6
+channel and rank indices, 506
+close-page, 506
+open-page, 505–6
+See also address mapping
+base+offset addressing schemes, 225
+basic blocks, 161
+B burst, 667
+bearings, spindle motor, 624–25
+beats, 416
+BEDO DRAM devices, 463–64
+bursting continuous blocks, 464
+multiple column read command
+timing, 465
+See also burst-mode EDO (BEDO)
+benchmarks, 747, 755–57
+defi ned, 755
+guidelines, 756–57
+ideal setup, 756–57
+multiple runs, 757
+purpose, 755
+test system, 756
+See also performance testing; tests
+best bin algorithm, 146
+bin hopping, 145
+bit lane steering, 533–34
+bits per inch, 638–39, 688
+bit steering, 875–77
+in Compaq Advanced ECC, 877
+defi ned, 876
+blocking factor, 168
+blocks, 649–50
+fi xed-size, 649–50
+variable-size, 340–41, 650
+bottom-up traversal, 889–90
+branch-address cache, 111–12
+buffer caches, 102
+BSD, 104–6
+cache block lookups, 105
+defi ned, 60
+dynamically defi ned cache block,
+106
+illustrated, 46, 60
+set-associative software- managed,
+104–6
+See also cache(s)
+buffer pool, 104
+buffers
+circular, 737–38
+collapsing, 113
+inverter, 397
+prefetch, 155
+stream, 130–31
+write, 218, 486–87
+Built-In Self Test (BIST), 532
+burst chop
+benefi ts, 580
+in DDR3 SDRAM devices,
+579–84
+short read burst and short write
+burst rank, 582–83
+short write burst bank switching,
+581–82
+simulation results, 583–84
+standard (STD), 580–81
+See also simulation-based analysis
+burst duration, 448
+burst lengths, 372
+bandwidth effi ciency as function
+of, 578
+effect on sustainable bandwidth, 578
+programmable, 342
+simulation-based analysis, 577–78
+sustainable bandwidth as function,
+578
+burst-mode EDO (BEDO), 322, 458
+defi ned, 326
+read timing, 327
+burst ordering, 372
+burst-terminate command, 344–45
+C
+cache bins, 221
+cache blocks, 64
+defi ned, 67
+diagram, 298
+dirty, 240
+Exclusive state, 240–41
+ID, 67
+Invalid state, 240
+INDEX 957
+macroblock, 126
+Modifi ed state, 240
+Owned state, 241
+Shared state, 240
+size, 86
+states, 240–41
+cache case studies, 301–12
+AMD Opteron, 301–3
+detailed Itanium-2 circuits, 305–12
+logical organization, 301–3
+Motorola MPC7450, 301
+pipeline interface, 304–5
+cache coherence, 217
+cache-coherence mechanisms, 233
+hardware, 240–54
+software, 254–56
+cache-coherent NUMA (ccNUMA), 99
+cache confl icts
+avoidance, 207
+naming versus, 205–8
+cache-conscious data placement,
+199–200
+complexities, 200
+heap-variable bins, 200
+input, 199
+cache-conscious heap, 215
+cache-conscious structure layout,
+200–202
+allocation, 200–201
+decision, 202
+reorganization, 201
+cache consistency
+aspects, 217
+with backing store, 217, 218–20
+defi ned, 217
+with other clients, 217, 226–56
+with self, 217, 220–26
+cache controller, 297–98
+cache decay, 128–29
+defi ned, 128
+interval, 129
+cache-directed tiling, 168
+cache hits, 6
+partial, 733
+reuse, 46
+cache layer, 731–45
+cache-miss algorithm, 901
+cache misses, 6
+decreasing number of, 205
+de facto, 96
+exceptions, 88–89
+failing address, 89
+958 INDEX
+failing data, 89
+history table, 136
+isolation, 157
+non-allocating on, 122
+partial, 733
+transparent caches, 86
+cache organizations, 6, 58
+circular buffer, 737–38
+comparisons, 86
+desirable features, 735–36
+disk cache, 735–41
+examples, 81
+fi xed segmentation, 736–37
+issues, 244–46
+logical, 79–115
+virtual memory, 738–41, 895
+cache(s)
+assist, 103–4, 122–23
+average miss rates, 127
+branch-address, 111–12
+buffer, 46, 60, 102, 104–6
+as compact databases, 6
+compression, 149
+consistency management, 58–59,
+69–70, 217–56
+content-management, 58, 68–69
+country, 102
+defi ned, 57
+Deskstar 7K500, 810
+direct-mapped, 68, 83
+disk, 46–47, 731–35
+distributed, 97–102
+DSP-style, 60, 74–76
+exclusion, 70–73
+exclusive, 245
+fi le, 175–77
+fully associative, 36, 68
+function in memory hierarchy, 3
+general-purpose, 59, 60
+hardware, 59, 60
+hybrid, 58
+idealized lookup, 6, 37
+implementation, 297–300
+implicitly addressed, 82
+inclusion, 70–73
+inclusive, 244–45
+IP-address translation, 60, 61
+last-level (LLC), 246
+layouts, 188
+locality of reference, 57
+locality principles, 62–66
+logical organization, 79–115
+management, 117–216
+MOESI-based snarfi ng, 245
+multi-level hierarchy, 60
+multiporting, 298–300
+non-inclusive, 245
+non-temporal streaming, 125–26
+non-transparently addressed, 90–92
+operation principle, 35
+orthogonal design choices, 66
+partitioned, 97–102
+pipelined nanometer, 855–64
+power dissipation, 54
+principles, 57–77
+processor, 85
+processor interface, 298
+reliability, 54
+replacement strategy, 120–21
+set-associative, 68
+sets, 67
+shadow, 107, 112–13
+size, 59
+software, 59, 60, 80, 86–90
+structure, 67
+taxonomy, 80
+trace, 106–15, 736
+transparent, 57, 61, 82–90
+victim, 74, 103–4, 121–23
+virtual, 93–96
+web, 100–102
+web-document, 60, 61
+write, 218
+write-back, 70, 242–43
+write-through, 70, 241–42
+cache tags, 67
+cache-this, 120
+CACTI, 857, 858
+canonical memory hierarchy
+horizontally partitioned, 70
+illustrated, 71
+vertically partitioned, 70
+See also memory hierarchy
+capacitance, 28
+Capacitor-over-Bitline (COB), 358
+capacitors
+stacked, 356, 357–58
+trench, 356, 357
+Capacitor-under-Bitline (CUB), 358
+capacity, disk drive, 672
+capacity-driven update, 219–20
+careful mapping, 144–47
+best bin, 146
+bin hopping, 145
+hierarchical, 146
+page coloring, 144–45
+random, 146
+CASHEW system, 148
+CCM (compiler-controlled
+memory), 154
+C compression, 544–45
+chained decluster mirroring, 766–67
+defi ned, 766
+illustrated, 767
+reliability comparison, 769
+See also data mirroring
+channels, 410–13
+consecutive column read commands
+to, 438
+depth, 595
+Direct RDRAM, 489, 490
+dual confi guration, 411
+Intel 82955X MCH, 506
+organization, execution time as
+function, 817
+parallelism, 503
+check bits, 874
+chipkill
+with 8 DRAM devices, 877–79
+defi ned, 876
+chunk-granularity TRG, 198
+circular buffers, 737–38
+classifi cation
+context-based, 214
+frequency-based, 214
+history-based, 214
+methods, 213–14
+PC-based, 214
+programmer-directed, 214
+region-based, 214
+time-based, 214
+uniform, 213
+client-side web caches, 101–2
+clock
+data recovery, 524–25
+defi ned, 322
+Direct RDRAM read operation,
+330
+example signals, 323
+forwarding, 400–401
+frequency, doubling, 346–47
+gating, 30
+low-skew, 338–39
+negative edge, 322
+positive edge, 322
+running at data rate, 341
+SDR SDRAM read operation, 327
+clocked DRAM, 324
+C-LOOK, 717
+close-page memory systems
+164.gzip, 565–66
+applied example, 558
+average of all workloads, 567
+baseline address mapping, 506
+defi ned, 434
+row-buffer-management policy,
+500–501
+SET1@HOME, 566–67
+clustering, 201
+heat, 726
+run, 726–27
+CMOS
+DRCMOS, 276–77
+dynamic, 270–71
+self-resetting (SRCMOS), 275–76
+static, 269–70
+coarse pointers, 251
+C object-oriented database,
+546–47
+coherence-maintenance granularity,
+254
+coherence point, 251–54
+abstract illustration, 253
+at bus, 252
+illustrated, 253
+system controller, 252
+collapsing buffer, 113
+collision resolution table, 891
+coloring
+defi ned, 201
+page, 144–45
+column-access strobe (CAS), 321, 354,
+369
+high (CASH), 463
+low (CASL), 463
+posted command, 436
+programmable latency, 342, 343–44
+column address, 317, 321
+column-read-and-precharge com-
+mand, 435–36
+posted, 436
+row access, 450
+timing, 449–50
+column read command, 429–30
+consecutive to different banks,
+440–41
+consecutive to different ranks,
+441–42
+consecutive to different rows of
+same bank, 438–40
+consecutive to same bank, rank, and
+channel, 438
+Direct RDRAM system, 485
+following write request, 446–49
+write request following, 444–46
+columns
+DRAM, 317
+DRAM device, 415–16
+multiplexing, 286
+parallelism, 504
+column-write-and-precharge
+command
+timing, 450
+timing, row access to, 451
+column write command, 430–31
+consecutive to different ranks, 443
+consecutive to open banks, 442–44
+following read request, 444–46
+to precharge timing, 447
+read request following, 446–49
+COMA (cache-only memory architec-
+ture), 99
+combined approaches, 169–202
+locality optimizations, 180–202
+partitioning, 170–74
+prefetching, 174–80
+command descriptor blocks (CDBs),
+706
+command overhead, 677–78
+Command Pair Ranking Hopping
+(CPRH) scheduling algorithm,
+587–90
+benefi ts, 588
+problems, 588–90
+command queuing
+aging algorithm, 716
+drive fl exibility, 716
+drive interface, 702
+rationale, 716
+commands
+column read, 429–30
+column-read-and-precharge,
+435–36, 449–50
+column write, 230–31
+column-write-and-precharge, 450
+compound, 434–36
+DRAM, 425–36
+fl ush, 734
+generic format, 427
+interactions, 436–50
+posted CAS, 436
+precharge, 431
+read-modify-write (RMW), 772
+refresh, 431–33
+reordering performance, 755
+INDEX 959
+row access, 428–29
+scheduling policy, 498
+timing equations, 456
+timing parameters, 427–28
+timing summary, 454
+commercial examples, 39–40
+Commodity path, 458
+Historical-Commodity subpath,
+458–64
+Modern-Commodity subpath, 458,
+464–80
+Common Internet File System
+(CIFS), 782
+compare bits, 140
+compiler-controlled memory
+(CCM), 154
+compound commands, 434–36
+compression cache, 149
+concentric tracks, 653
+formatting effi ciency, 692–93
+spiral tracks versus, 692–94
+sustained data rate, 693
+Concurrent RDRAM, 329
+confl ict-driven update, 219
+confl ict misses, 84
+connectivity matrices, 134, 135,
+161–62, 181
+defi ned, 161
+example, 162
+consecutive reads (different banks),
+440–41
+with command reordering, 441
+without command reordering,
+440–41
+consecutive reads (different ranks),
+441–42
+consecutive reads (different rows),
+438–40
+best-case scenario, 439
+worst-case scenario, 439–40
+consecutive writes (ranks), 443
+consistency management,
+217–56
+heuristics, 58–59
+responsibilities, 69–70
+virtual cache, 220–25
+consistency with backing store,
+218–20
+defi ned, 217
+delayed write, 219–20
+write-through, 218
+See also cache consistency
+consistency with clients, 226–56
+960 INDEX
+coherence versus consistency,
+231–33
+defi ned, 217
+hardware cache-coherence mecha-
+nism, 240–54
+memory-consistency models,
+233–40
+motivation, explanation, intuition,
+226–31
+software cache-coherence
+mechanisms, 254–56
+See also cache consistency
+consistency with self, 220–26
+ASID management, 225–26
+defi ned, 217
+virtual cache management, 220–25
+See also cache consistency
+constant angular velocity (CAV), 658,
+693
+constant linear velocity (CLV), 693
+constraints
+row cycle time, 553–55
+row-to-row activation, 555–57
+signaling, 378–79, 403–4
+timing, 403–4
+contact start-stop (CSS), 636
+content addressable memories
+(CAMs), 37, 68
+Itanium-2, 308–12
+set-associative cache built
+from, 85
+static, 208
+content-based prefetching, 139–41
+compare bits, 140
+defi ned, 140
+fi lter bits, 141
+See also prefetching
+contention, 84
+content management, 117–216
+application-directed, 203–4
+availability method, 214–16
+cache decision, 68–69
+classifi cation method, 213–14
+degree of dynamism, 212–13
+degree of prediction, 213
+dynamic, 208–12
+heuristics, 58
+purpose, 68
+solution, building, 212–16
+static, 208–12
+transparent, 203–4
+context-based classifi cation,
+214
+controllers, 640–42
+block diagram, 641
+defi ned, 640
+processor, 641–42
+See also functions; memory
+controllers
+control registers, 915
+correctness, 217, 287
+correlation prefetching
+algorithms, 137
+base, 137
+defi ned, 134
+in fi le caches, 138–39
+in processor cubes, 135–38
+replicated, 137
+See also prefetching
+correlation tables, 135
+cosmic rays, 866
+cost/performance analysis, 20,
+829–45
+analytical modeling, 843–44
+cost defi nition, 20–23
+metrics, 838–43
+miss-rate function, 844–45
+Pareto optimality, 20, 23–25, 830–33
+sampled averages, 25–26
+sampling, 833–38
+cost(s)
+design, 9–10
+drive interface, 709–10
+write-through caches, 70
+country caches, 102
+C programming language compiler,
+545
+critical references, 183–84
+analysis, 184
+defi ned, 183
+critical working set (CWS)
+algorithm, 185
+analysis of critical references, 184
+matrix, 183
+cross-cutting issues
+cost/performance analysis, 20–26
+power and energy, 26–32
+reliability, 32–34
+virtual memory, 34–40
+crosstalk, 380, 386–87
+defi ned, 386
+far-end, 387–88
+minimizing, 386
+near-end, 387–88
+C word processing, 545–46
+cylinder mode, 655
+cylinders, 653–54
+capacity effect, 682–84
+defi ned, 653
+negative, 653
+position, 694
+size, 687
+skew, 657
+cylinder switches, 682
+D
+data
+cache-conscious placement,
+199–200
+dynamic compression, 147–49
+dynamic grouping, 141–44
+I/O, 372–73
+linearization, 142–44
+data-access behavior
+array aggregation, 169
+cache-directed tiling, 168
+tiled matrix multiply, 167
+data-access granularity, 254
+data address mark, 651
+data bits, density ratio (DR), 631
+data compression, 729–30
+defi ned, 729
+issues, 730
+ratio, 730
+data layer, 649–76
+address mapping, 654–57
+capacity, 672
+data rate, 673
+defect management, 673–77
+disk blocks/sectors, 649–52
+sector formatting, 670–72
+servo, 662–70
+tracks and cylinders, 652–54
+zoned-bit recording, 658–62
+See also disk drives
+data linearization prefetching, 160
+data mirroring, 765–70
+basic, 766, 769
+chained decluster, 766–67, 769
+data striping on top of, 767
+defi ned, 765
+interleaved decluster, 767,
+769–80
+performance comparison, 767–69
+reliability comparison, 769–70
+strategies, 766
+See also storage subsystems
+data rate, 673
+disk buffer, 751–52
+interface, 701
+media, 679, 681–82, 751
+number of heads and, 686–87
+sustained, 693
+data-reference behavior, 162, 166
+data-reference matrix, 134
+data reorganization, 723–28
+ALIS, 726–28
+co-locating access clusters, 725
+defragmentation, 724
+frequently accessed fi le, 724–25
+Data Retention Gated–ground (DRG),
+296
+data striping, 763–65
+arrays, 764
+defi ned, 763–64
+groups, 764
+purpose, 764
+stripe size, 764
+stripe units, 764
+on top of data mirroring, 767
+Data Strobe Signal (DQS), 404
+data sync, 651
+data transfer time, 679
+data width
+DRAM, 346
+dynamic adjustment, 149–50
+module, 346
+DDR2 SDRAM, 474–75
+architecture, 475
+channel routing, 523
+defi ned, 474
+DRAM protocol overheads, 553
+in FBGA package, 476
+high data rate, 489
+ODT signal, 475
+posted column read command, 475
+posted column write command,
+475
+protocol/architectural differences,
+475–76
+rank confi gurations, 507
+refresh cycle times, 516
+summary, 479
+timing parameter values, 478
+See also SDRAM
+DDR3 SDRAM, 476–77
+burst chop in, 579–84
+data transfer rate, 477
+defi ned, 476
+enhancements, 476–77
+high data rate, 489
+See also SDRAM
+DDR (double data rate), 17
+defi ned, 329
+power dissipation and, 18
+DDR SDRAM, 329–30, 333–35, 471–74
+access protocol, 472
+cross-comparison, 23
+data read and write timing, 404–6
+Data Strobe Signal (DQS), 404–5, 472
+defi ned, 329–30
+device I/O interface illustration, 474
+DLL in, 17–18, 336, 406–7, 818–22
+DRAM protocol overheads, 553
+dual-edge clocking, 333–34
+I/O interface, 472–73
+memory access latency, 22
+on-chip DLL, 334–35
+peak bandwidth statistics, 23
+protocol/architectural difference,
+475–76
+series stub terminated signaling
+protocol, 473–74
+static delay with periodic recalibra-
+tion, 821–22
+summary, 479
+timing parameter values, 478
+timing schemes cost-benefi t com-
+parison, 820
+topology, 403
+transmission line model, 403
+in TSOP, 476
+unassisted source-synchronous
+operation, 820
+without DLL, 819
+See also SDRAM
+deadwood removal, 142
+declustered RAID, 779–80
+decoder implementation, 268–78
+digital logic, 268–71
+domino dynamic logic, 271–78
+DRCMOS, 276–77
+dynamic CMOS, 270–71
+source-coupled logic (SCL),
+272–73
+SRCMOS, 275–76
+static CMOS, 269–70
+transfer-word driver (TWD),
+277–78
+See also address decoding
+decoders
+redundancy and, 366–68
+row replacement example, 368
+INDEX 961
+spare design, 367, 368
+standard design, 367, 368
+dedicated servo, 662–63
+defect management, 673–76
+defect types, 675–76
+error recovery procedure, 676
+grown defects, 675–76
+primary defects, 675
+relocation schemes, 674-75
+See also disk drives
+defragmentation, 724
+delayed write, 219–20
+capacity-driven update, 219–20
+confl ict-driven update, 219
+driven by backing store, 220
+driven by cache, 219–20
+power-driven update, 220
+time-driven update, 220
+delay-locked loop (DLL), 400, 402
+argument for, 18
+block diagram, 402
+in DDR SDRAM, 17–18, 336, 406,
+818–22
+on DIMM, 821
+on DRAM, 820–21
+functionality, 402
+jitter and, 402
+on memory controll34, 821
+moving onto DIMM, 348
+moving onto memory controller,
+348
+on-chip, 334–35, 342
+point of adding, 818
+demand-fetch, 12, 63, 117
+demand-paging, 897
+demographical locality, 65–66
+design analysis, 541–97
+overview, 541–43
+RAD analytical framework, 542–43,
+551–70
+simulation-based, 570–90
+workload characteristics, 543–51
+See also memory systems
+design costs, 9–10
+Deskstar 7K500, 803–12
+adaptive formatting, 808
+cache, 810
+data layout, 806–9
+data rate, 808–9
+defi ned, 803
+drive illustration, 804
+electronics, 806
+electronics card illustration, 807
+962 INDEX
+error recovery procedure control,
+809
+fl utter reduction, 803–4
+Handle Stream Error (HSE), 810
+interface, 809–10
+mechanical components, 803–6
+performance testing, 810–12
+random access, 811–12
+Read Continuous (RC), 809
+rotational vibration safeguard (RVS),
+803
+seek profi le, 804–6
+sequential access, 810–11
+Write Continuous (WC), 809
+zone table, 808
+See also disk drives
+destage, 47
+dielectric loss, 384–86
+modeling, 385
+physics, 385–86
+die size overhead, 487–88
+differential Rambus signaling level
+(DRSL) signaling protocol, 399
+differential sense amplifi er, 360–66
+Access phase, 363
+cell value restoration, 361
+circuit diagram, 362
+defi ned, 360–61
+functionality, 361–62
+illustrated diagrams, 364
+operation, 362–63
+Precharge phase, 363
+Restore phase, 363
+Sense phase, 363
+as temporary data storage element,
+361–62
+timing parameters, 365
+voltage change sensing, 361
+voltage waveform, 363–65
+writing into DRAM array, 365–66
+See also DRAM devices
+digital logic, 268–71
+dynamic CMOS, 270–71
+static CMOS, 269–70
+See also decoder implementation
+digital signal processors (DSPs),
+6, 59
+dipole moment, 617
+direct-mapped caches
+benefi t, 84
+block diagram, 83
+defi ned, 68
+illustrated, 68
+read operation, 83
+See also cache(s)
+directory-based protocols, 249–51
+coarse pointers, 251
+defi ned, 249
+entry information, 249
+explicit pointers, 251
+full directory, 250
+hybrid directory, 250–51
+in links-based organizations, 250
+partial directory, 250
+directory-based scheme, 246–47
+Direct RDRAM, 329, 330, 355, 369, 400,
+480–91
+access protocol, 483–85
+architecture, 480–81
+beats, 416
+channels, 489, 490
+column read command, 485
+current specifi cation, 501
+data transport, 484–85
+device architecture, 481–83
+die size overhead, 487–88
+effi ciency, 423
+heat density, 489
+heat spreaders, 489
+high bandwidth throughput, 484
+hot spots, 489
+low request rate systems, 489–90
+memory device arrangement, 483
+packaging and testing equipment
+requirement, 488–89
+row activation command, 485
+RSL, 480
+SDRAM versus, 481
+signaling, 481
+split bank architecture, 482
+system engineering requirement,
+488
+system topology, 422–23
+technical issues, 487–91
+topology, 483
+topology-matched
+source- synchronous clocking
+scheme, 442
+write buffer, 486–87
+write-read-retire command
+sequence, 486
+write-to-read turnaround, 485–86
+See also Rambus memory system
+direct tables, 886
+dirty data, 733
+disclosures, 178
+discontinuities, transmission line,
+388–90
+refl ection coeffi cient, 388
+voltage ladder diagram, 389, 390
+discrete track media, 790
+disjunct page table, 899–901
+illustrated, 900
+sharing scheme, 900
+See also page tables
+disk buffer data rate, 751–52
+disk caches, 46–47, 731–35
+algorithms, 741–45
+automation, 732
+basics, 46–47
+circular buffer, 737–38
+destage, 47
+ERP during prefetch, 743
+FB-DIMM versus, 41–46
+fi xed segmentation, 736–37
+illustrated, 46
+lookahead prefetch, 742
+look-behind prefetch, 742–43
+memory space, 735
+organizations, 735–41
+prefetch, 741–42
+in prefetching data, 46
+read, 732–33
+read, in presence of write cache,
+734–35
+replacement policies, 745
+sequential access handling, 743–45
+size effects, 49
+virtual memory organization, 738–41
+write, 733–34
+zero latency prefetch, 743
+See also cache(s)
+disk drive interfaces, 609–10,
+699–710
+ATA, 702–3
+autonomy, 701
+characteristics, 701–2
+command queuing, 702
+components, 701
+cost, 709–10
+data rate, 701
+de facto standard, 700
+dual layering, 701
+Fibre Channel (FC), 707–9
+hybrid, 797–98
+overview, 699–702
+performance, 710
+reliability, 710
+SAS, 706–7
+SCSI, 705–6
+serial ATA (SATA), 703–4
+disk drive performance
+average seek, 694–98
+command queuing, 715–23
+constraint on RPM, 682
+cylinder capacity effect, 682–84
+cylinder switches, 682
+data compression, 729–30
+data reorganization, 723–28
+drive capacity effect, 689–90
+implication, 690–92
+improvement, 711–30
+large fi le effect, 691
+latency reduction techniques,
+711–15
+media data rate, 681–82
+metrics, 610–11
+number of heads effect, 686–88
+overview, 610–12
+principles, 681–88
+scheduling, 715–23
+small fi le effect, 691–92
+space usage effi ciency, 690
+track density effect, 684–86
+user track capacity effect, 681–82
+write handling, 728–29
+disk drives, 606–8
+actuator, 634–35
+address mapping, 654–57
+application, 609
+areal density growth trend, 605–6
+average response time, 52
+blocks, 649–50
+cache layer, 731–45
+capacity, 672, 689–90
+case study, 803–12
+classifi cations, 609–10
+commands, 699
+controller, 640–42
+data layer, 649–76
+data rate, 673
+defect management, 673–76
+disks, 621–23
+dual actuators, 711–12
+electronics, 640–47
+evolution of, 603–5
+failure rates, 33
+form factor, 609
+head-disk assembly, 639–40
+heads, 625–31
+head-stack assembly, 633–35
+hybrid, 796–98
+IBM RAMAC 305, 602–3
+magnetic disk recording integration,
+637–39
+memory, 642
+motor controls, 646–47
+multiple platters, 635–36
+physical layer, 615–47
+principles, 606–8
+recording channel, 642–46
+reliability, 34
+sector formatting, 670–72
+sectors, 650–52
+servo system, 662–70
+slider and head-gimbal assembly,
+631–33
+spindle motor, 623–25
+start/stop, 636–37
+test, 750
+wobble, 624
+zoned-bit recording, 658–62
+disk prefetching, 53
+disks
+defi ned, 621–23
+diameter evolution, 604
+function in memory hierarchy, 3
+future directions, 612–13
+integration concept, 604
+magnetic layer, 622
+overview, 601–13
+recording media characteristics,
+621–22
+removable pack, 604
+response time, 610–11
+structure, 622–23
+substrates, 622
+technology, 601
+throughput, 611
+video application performance, 612
+workload factors and, 612
+distributed caches, 97–102
+distributed sparing, 777–78
+distributed systems
+choices, 229
+defi ned, 229
+design, 228–31
+divided wordline (DWL), 265–66
+defi ned, 265
+structure, 266
+See also address decoding
+domain name system (DNS), 59
+domino dynamic logic, 271–78
+advantages, 271–72
+buffering and skewing, 273–75
+INDEX 963
+DRCMOS, 276–77
+source-coupled logic (SCL), 272–73
+SRCMOS, 275–76
+transfer-word driver (TWD), 277–78
+See also decoder implementation
+don’t-cache-this, 120
+Drain-Induced Barrier Lowering
+(DIBL), 848
+defi ned, 852
+leakage, 852–54
+processes leading to, 853
+DRAM, 315–51
+addressing, 20
+address mappings, 202
+architecture, 15
+architecture evolution, 322–32
+asynchronous, 322, 324
+bandwidth characteristics, 560
+banks, 317–18, 319
+burst–mode EDO (BEDO), 322, 326,
+327
+cell variability, 18–19
+clocked, 324
+command ordering scheme, 497
+comparisons, 331–32
+data I/O, 372–73
+data width, 346
+defi ned, 315
+design, 1, 14
+device organization, 353–55
+die, 315
+DIMMs, 318, 319
+Direct Rambus (D-RDRAM), 369
+double data rate (DDR), 329–30
+dual data rate synchronous (DDR-
+SDRAM), 369
+dynamic throttling, 28
+in embedded systems, 14
+extended data-out (EDO), 322, 324,
+325
+failure rates, 33
+fast cycle (FCRAM), 331, 495
+fast page mode (FPM), 322,
+324, 325
+fl at memory system and, 4
+function in memory hierarchy, 3
+High-Speed Toggle Mode, 326
+interface modifi cations, 328–30
+memory arrays, 316–17
+memory modules, 315, 417–22
+modern-day standards, 332–48
+multi-phase access protocol, 321
+nomenclature, 409–17
+964 INDEX
+in operating store, 5
+organization, 317, 409–24
+package evolution, 374
+pin/protocol effi ciency, 351
+power dissipation, 54
+power/heat dissipation, 351
+process technology, 374–76
+Rambus (RDRAM), 328–29
+ranks, 318, 319
+reduced latency (RLDRAM), 331, 494
+reed operation, 320
+signaling system, 377–99
+south-bridge chipset, 315
+storage array, 18
+structural modifi cations (latency),
+330–32
+structural modifi cations
+(throughput), 322–28
+subsystem illustration, 316
+synchronous. See SDRAM
+system, 11
+termination, 393–95
+timing parameters, 18
+timing synchronization, 399–402
+topology/timing, 350
+transmission lines, 379–93
+virtual channel (VCDRAM), 330, 398
+DRAM-access protocol, 427, 551
+overheads, computing, 551–53
+timing parameters, 427–28, 552
+DRAM arrays
+drop down view, 358
+dummy segments, 359
+folded bitline structure, 359, 360
+open bitline structure, 359–60
+redundant rows/columns in, 367
+structures, 358–60
+writing into, 365–66
+DRAM cells, 355–58
+3T1C, 356
+capacitance, 356
+data reading to, 355
+design, 374
+driving rows in, 366–67
+embedded, 356
+evolution, 356
+integration with logic circuits, 356
+leakage, 356, 824–27
+refresh, 356
+retention time, 826
+structure, 355
+structure requirements, 356–57
+voltage value, 359
+DRAM-centric request scheduling
+algorithms, 518
+DRAM command scheduling
+algorithms, 572–74
+Band Round-Robin (BRR), 572
+Greedy, 574
+Rank Round-Robin (RRR), 572–73
+types, 572
+Wang Rank Hop, 573–74
+DRAM devices
+advanced, 355
+architecture developments, 457–96
+asynchronous, 461
+bank, 414–15
+BEDO, 459, 463–64
+burst lengths, 373
+channel, 410–13
+columns, 415–16
+compatibility, 420
+confi guration, 370–72
+confi guration trade-offs, 371–72
+control logic, 368–70
+cost effectiveness, 457
+current draw, 451
+data bus width, 451
+data read out, 358
+DDR2 SDRAM, 474–75
+DDR3 SDRAM, 476–77
+DDR SDRAM, 471–74
+differential sense amplifi er, 360–66
+Direct RDRAM, 355
+discrete, connected, 377
+EDO, 463, 463–64
+ESDRAM, 355
+families, 457–58
+FCRAM, 495
+Four-bank Activation Window, 453
+FPM, 354, 355, 463
+historical-commodity, 458–64
+Intel 1103, 459–61
+manufacturer data sheets, 455
+Micron 256-Mbit, 369–70
+number of data bits, 370
+packaging, 373–74
+page mode, 461–63
+PCB connection, 380
+power consumption characteristics,
+502
+power limit, 450–52
+programmable mode register, 371
+rank, 413–14
+RLDRAM, 355, 497
+rows, 415
+SDRAM, 369–70, 452–53, 465–71
+storage capacitor, 358
+timing, 542
+utility, 457
+voltage sensing problem, 359
+DRAM memory controllers (DMCs),
+252, 409, 497–518
+abstract illustration, 498
+address mapping scheme, 497, 498,
+502–11
+agent-centric request queuing
+organization, 516–18
+components, 498
+design goals, 497
+design space, 497
+DRAM command ordering scheme,
+497
+DRAM device connection, 410
+feedback-directed scheduling, 518
+function, 497
+Impulse, 502–3
+interface, 320
+memory transaction, 497
+optimal designs, 498
+performance optimization, 511–18
+refresh management, 514–16
+request queue organizations, 513–14
+row-buffer-management policy, 497,
+499–502
+size impact, 500
+write caching, 512–13
+DRAM memory system
+2T command timing, 454
+close-page, 434
+data location, 417
+issues, 350–51
+open-page, 434, 437
+optimization, 416–17
+organization, 409–24
+read cycle, 433–34
+sustainable bandwidth
+characteristics, 425
+topology, 422–23
+write cycle, 434
+DRAM-optimized process, 374–76
+cost considerations, 375
+logic-optimized process versus, 375–76
+use of, 376
+DRAMSim2, 575
+DRCMOS, 276–77
+defi ned, 276
+NAND circuit, 276
+SCL NOR circuit, 277
+DRDRAM
+cross-comparison of, 23
+peak bandwidth statistics, 23
+drive parameters tests, 757–61
+geometry, 757–59
+seek time, 759–61
+test method, 757–59
+See also performance testing; tests
+drowsy SRAMs, 296–97
+Drowsy technique, 31
+DSP caches, 60
+memory organization, 76
+performance graphs, 75
+DSP-style memory system, 13
+dual actuators, 711–12
+dual channel confi guration, 411
+dual data rate synchronous DRAM
+(DDR-SRAM), 369
+Dual-edge clocking, 333–34, 342
+alternative technologies, 345–47
+defi ned, 342
+dual In-line Memory Modules
+(DIMMs), 418
+DLL on, 821
+DRAM, 318, 319
+Registered (RDIMMs), 404, 418–19
+Small Outline (SO-DIMM), 419–20
+Unbuffered (UDIMMs), 418
+See also Fully-Buffered DIMM
+(FB-DIMM)
+Dual In-line Packages (DIP), 374
+dual stage actuators, 792–94
+approaches, 792
+defi ned, 792
+microactuators, 793–94
+moving head, 792, 793
+moving slider, 792, 793
+moving suspension, 792, 793
+second actuator locations,
+792, 793
+See also actuators
+dynamic adjustment, 149–50
+dynamic CMOS, 270–71
+dynamic compression, 147–49
+dynamic decision, 212–13
+dynamic exclusion, 123–24
+defi ned, 123
+fi nite state machine, 124
+sticky bits, 123
+dynamic fl ow instruction cache, 107
+contribution, 114
+defi ned, 114
+dynamic grouping, 141–44
+Dynamic Host Confi guration Protocol
+(DHCP), 782
+dynamic management, 208–12
+dynamic power, 26–27, 847
+defi ned, 26
+dominant, 860
+importance decline, 77
+projections, 27
+dynamic predictors, 112
+dynamic reordering, 150–51
+dynamic scratch-pad management,
+154–55
+dynamic voltage scaling (DVS), 28–30
+defi ned, 29
+illustrated, 29
+power dissipation and, 30
+E
+eCACTI, 857–58
+EDO DRAM devices, 463, 463–64
+in modern computer systems, 465
+multiple read command timing, 463
+RAS/CAS signals, 466
+in replacing FPM DRAM devices, 464
+SDRAM devices versus, 466
+EEPROM (electrically erasable
+programmable read-only
+memory), 4
+electronics, disk drive, 640–47
+case study, 806
+controller, 640–42
+illustrated, 640
+memory, 642
+motor controls, 646–47
+recording channel, 642–46
+See also disk drives
+electronic switching systems (ESS),
+765
+Elevator Seek, 717
+ELI, 108
+extremely long instructions, 108
+instruction-fetch, 109
+multi-way branches in, 108
+embedded computer systems, 13–14
+embedded DRAM (eDRAM), 77
+embedded servo, 663–66
+components, 664–65
+defi ned, 663–64
+disadvantages, 665
+illustrated, 664
+problems addressed by, 665
+INDEX 965
+servo bursts, 664, 667
+ZBR and, 669–70
+See also servo
+END signal, 288, 291
+energy
+consumption, 8–9
+leakage, 28
+reduction schemes, 28–32
+total, 28
+enforced idle cycles, 489
+Enhanced SDRAM (ESDRAM), 330,
+347, 355, 396, 465, 496
+entry consistency, 240
+EPROM (electrically erasable ROM), 5
+error correcting codes (ECCs), 19, 651
+deep correction, 676
+introduction, 673
+random error correction with, 676
+single-bit error correction, double-
+bit error detection (SECDED
+ECC), 873
+single-bit error correction (SEC
+ECC), 870–72
+error detection/correction,
+869–80
+bit steering, 875–77
+Bossen’s b-adjacent algorithm,
+874–75
+chipkill, 875–79
+memory scrubbing, 879–80
+multi-bit, 874–75
+parity, 869–70
+SECDED ECC, 873
+SEC ECC, 870–72
+error location table, 874–75, 877
+error rates
+fl ash, 880–81
+MRAM, 881
+SRAM devices, 880
+error-recovery procedure (ERP), 676, 743
+errors
+multi-bit, 867–68
+single-bit, 867–68
+soft, rates and trends, 868–69
+See also failures
+ESDI (Enhanced Small Device Inter-
+face), 604
+event timing, 228
+exceptional program counter (EPC)
+register, 913
+exceptions
+defi ned, 915
+nested TLB-miss, 919
+966 INDEX
+exclusion, 70–73
+defi ned, 71
+relationship, 72
+exclusive caches, 245
+execution time, as function of band-
+width, 16, 817
+explicit pointers, 251
+extended data-out (EDO), 322, 458
+defi ned, 324
+read timing, 325
+See also EDO DRAM devices
+external addressing, 654
+external fragmentation, 649
+Extreme Data Rate. See XDR memory
+system
+eye diagrams, 396
+F
+failing address, 89
+failing data, 89
+fail-over modes, 534
+failure rates
+disk, 33
+DRAM, 33
+SRAM, 33
+failures
+alpha particles, 866
+cosmic rays, 866
+error detection/correction, 869–80
+multi-bit, 867–68
+single-bit, 867–68
+soft error mechanism, 867
+transient, 865
+types/causes, 865–68
+See also errors
+failures-in-time (FIT), 868
+falling edge, 322
+false sharing, 254
+far-end crosstalk, 387-88
+fast cycle DRAM (FCRAM), 331, 495
+Fast Page Mode (FPM), 322, 353, 458
+DRAM, 324
+DRAM devices, 463
+multiple column command
+timing, 463
+read timing, 325
+fast store, 6–7
+access time predictability, 6–7
+defi ned, 6
+FAT32 fi le system, 689–90
+FAT (File Allocation Table), 689
+fault isolation, 535
+FCRAM, 495
+feedback-directed scheduling, 518
+FeRAM (ferroelectric RAM), 5
+ferromagnetism, 615–16
+defi ned, 615
+manifestation, 616
+See also magnetic recording
+fetch-always heuristic, 130
+fetch-nothing, 59
+fetch strategies, 113–14
+Fibre Channel (FC), 707–9
+characteristics, 708–9
+defi ned, 707–8
+example, 709
+topology, 709
+See also disk drive interfaces
+fi gures of merit, 7–10
+design costs, 9–10
+energy consumption, 8–9
+performance, 7–8
+power dissipation, 8–9
+predictable (real-time)
+behavior, 9
+reliability, 10
+fi le caches
+application-controlled, 175–77
+application-directed, 175
+correlation prefetching, 138–39
+problematic behavior, 179
+fi ll unit, 107, 111
+defi ned, 111
+illustrated, 112
+fi lter bits, 141
+Fine Ball Grid Array (FBGA), 395,
+419, 476
+First Come First Served (FCFS) sched-
+uling algorithm, 588, 716
+fi rst-in-fi rst-out (FIFO), 745
+fi xed latency scheduling, 538–40
+fi xed segmentation, 736–37
+fi xed-size blocks, 649–50
+fl ash memory, 5
+error rates, 880–81
+shortcomings, 797
+fl at memory systems, 1, 4
+FlexPhase, 492, 494
+fl oor plans
+Itanium-2 L3 cache subarray, 309
+SRAM, 273
+fl uid dynamic bearings (FDBs), 625
+fl ush command, 734
+fl ushing, 895, 899
+fl ying height, 632
+folded bitline structure, 359
+defi ned, 359
+illustrated, 361
+See also DRAM arrays
+Force Unit Access (FUA), 734
+formatting
+adaptive, 794–96
+concentric track effi ciency, 692–93
+sector, 670–72
+serpentine, 655–57
+spiral track effi ciency, 692–93
+form factors, 609
+Fortran 77 multi–grid solver, 547
+forward-mapped tables. See hierarchi-
+cal page tables
+Four-bank Activation Window, 453
+FPM DRAM devices, 354, 355, 463
+in modern computer systems, 465
+multiple column command timing,
+463
+RAS/CAS signals, 466
+SDRAM devices versus, 466
+See also DRAM devices
+fragmentation
+external, 649
+internal, 650
+frame defi nitions, 527–28
+northbound data frame, 527–28
+southbound command-only frame,
+527
+southbound command plus data
+frame, 527
+See also Fully-Buffered DIMM
+(FB-DIMM)
+frames, scheduling, 528–30
+frequency-based classifi cation, 214
+frequency-dependent signal
+transmission, 378
+frequency tracking, 126
+full directories, 250
+fully associative caches, 36
+defi ned, 68
+illustrated, 68
+lookup, 83–84
+See also cache(s)
+Fully-Buffered DIMM (FB-DIMM),
+41–46, 348–50, 519–40
+access protocol, 526–30
+Advanced Memory Buffer (AMB),
+521, 522, 530–32
+architecture, 44, 350, 521–24
+basics, 43–46
+bit lane steering, 533–34
+channel clock, 45
+channel latency breakdown, 536
+channel routing, 523
+checksum protection, 532–33
+clock data recovery, 524–25
+command defi nitions, 528
+as compromise, 348–50
+daisy-chain architecture, 41
+daisy-chained channel topology, 537
+defi ned, 41, 520
+design motivation, 349
+disk cache versus, 41–43
+experimental results, 47–52
+fail-over modes, 534
+fault isolation, 535
+fi xed latency scheduling, 538–40
+frame and command scheduling,
+528–30
+frame defi nitions, 527–28
+frame formats, 526
+frame rate, 45
+hot add and replace, 534–35
+latency, 41
+latency component breakdown, 536
+mesochronous, 525
+multi-DIMM channel latency, 538
+multi-drop busses, 521
+organization, 43, 44, 521
+performance characteristics, 535–40
+physical layer signaling system, 524
+power dissipation, 46, 54
+read bandwidth, 45
+read transaction, 45
+reliability, availability, and service-
+ability (RAS), 532–35
+resample and resync, 525–26
+serial packet-based protocol, 44
+signaling and timing, 524–26
+unit interval, 525
+variable latency scheduling, 538–40
+fully patterned media, 789–90
+functions
+in-line expansion, 187–88
+layout, 188–90
+G
+garbage collection, 141–42
+goal, 142
+list-linearizing, 143
+gate bias, 852
+gated-ground technique, 296
+gated-Vdd technique, 295–96
+Gate-Induced Drain Leakage (GIDL),
+848
+gates, sizing, 274
+GDDR2 SDRAM, 465
+GDDR3 SDRAM, 465
+GDDR SDRAM, 465
+general-purpose cache
+defi ned, 59
+illustrated, 60
+management, 87
+split, 59, 60
+See also cache(s)
+general-purpose computer systems
+memory hierarchy, 11–13
+transparent caches in, 91
+geographical locality, 65–66
+geometric mean, 839
+global sparing, 777
+global wordline (GWL), 265
+GMR sensor, 630
+granularity, 254
+Gray code, 666–67
+greedy, 159
+greedy prefetching, 159–60
+Greedy scheduling algorithm, 574, 585
+grown defects, 675–76
+H
+Handle Stream Error (HSE), 810
+hard disk drives
+magnetic rotating storage devices,
+608
+principles, 606–8
+rotating storage devices and,
+607–8
+See also disks
+hard failures, 32
+hardware cache-coherence mecha-
+nisms, 240–54
+cache block states, 240–41
+cache organization, 244–46
+coherence point, 251–54
+control distribution, 244
+directory-based protocols, 249–51
+interconnect options, 246–47
+snoopy protocols, 247–49
+write-back caches, 242–43
+write broadcast reduction, 243–44
+write-through caches, 241–42
+INDEX 967
+hardware caches, 59, 60
+hardware prefetching, 215
+hardware RAID, 778
+harmonic mean, 838, 839
+hashed page translation table, 891
+hashing, 739
+hash table anchor (HAT), 891
+head-disk assembly (HDA), 639–40
+defi ned, 639
+mounting, 639
+head-gimbal assembly, 631–33
+defi ned, 632
+side view, 632
+headless format, 671–72
+heads, 625–31
+number of, 686–88
+read, 620, 628–30
+read/write, 630–31
+write, 620, 625–28
+See also disk drives
+head-stack assembly, 633–35
+heat-assisted magnetic recording
+(HAMR). See thermally assisted
+recording
+heat clustering, 726
+defi ned, 726
+illustrated, 727
+shortcomings, 726
+heat density, 489
+heat spreaders, 489
+hierarchical page tables, 887–90
+bottom-up traversal, 889–90
+inverted versus, 892–93
+sharing mechanism, 902
+three-level, 888
+top-down traversal, 887–88
+two-level, 887
+See also page tables
+hierarchical RAID, 780
+hierarchical word decoding (HWD),
+266–67
+architecture, 267
+defi ned, 266–67
+See also address decoding
+High-Bandwidth path, 458,
+480–94
+Direct RDRAM, 480–91
+XDR memory system, 491–94
+High-Speed Toggle Mode, 326
+hints, 178
+histogram example, 153–54
+Historical-Commodity DRAM devices,
+458–59
+968 INDEX
+asynchronous, 461
+defi ned, 458
+evolution, 458–59
+fast page mode (FPM), 463
+Intel 1103, 459–61
+page mode, 461–63
+See also DRAM devices
+history-based classifi cation, 214
+hit-last bit set, 123
+holistic design, 815–27
+bandwidth catch-22, 822–24
+DLL in DDR SDRAM, 818–22
+perspective, 816–27
+requirements, 815
+systemic behaviors, 816–18
+variability in cell leakage, 824–27
+horizontally partitioned hierarchy, 70
+horizontal microcode, 108
+host bus adapter (HBA), 699
+hot spots, 489
+hot-spot vectors, 147
+HPL-PD, 170–71
+architecture, 170–71
+defi ned, 170
+issues, 174
+load instructions, 171
+memory system, 170
+store instructions, 171
+transformation, 171–72
+hybrid caches, 58
+hybrid directories, 250–51
+hybrid disk drives, 796–98
+architecture, 796–97
+architecture illustration, 797
+benefi ts, 796
+defi ned, 796
+fl ash memory shortcomings,
+797
+interface, 797–98
+See also disk drives
+hybrid (dynamic) row-buffer-
+management policy, 501
+hysteresis loops, 618
+defi ned, 618
+illustrated, 618
+of magnetic materials, 619
+I
+IBM High-Speed Toggle Mode, 326
+IBM RAMAC 305, 602–3
+areal density, 605
+heads, 627
+IDE/ATA (Advanced Technology
+Architecture) interface, 604
+IMPACT compiler, 188
+implicitly addressed caches, 82
+impulse memory controller, 502–3
+inclusion, 70–73
+defi ned, 70, 71
+relationship, 71
+inclusive caches, 244–45
+indexed arrays, 158
+inductive write head, 625–26
+information Management System
+(IMS), 148
+informed prefetching, 178
+in-order pipe, 908–10
+instruction cache optimization, 185–86
+instructions
+dynamic compression, 147–49
+dynamic grouping, 141–44
+load-speculative, 173
+load-verifi cation, 173
+prefetch, 155
+Intel 1103, 459–61
+3T1C bit cell, 459
+defi ned, 459
+external logic, 461
+pin confi guration, 460
+structural block diagram, 460
+See also DRAM devices
+Intel 82955X Memory Controller Hub
+(MCH), 506–10
+address mapping, 506–10
+address mapping confi guration
+registers, 507–8
+address mapping summary, 509–10
+asymmetric dual channel mode, 507
+channels, 506
+per-rank address mapping schemes,
+508–9
+symmetric dual channel mode, 507
+Intel i875P system controller, 410–11
+Intel Itanium-2, 303
+block diagram, 307
+cache hierarchy specifi cations, 303
+CAM, 308–12
+case studies, 305–12
+features, 303
+L1 cache RAM cell array, 305
+L2 array bitline structure, 305–8
+L3 cache subarray interconnection,
+310
+L3 cache subarray structure and
+sensing, 310
+L3 subarray fl oor plan, 309
+L3 subarray implementation, 308
+pipeline interface, 304–5
+prevalidated-tag microarchitec-
+ture, 312
+TLB, 308–12
+interfaces. See disk drive interfaces
+interleaved decluster mirroring, 767
+defi ned, 767
+illustrated, 768
+reliability comparison, 769–70
+See also data mirroring
+interleaving, 167–69
+local, 237
+sequential, 113
+internal addressing, 654
+internal fragmentation, 650
+international Technology Roadmap
+for Semiconductors (ITRS),
+373–74, 519
+Internet SCSI, 783
+interrupt mask register (IMR), 913
+interrupts
+defi ned, 915
+in-order pipe, 910
+nested, 917
+precise, in pipelined computers,
+910–20
+vector table, 920
+See also virtual memory
+interrupt service register (ISR), 913
+inter-symbol interference (ISI), 380,
+643
+as band-pass fi lter issue, 393
+defi ned, 393
+example, 644
+inverted page tables, 890–93
+classical structure, 890
+collision resolution table, 891
+defi ned, 890
+hash anchor table (HAT), 891
+hashed page translation table, 891
+hierarchical versus, 892–93
+shared memory and, 893
+See also page tables
+I/O
+anatomy, 677–81
+command overhead, 677–78
+data transfer time, 679
+overlapping, 701
+random access, 679–80
+rotational latency, 678–79
+seek time, 678
+sequential access, 680–81
+simultaneous bidirectional, 347
+time components, 677
+IP-address translation caches
+defi ned, 61
+illustrated, 60
+IPC per square millimeter, 829
+iSCSI, 783
+Ivy, 254–55
+J
+jitter, 392-93, 402
+Joint Electron Device Engineering
+Council (JEDEC), 465
+busses, 318
+DRAM technology comparison,
+341–42
+memory bus organization, 318, 319
+on-chip DLL, 342–43
+programmable burst length, 342,
+344–45
+programmable CAS latency, 342,
+343–44
+SDRAM technology, 332–35
+Solid-State Technology Association,
+332
+jump pointers, 160–61
+K
+kernel page table (KPT), 920
+Kirchoff’s voltage law, 380–81
+L
+Label Structure, 186, 187
+last-level caches (LLC), 246
+latency, 7
+bandwidth characteristics, 592–93
+Column Access Strobe, 429
+DDR SDRAM, 22
+distribution, transaction ordering
+effect, 587–90
+equalization, 539
+FB-DIMM, 536
+fi xed scheduling, 538–40
+Fully-Buffered DIMM
+(FB-DIMM), 41
+idle system, 490
+latency-oriented study, 593–96
+memory-access distribution curve,
+588, 589
+programmable CAS, 342, 343–44
+read, 594, 596
+rotational, 678–79
+Row Access Strobe, 429
+SDRAM, 22
+variable request, 339–40
+variable scheduling, 538–40
+latency-oriented study, 590–96
+application traces, 592
+experimental framework,
+590–92
+latency, 593–96
+latency bandwidth characteristics,
+592–93
+random address traces, 592
+simulation input, 592
+See also simulation-based analysis
+latency reduction, 711–15
+dual actuator, 711–12
+multiple copies, 712–13
+zero latency access, 713–15
+lazy release consistency, 240,
+254
+LBA (Logical Block Address),
+654
+LBA mapping, 738–39
+LC transmission line, 382–84
+idealized, 384
+for PCB traces, 383
+signal velocity, 383–84
+See also transmission lines
+LDS log, 172
+leakage, 356
+components, 857
+current mechanisms, 848
+DIBL-induced, 852–54
+energy, 28
+poser, 26, 28, 31–32, 77
+sources, 847–51
+SRAM cells, 855–57
+subthreshold, 848, 851–55
+variability, 824–27
+leakage power, 26
+cause, 26, 28
+defi ned, 847
+projections, 27
+in SRAMs, 31–32
+total power and, 77
+least-frequently-used (LFU), 745
+least-recently-used (LRU), 745
+lifetime analysis, 152
+INDEX 969
+lifetime-conscious heap management,
+198–99
+profi le-obtained lifetime predic-
+tions, 199
+stack contents, 199
+linear actuator, 634
+linked data structures (LDS), 158–59
+nodes, 160
+transversal, 160
+links-based systems, 246
+load instructions, 124
+load-speculative instructions, 173
+load/unload, 636–37
+load-verifi cation instructions, 173
+local area networks (LANs), 780
+locality
+algorithmic, 63, 64–65
+analysis, 156–57
+demographical, 65–66
+geographical, 65–66
+spatial, 62, 63–64, 170
+temporal, 62, 63, 183
+locality of reference
+cache, 57
+defi ned, 2, 57, 62
+memory hierarchy and, 2–7
+locality optimizations, 120
+cache-conscious data placement,
+199–200
+cache-conscious structure layout,
+200–202
+careful mapping, 144–47
+combined approaches,
+180–202
+critical working sets, 183–85
+defi ned, 215
+DRAM address mappings, 202
+dynamic adjustment of data width,
+149–50
+dynamic compression, 147–49
+dynamic regrouping, 141–44
+dynamic reordering of memory
+requests, 150–51
+instruction cache, 185–86
+lifetime-conscious heap manage-
+ment, 198–99
+off-line, 161–69
+on-line, 141–51
+optimizing compiler, 186–90
+page coloring, 144
+prefetching versus, 203
+profi le–guided positioning,
+190–96
+970 INDEX
+program restructuring, 180–82
+temporal ordering information,
+196–98
+time and, 182–83
+via deadwood removal, 142
+local memory, 87
+local wordline (LWL), 265
+decoders, 290
+drivers, 290, 291
+logical organization, 79–115
+addressing scheme, 79
+case studies, 103–15
+distributed and partitioned caches,
+97–102
+importance, 79
+management schemes, 79–80
+non-transparently addressed caches,
+90–92
+scratch-pad memory, 80
+self-managed scratch-pad, 80
+software-managed cache, 80
+taxonomy, 79–81
+transparent cache, 80, 82–90
+virtual addressing and protection,
+92–97
+See also cache organizations; cache(s)
+logic gates, 854
+log-structured fi le system (LFS), 728
+log-structured writes, 728–29
+LOOK, 717
+lookahead, 63–64
+lookahead prefetch, 742
+look-behind prefetch, 742–43
+loop peeling, 157
+loops
+epilogue, 158
+prologue, 158
+steady-state, 158
+unrolling, 157
+Low-Latency path, 458, 494–95
+FCRAM, 495
+RLDRAM, 494
+low-leakage operation, 293–97
+drowsy SRAMs, 296–97
+gated-ground technique, 296
+gated-Vdd technique, 295–96
+multi-Vt memory cells, 294–95
+low-voltage TTL (transistor- transistor
+logic), 396–97
+LRU
+pages, 149
+queue, 105
+stack-depth metric, 197
+M
+macroblocks, 126
+magnetic fi elds, 616–17
+current-induced, 617
+defi ned, 616
+emanation from recorded medium,
+620
+solenoid, 617
+strength, 617
+magnetic fl ux, 617
+magnetic fl ux density, 617
+magnetic induction, 617
+magnetic RAM (MRAM), 5
+magnetic recording, 615–20
+bits per inch, 638–39, 688
+ferromagnetism, 615–16
+hysteresis loop, 618
+integration, 637–39
+longitudinal, 785
+magnetic fi elds, 616–17
+perpendicular, 785–88
+reading, 620
+thermally assisted, 790–92
+tracks per inch, 637–38, 688
+Tribology, 639
+writing, 618–20
+See also disks
+magnetic rotating storage devices,
+608
+magnetic tapes, 601
+magnetization, 617
+magnetoresistance coeffi cient, 629
+magnetoresistive (MR) heads, 629
+mapped-load instruction, 89
+mapping
+address, 497, 502–11
+careful, 144–47
+LBA, 738–39
+random, 146
+virtual, 145
+VPNs, 36
+MARC System, 148
+massive array of idle disks (MAID),
+613
+maximal strongly connected (MSC)
+subgraph, 162, 163
+means
+arithmetic, 838
+harmonic, 838
+use of, 838–39
+Mean Time Between Failures (MTBF), 10
+media data rate, 679, 681–82, 751
+memory
+attraction, 99
+chipkill, 875–79
+disk drive, 642
+fl ash, 797
+local, 87
+speed, 2
+virtual, 34–40, 883–920
+memory address table (MAT), 126
+memory arrays
+defi ned, 316
+organization, 316–17
+sets, 317
+See also DRAM
+memory cells
+multiported, 299
+multi-Vt, 294–95
+memory coherence, 231
+memory consistency
+defi ned, 232
+entry, 240
+lazy release, 240
+models, 233–40
+partial store order, 239
+processor, 234, 239
+release, 240
+sequential, 234, 235–39
+strict, 234–35
+weak, 239
+memory controllers
+architecture, 591
+DLL on, 821
+DRAM, 320, 409, 497–518
+high-performance, 412
+independent, 411
+single, 411
+structure, 571–72
+system, 410
+memory forwarding, 144, 202
+memory hierarchy
+cache, 3
+canonical, 70, 71
+components, 3
+defi ned, 3
+disk, 3
+DRAM, 3
+embedded systems, 13–14
+general-purpose systems, 11–13
+goal, 10–14
+horizontally partitioned, 70
+illustrated, 4
+locality of reference and, 2–7
+vertically partitioned, 70
+memory-management units (MMUs),
+884
+memory maps, 913
+memory modules, 417–21
+DIMM, 418
+DRAM, 315
+organization, 420
+RDIMM, 418–19
+serial presence detect (SPD), 421
+SIMM, 418
+SO-DIMM, 419–20
+memory requests, 150–51
+memory scrubbing, 879–80
+active, 880
+defi ned, 879
+memory subsystems, 14
+memory systems, 2–14
+bullet proofi ng, 880
+close-page, 434
+conventional, 409
+DDR SDRAM, 23
+design, 1–54
+design analysis, 541–97
+design anecdotes, 14–20
+Direct RDRAM, 23, 355, 369, 400,
+480–91
+DRAM, 409–24
+DSP-style, 13
+embedded computer system, 13–14
+fl at, 1, 4
+general-purpose computer system,
+11–13
+holistic design, 815–27
+modern, 2
+open-page, 434, 437
+parallelism, 503–4
+Rambus, 21
+SDRAM, 22, 23, 469
+space shuttle, 881
+virtual, 12
+XDR, 480, 491–94
+memory transaction, 497
+MESI protocol, 243–44
+downside, 244
+state machine, 243
+metal-in-gap (MIG) heads, 627
+microactuators, 793–94
+defi ned, 793
+electromagnetic based, 793–94
+electrostatic based, 794
+illustrated, 794, 795
+PZT based, 793
+See also actuators
+microcontrollers, 6
+micro-jog, 671
+Micron 256-Mbit SDRAM device,
+469–70
+Midway, 254, 255
+MIN algorithm, 68, 120–21
+MIPS page table, 39–40
+miss-rate function, 844–45
+Mobile DDR SDRAM, 465
+Mobile SDRAM, 465
+mode register-based programmabil-
+ity, 370
+Modern-Commodity DRAM
+devices, 458
+DDR2 SDRAM, 474–75
+DDR3 SDRAM, 476–77
+DDR SDRAM, 471–74
+defi ned, 465
+scaling trends, 477–80
+SDRAM, 465–71
+See also DRAM devices
+modifi ed frequency modulation
+(MFM) scheme, 643
+modular design anecdotes, 14–20
+MOESI protocol, 244
+Moore’s Law, 409
+MoSys 1T-SRAM, 330–31
+motor controls, 646–47
+Motorola MPC7450, 301
+block diagram, 304
+cache hierarchy specifi cations, 302
+cache support, 301
+features, 301
+pipeline interface, 304
+pipeline stages illustration, 305
+Mowry’s algorithm, 156–58
+cache-miss isolation, 157
+defi ned, 156
+epilogue loop, 158
+example, 156
+locality analysis, 156–57
+loop peeling, 157
+loop unrolling, 157
+prefetch scheduling, 157
+prologue loop, 158
+software pipelining, 158
+steady-state loop, 158
+MRAM, 881
+MSI protocol, 242–43
+implementation, 242
+state machine, 242
+multi-bit failures, 867–68
+multi-branch predictor, 111
+INDEX 971
+multi-drop bus, 390–91
+illustrated, 391
+load characteristics, 391
+multi-level cache hierarchy, 60
+multiple-identifi er architecture, 902–3
+multiple-owner, multiple-ID
+architecture
+defi ned, 906
+implementation, 907
+multiple-owner, no ID architecture
+defi ned, 905
+implementation, 906
+multiple-owner, single-ID architecture
+defi ned, 906
+implementation, 907
+multiple-owner space
+ASIDs versus, 904
+defi ned, 901
+Multiple Threshold CMOS
+(MTCMOS), 849, 850
+multiplexers, 280–81
+multiplexing, 286
+multiply-accumulate (MAC) opera-
+tion, 7
+multiporting, 298–300
+alternative, 299–300
+control, 298–99
+multi-supply circuits, 850
+multi-Vt memory cells, 294–95
+Munin, 254, 255
+N
+name-oriented operations, 215
+NAND gates, 269, 270
+N-bit prefetch, 372–73
+near and skip sequential, 681
+near-end crosstalk, 387–88
+nearness matrices, 181
+near sequential, 681
+negative cylinders, 653
+negative edge, 322
+nested interrupts, 917
+network attached storage (NAS),
+782–83
+data transfer, 782–83
+defi ned, 782
+system confi guration, 782
+See also storage subsystems
+Network File System (NFS), 782
+no identifi er architecture, 903
+no-ID format, 671–72
+972 INDEX
+non-inclusive caches, 245
+non-partitioned code hierarchy, 265
+Non-Repeatable Runout (NRRO), 624
+non-temporal streaming cache,
+125–26
+non-transparently addressed caches,
+90–92
+non-volatile store, 4
+NOR gates, 269, 270, 272, 273
+normalization, 839–43
+northbound data frame, 527–28
+not-to-be-cached objects, 206
+NP-complete, 208
+NRZI encoding, 643
+N-step lookahead, 723
+NUCA (Non-Uniform Cache
+Architecture), 57, 99–100
+NUMA (non-uniform memory
+access), 98–99
+cache-coherent (ccNUMA), 99
+defi ned, 98
+illustrated, 98
+NuRAPID, 99–100
+N-way associative cache, 297
+O
+object-based storage device (OSD),
+798–801
+architecture, 799
+automation, 801
+benefi ts, 800–801
+concept, 798–800
+defi ned, 798
+hierarchy of object types, 799
+performance, 800
+scalability, 801
+sector size, 800–801
+security, 801
+sharing, 801
+objects
+graph vertices correspondence, 207
+not-to-be-cached, 206
+to-be-cached, 206
+off-line heuristics, 118, 119,
+151–69
+off-line locality optimizations, 161–69
+connectivity and reachability matri-
+ces, 161–62
+data-reference behavior, 162–66
+tiling and interleaving, 167–69
+time and, 162–66
+off-line partitioning heuristics, 151–55
+dynamic scratch-pad management,
+154–55
+programmer-directioned partition
+assignment, 151–52
+sleep mode, 152–53
+static scratch-pad management,
+153–54
+off-line prefetching heuristics, 155–61
+on-chip PLL/DLL, 334–35
+alternative technologies, 347–48
+defi ned, 342
+on-die termination (ODT), 395, 442
+DDR2 SDRAM, 475
+parallel, 394–95
+one-block lookahead prefetching, 64,
+136
+on-line heuristics, 118, 119
+case studies, 120–51
+defi ned, 118
+on-line locality optimizations, 141–51
+careful mapping, 144–47
+dynamic adjustment of data width,
+149–50
+dynamic compression, 147–49
+dynamic grouping, 141–44
+dynamic reordering of memory
+requests, 150–51
+page coloring, 144
+See also locality optimizations
+on-line partitioning heuristics, 120–29
+assist cache, 122–23
+cache decay, 128–29
+dynamic extension, 123–24
+frequency tracking, 126
+low-power schemes, 128–29
+modifi ed approach, 124
+non-temporal streaming cache,
+125–26
+policies, 121
+region-based division, 127
+replacement strategies, 120–21
+victim cache, 122–23
+See also partitioning heuristics
+on-line prefetch heuristics,
+129–41
+branch prediction, 129–30
+content-based prefetching, 139–41
+correlation prefetching, 135–39
+lookahead unit, 134–35
+non-stride accesses, 134
+program counter elimination,
+133–34
+sequential data accesses, 130
+stream buffers, 130–31
+stride prefetching, 131–33
+on-line transaction processing
+(OLTP), 542, 720
+Opal, 222
+open bitline structure, 359–60
+defi ned, 359
+illustrated, 360
+See also DRAM arrays
+open-page memory systems
+164.gzip, 561–62
+255.vortex, 562
+applied example, 558–59
+average of all workloads, 562–65
+bank confl icts, 554
+baseline address mapping, 505–6
+defi ned, 434
+row-buffer-management policy, 499
+tFAW limitations, 568
+workloads, 437
+See also memory systems
+operating store, 5–6
+de facto, 5
+memory technologies, 5
+optimization(s)
+continual, 134–35
+DRAM memory controller
+performance, 511–18
+DRAM memory system, 416–17
+locality, 120, 141–44, 144–47,
+180–202
+optimizing compiler, 186–90
+function in-line expansion, 187–88
+function layout, 188–90
+global layout, 190
+profi ling, 186–87
+program graph, 188
+trace selection, 188
+weighted call graph, 189
+weighted control graph, 189
+organ pipe arrangement
+defi ned, 724
+illustrated, 725
+See also data reorganization
+P
+page coloring
+defi ned, 144
+scheme, 144–45
+page faults, 38
+page frame numbers (PFNs), 36, 144
+page mode, 461–63
+defi ned, 461
+fast column accesses, 462
+page table entries (PTEs)
+contents, 886
+defi ned, 886
+lookup, 890
+user load, 889
+page tables, 739–40, 886–93
+defi ned, 37, 883, 886
+direct table, 886
+disjunct, 899–901
+function, 37
+global, 900–901
+hierarchical, 887–90
+inverted, 890–93
+kernel (KPT), 920
+organization, 886
+RISC-16 organization, 917
+user, 899
+walking, 886
+page zero interrupt vector table, 920
+paired current mirror amplifi er
+(PCMA), 282
+Parallel In Serial Out (PISO), 531
+parallelism, 503–4
+channel, 503
+column, 504
+expansion capability versus, 506
+rank, 503–4, 504
+row, 504
+parallel-to-serial interface (PSI), 293
+Pareto optimality, 20, 23–25, 830–33
+combined metrics versus, 833
+defi ned, 24, 830
+graph collapse, 832
+illustrated, 24, 831
+sets, 25
+Stanley’s observation, 832–33
+use benefi t, 832
+parity
+checking, 869
+groups, 772
+mechanism, 869–70
+strip blocks, 772
+partial directories, 250
+partial hits, 733
+partial misses, 733
+partial store order, 239
+partitioned caches, 97–102
+partitioned web caching, 127
+partitioning
+combined approaches, 170–74
+hardware/software memory disam-
+biguation, 172–74
+HPL-PD, 170–71
+profi le-directed, 171–72
+programmer-directed assignment,
+151–52
+for sleep mode, 152–53
+SRAM, 285–86
+static, 152
+partitioning heuristics, 117, 119
+defi ned, 120
+off-line, 151–55
+on-line, 120–29
+patterned media, 788–90
+conceptual illustration, 789
+defi ned, 789
+discrete track, 790
+fully, 789–90
+PC100 SDRAM standard, 470–71
+PC-based classifi cation, 214
+PC organization, 12
+per-bank request command, 516
+performance
+command reordering, 755
+cost analysis, 20–26
+defi ned, 7
+disk, 610–12
+disk drive interfaces, 710
+fi gures of merit, 7
+meaning of, 842–43
+metrics, 838–43
+metric use, 8
+object-based storage device (OSD),
+800
+RAID, 774–75
+random, 752–54
+sequential, 752
+as time saved, 842
+video application, 612
+workload factors and, 612
+See also cost/performance analysis
+performance testing, 747–61
+basic tests, 750–55
+benchmarks, 747
+command reordering performance,
+755
+Deskstar7K500, 810–12
+disk buffer data rate, 751–52
+media data rate, 751
+monitoring and measurement,
+749–50
+random performance, 752–54
+INDEX 973
+sequential performance, 752
+test drive, 750
+test generation methods, 748–49
+test initiator, 747–49
+test sequence characteristics, 748
+peripheral bitline circuits, 278–81
+illustrated, 278
+precharge and equalize, 279–80
+read and write multiplexers, 280
+read and write timing diagram, 278
+permanent store, 4–5, 35
+defi ned, 4
+Plan 9’s fi le system, 76
+storage technologies, 4
+permeability, 617
+perpendicular recording,
+785–88
+defi ned, 786
+illustrated, 785
+media, 786–88
+read head, 788
+read process, 788
+soft underlayer (SUL), 787
+write head, 786–88
+write process, 786–88
+See also magnetic recording
+per-rank address mapping schemes,
+508–9
+phase-change RAM (PCRAM), 5
+phase-Locked Loop (PLL), 335, 400,
+401–2
+block diagram, 401
+on-chip, 334–35, 342
+VCO, 401
+in XDR DRAM devices, 406–8
+physical layer, 615–47
+components, 620–40
+disk integration, 637–39
+disks, 621–23
+electronics, 640–47
+head-disk assembly, 639–40
+heads, 625–31
+head-stack assembly and actuator,
+633–35
+magnetic recording, 615–20
+multiple platters, 635–36
+slider and head-gimbal assembly,
+631–33
+spindle motor, 623–25
+start/stop, 636–37
+See also disks
+pins
+bandwidth, 21
+974 INDEX
+cost, 351
+in cost analysis, 20
+pipelined nanometer caches, 855–64
+detailed breakdown (cache
+confi gurations), 861
+detailed breakdown (cache power
+contributors), 863
+diagram, 857
+modeling, 858–59
+pipeline latch, 857
+pipeline overhead contribution, 862
+power breakdown, 860–64
+power overview, 856
+pipelined vector computers, 174
+pipeline interface, 304–5
+AMD Opteron, 304
+Intel Itanium-2, 304–5
+Motorola MPC7450, 304
+placeholders, 176–77
+Plan 9’s fi le system, 76
+platters, 635–36
+PlayDoh, 119
+PMOS cross-coupled amplifi er
+(PCCA), 282
+pointer-chasing codes, 158–59
+pointers
+coarse, 251
+explicit, 251
+identifi cation heuristics, 140
+jump, 160–61
+prefetching, 158–59
+position error signal (PES), 662
+positive edge, 322
+posted CAS commands, 436
+power
+as design goal, 26
+DRAM, 351
+dynamic, 26–27, 847, 859–60
+leakage, 26, 28, 31–32, 77
+limits, 450–52
+reduction schemes, 28–32
+short circuit, 847
+static, 26, 859–60
+total, 77
+POWER4/POWER5 memory systems,
+551
+power dissipation, 8–9, 26–28
+cache, 54
+DDR specifi cation and, 18
+DRAM, 54, 351
+dynamic voltage scaling and, 30
+FB-DIMM, 46, 54
+as priority, 847
+SRAM, 54
+technology node versus, 860
+power-driven update, 220
+PowerPC segmented translation, 40
+preamble, 651
+precharge command, 431, 438
+predecoding, 263–64
+defi ned, 263
+disadvantage, 264
+fl exibility, 264
+row and column, 264
+See also address decoding
+predication
+degree of, 213
+proactive scheme, 213
+reactive scheme, 213
+speculative scheme, 213
+predictable behavior, 9
+prediction by partial match compres-
+sion algorithm, 139
+predictor bits, 125
+prefetch
+buffers, 155
+ERP during, 743
+extension, 744
+lookahead, 742
+look-behind, 742–43
+minimum, 744–45
+perspective on, 741–42
+scheduling, 157
+zero latency, 743
+prefetching
+application-controlled fi le caches,
+175–77
+application-directed fi le caches, 175
+baseline, 202–3
+combined approaches, 174–80
+content-based, 139–41
+correlation, 134, 135–39
+data linearization, 160
+dynamic decisions, 212–13
+dynamic heuristics, 213
+greedy, 159, 160
+hardware, 215
+heuristics, 119–20
+of indexed arrays, 158
+informed, 178
+instructions, 129–30
+jump pointer, 160–61
+locality optimizations versus, 203
+lookahead, 63–64
+metrics, 202
+non-stride accesses, 134
+off-line heuristics, 155–61
+one-block lookahead, 64, 136
+on-line heuristics, 129–41
+pipelined vector computers, 174
+pointer, 158–59
+sequential data accesses, 130
+software, 158–61, 214
+software-based caches and, 130
+spatial locality, 64
+spatial lookahead, 136
+static decisions, 212
+stride, 131–32
+temporal, 136
+primary defects, 675
+printed circuit boards (PCBs), 315
+interconnects, 379
+traces, 383
+transmission lines on, 379–93
+proactive algorithm, 213
+processes, 70
+processor consistency, 239
+defi ned, 234
+illustrated, 239
+process status register (PSR), 915–17
+defi ned, 915
+information, 915–17
+profi le-directed partitioning, 171–72
+profi le-guided positioning,
+190–96
+“closest is best” procedure, 193
+defi ned, 190–93
+merging nodes, 193, 194
+running example, 194
+successor nodes, 193
+temporal locality, 196
+uncommon-case code, 195
+weighted call graphs, 196
+program annotations, 91
+program counter, elimination, 133–34
+programmable burst length
+alternative technologies, 344–45
+defi ned, 342
+programmable CAS latency,
+343–44
+alternative technologies, 343–44
+defi ned, 342
+fl exibility, 343
+programmable mode register, 467, 468
+programmer-directed classifi cation,
+214
+programmer-directed partition
+assignment, 151–52
+program restructuring, 180–82
+PROM (programmable ROM), 4
+protection
+bits, 96
+defi ned, 92
+virtual addressing and, 92–97
+virtual caches and, 225
+protection-bit modifi cation,
+96–97
+protocol effi ciency, 351
+Psyche, 222
+PTEBase, 40
+pullup network, 268
+pulsed wordline (PWL), 267–68
+with closed-loop scheme, 289
+decoder deactivation for, 291
+implementation, 289
+with open-loop gate delay, 289
+PUMA project, 88
+Q
+Quake 3, 548
+queue depth
+defi ned, 716
+simulation-based analysis, 577–78
+queues
+available, 104
+empty, 105
+in-use, 104
+LRU, 105
+queuing delay, 593
+queuing system, 611
+R
+RAID, 770–80
+advanced, 779–80
+controller, 778–79
+declustered, 779–80
+defi ned, 770
+degraded mode performance, 775
+hardware, 778
+hierarchical, 780
+levels, 770–74
+normal mode performance, 774
+performance, 774–75
+RAID-0, 770
+RAID-1, 770
+RAID-2, 771
+RAID-3, 771
+RAID-4, 771–72
+RAID-5, 772
+RAID-6, 772–74
+rebuild mode performance, 775
+reliability, 775–76
+software, 778
+sparing, 776–78
+See also storage subsystems
+Rambus ‘898 patent application,
+335–41
+clock at data rate, 341
+defi ned, 335
+low-skew clock, 338–39
+technology comparison, 341–42
+variable block size, 340–41
+variable request latency, 339–40
+Rambus memory system, 21
+Concurrent, 329
+Direct, 329, 330, 483–91
+DRAM (RDRAM), 328–29
+on-chip variable delay, 342
+RSL, 399, 480
+SDRAM versus, 21
+Rambus signaling level (RSL) signaling
+protocol, 399, 480
+random access, 679–80, 811–12
+random mapping, 146
+random performance, 752–54
+Rank Round-Robin (RRR),
+572–73
+ranks, 413–14, 422
+consecutive reads/writes to same, 437
+consecutive to different ranks,
+441–42
+consecutive write commands to dif-
+ferent, 443
+DDR2 SDRAM, 507
+DRAM, 318, 319
+parallelism, 503–4
+read following write to, 446–48
+RC transmission line, 382
+reachability matrices, 134, 135, 161–62
+reach cache, 732–33
+in presence of write cache, 734–35
+spatial locality and, 733
+reactive algorithm, 213
+read channel, 644–46
+block diagram, 645
+defi ned, 644
+“read clock” timing scheme, 821
+Read Continuous (RC), 809
+read cycle
+current profi le, 451, 452
+DRAM memory system, 433–34
+illustrated, 434
+INDEX 975
+pipelined, 452
+with row access command and
+column-read-and-precharge
+command, 435
+read heads, 628–30
+defi ned, 620, 628
+MR, 629
+perpendicular recording, 786–88
+transitions, 628
+See also heads
+read latency, 594, 596
+read multiplexer, 280–81
+read/write heads, 630–31
+bottom view, 631
+conceptual drawing, 631
+GMR sensor, 630
+track width, 630–31
+See also heads
+read/write transducers, 631
+real time, 204–5
+recording channel, 642–46
+defi ned, 642
+read channel, 644–46
+write channel, 643–44
+reduced latency (RLDRAM), 331, 494
+redundancy, decoders and, 366–68
+redundant array of inexpensive drives.
+See RAID
+Reference Prediction Table, 132
+reference voltages, 398
+refl ection, 380
+refresh command, 431–33
+number of, 432
+timing and, 433
+refresh requests
+cycle times, 516
+management, 514–16
+priority-based scheduling, 515
+region-based classifi cation, 214
+region-based division, 127
+Registered DIMMs (RDIMMs), 404,
+418–19
+register fi le, 7
+registers
+confi guration, 507–8
+control, 915
+interrupt mask (IMR), 913
+interrupt service (ISR), 913
+process status, 915–17
+programmable mode, 467, 468
+shadow, 915
+release consistency, 240, 254, 255
+reliability, 10, 32–34
+976 INDEX
+cache, 54
+disk, 34
+DRAM, 33
+fl ash, 880–81
+MRAM, 881
+of non-DRAM systems, 880–81
+RAID, 775–76
+SRAM, 33, 34, 54, 880
+relocation schemes, 674–75
+sector slipping, 674
+sector sparing, 674–75
+See also defect management
+repeat-oriented operations, 215-16
+replacement policies, 745
+replacement strategies, 120–21
+defi ned, 120
+MIN, 120–21
+as two-phase process, 121
+Request/Access Distance (RAD) ana-
+lytical framework, 542–43
+164.gzip (close-page systems),
+565–66
+164.gzip (open-page systems),
+561–62
+255.vortex, 562
+applied examples, 558–59
+average of all workloads (close-page
+systems), 567
+average of all workloads (open-page
+systems), 562–65
+bandwidth improvements, 568–70
+defi ned, 542
+defi nitions and formulas, 556
+DRAM-access protocol, 551
+effi ciency computation, 557
+open-page system tFAW, 568
+overhead computation, 551–53
+row cycle time constraints computa-
+tion, 553–55
+row-to-row activation constraints
+computation, 555–57
+SETI@HOME procesor bus trace,
+566–67
+system confi guration, 559–61
+use, 542–43
+See also design analysis
+request queue organization, 513–14
+request queuing, 516–18
+response time
+average, 610
+defi ned, 610
+throughput versus, 611
+See also disks
+RISC-16 architecture
+basic fi ve-stage pipeline,
+908–10
+exceptions, 915
+in-order pipe, 908–10
+interrupts, 915
+page table organization, 917
+page zero interrupt vector table, 920
+pipeline modifi cations, 910–12
+precise interrupts, 910–20
+processor status register (PSR),
+915–17
+system-level instruction-set exten-
+sions, 912–14
+TLB, 917–20
+rising edge, 322
+RLDRAM, 355, 494
+RMAC (Random-Access Method of
+Accounting Control), 602–3
+ROM (read-only memory), 4
+ROPE, 108
+mechanism illustration, 110
+multi-way branches in, 108
+prefetch engines, 110
+rotary actuator, 634–35
+rotating storage devices, 607–8
+rotational latency, 678–79
+Rotational Position Optimization
+(RPO), 717
+rotational vibration safeguard (RVS), 803
+row access command, 428–29
+defi ned, 428
+timing and, 429
+row activation command, 485
+row address
+defi ned, 317, 321
+strobe (RAS), 321, 353, 369, 462
+row-buffer-management policies, 497,
+499–502
+channel-by-channel control, 500
+close-page, 499–500
+hybrid, 500
+open-page, 499
+performance impact, 500–501
+power impact, 501–2
+See also DRAM memory controllers
+(DMCs)
+Row-Column (Command) Delay, 428
+rows
+cycle time constraints, 553–55
+DRAM, 317
+DRAM device, 415
+parallelism, 504
+row-to-row activation constraints,
+555–57
+row-to-row (activation) delay, 452–53
+run clustering, 726–27
+run-length-limited (RLL) codes, 643
+S
+sampled averages, 25–26
+defi ned, 833
+example, 25–26
+sampling algorithm, 26
+taking, 833–38
+sampling, 833–38
+algorithm, 26
+over distance, 835–36
+over fuel consumption, 836–37
+over time, 834–35
+See also cost/performance analysis
+SATA Tunneling Protocol, 706
+scaling
+data rate trends, 542
+Modern-Commodity DRAM devices,
+477–80
+OSD, 801
+scheduled fetching, 178
+scheduling
+seek time based, 716–17
+sequential access, 723
+total access time based, 717–23
+scheduling algorithms
+BRR, 572
+CPRH, 587–90
+FCFS, 587–88
+Greedy, 574, 585
+RRR, 572–73
+simulation-based analysis, 577–78
+Wang Rank Hop, 573–74
+scratch-pad memory (SPM)
+allocation, 151
+application control, 91
+defi ned, 58, 61
+explicit management, 91–92
+namespace, 61
+non-transparent, 61
+RAMs, 7, 209, 210
+self-managed, 80, 92
+using, 80
+scrubbing, 880
+SCSI, 705–6
+characteristics, 705–6
+confi guration illustration, 706
+defi ned, 705
+See also disk drive interfaces
+SDRAM, 369, 458
+access protocol, 469
+cross-comparison, 23
+defi ned, 322, 326
+Direct RDRAM versus, 481
+enhanced (ESDRAM), 330, 347, 355,
+396, 465, 496
+JEDEC features, 332–35
+memory access latency, 22
+memory system topology, 471
+PC100 standard, 470–71
+peak bandwidth statistics, 23
+Rambus system versus, 21
+read operation clock, 327
+single data rate, 333
+SDRAM devices, 369, 465–71
+block diagram, 466, 467
+command and data movement, 426
+command decoding, 466
+command defi nition on, 468
+control logic, 369, 370
+data return, 370
+DDR, 17–18, 471–74
+DDR2, 474–75
+DDR3, 476–77
+DDRx, 370
+EDO/FPM DRAM devices versus,
+466
+Four-bank Activation Window, 453
+functionalities, 466
+Micron 256-Mbit, 469–70
+operation sequence, 469
+programmable mode register, 467,
+468
+programming, 369
+row-to-row (activation) delay,
+452–53
+summary, 479
+timing parameters, 478
+TSOP, 470
+sectored servo. See embedded servo
+sectors, 650–52
+anatomy of, 651
+components illustration, 651
+data sync, 651
+header, 670
+ID fi eld, 670
+no-ID formatting, 671–72
+object storage, 800–801
+per track, 659
+preamble, 651
+re-reading, 676
+servo, 664
+size, 651–52
+slipping, 674
+sparing, 674–75
+split, 669
+sync fi eld, 651
+security, OSD, 801
+seek
+average, 694–98
+cylinder size effect, 683
+defi ned, 662
+disk drive case study, 804–6
+distance, 662, 683
+number, reduction, 683
+operation, 633
+seek time, 678
+scheduling, 716–17
+testing, 759–61
+variability, 720–22
+segmentation, 162
+architectures, 897–98
+defi ned, 162
+fi xed, 736–37
+granularity, 899
+IBM 801, 898
+Multics, 897
+multiple levels of indirection, 897
+PowerPC mechanism, 898
+results, 165
+sub-optimal, 166
+virtue, 898–99
+segmented addressing, 895–901
+segments
+defi ned, 162, 495
+size, 165
+segregated caches, 127
+self-managed scratch-pads, 80
+defi ned, 92
+implicit management, 92
+Self-Organizing Large Information
+Dissemination (SOLID), 147
+self-resetting CMOS (SRCMOS), 275–76
+sense amplifi ers, 281–83
+defi ned, 281, 320
+illustrated, 282
+physical implementation, 282
+sensing hierarchy, 283
+use of, 281–82
+sequential access
+Deskstar 7K500, 810–11
+disk cache and, 743–45
+scheduling, 723
+INDEX 977
+sequential consistency, 235–39
+defi ned, 234
+global ordering, 237
+illustrated, 235
+local interleavings, 237
+racing threads and, 238
+sequential performance, 752
+serial ATA (SATA), 703–4
+characteristics, 704
+confi guration illustration, 704
+defi ned, 703–4
+See also disk drive interfaces
+Serial Attached SCSI (SAS), 706–7
+characteristics, 707
+confi guration illustration, 707
+defi ned, 706
+SATA Tunneling Protocol, 706
+serial presence detect (SPD), 421
+defi ned, 421
+memory module confi guration stor-
+age, 421
+serial-to-parallel interface (SPI), 293
+series stub (serial) termination, 394
+Series Stub Terminated Logic (SSTL),
+397
+serpentine formatting, 655–56
+defi ned, 656
+illustrated, 657
+number of heads and, 688
+server-based hints, 139
+server-side web caches, 102
+servo, 662–70
+address mark, 669
+anatomy of, 669
+bandwidth, 792
+bursts, 664, 667
+defi ned, 662
+detected, 662–63
+embedded, 663–66
+functions, 662, 792
+id, 666–67
+sector, 664
+sync mark, 669
+set-associative caches
+block diagram, 84, 258
+built from CAMs, 85
+defi ned, 68
+four-way, 68
+software-managed, 104–6
+two-way, 68
+See also cache(s)
+SETI@HOME, 547–48
+defi ned, 547–48
+978 INDEX
+maximum sustainable bandwidth,
+566
+summary, 543
+workload, 549
+settle, 667
+settle time, 667, 685–86
+shadow addresses, 502
+shadow cache, 107
+defi ned, 112
+extension, 114
+illustrated, 113
+implementation, 113
+parallel operation, 112
+shadow registers, 915
+shared memory, 38–39
+ASIDs and, 225
+defi ned, 38
+example, 39
+illustrated, 38
+mechanism, 39
+problems, 220
+short burst request percentage, 575
+short circuit power, 847
+Shortest-Access-Time-First (SATF),
+717
+Shortest-Positioning-Time-First
+(SPTF), 717
+short read burst and short write burst
+rank, 582–83
+short write burst bank switching,
+581–82
+signaling, 395–99
+binary, 395, 396
+constraints, alleviating, 403–4
+eye diagrams, 396
+issues, 402–8
+low-voltage TTL, 396–97
+XDR memory system, 492
+See also DRAM
+signaling system, 377–79
+constraints, 378–79
+illustrated, 379
+termination, 393–95
+timing synchronization,
+399–402
+transmission lines, 379–93
+See also DRAM
+signal(s)
+control, 644
+refl ection, 389
+skew, 392
+signal-to-noise ratio (SNR),
+673
+simulation-based analysis,
+570–90
+burst chop, 579–84
+burst length, 577–78
+DRAM command scheduling algo-
+rithms, 572–74
+latency-oriented study, 590–96
+memory controller structure, 571–72
+minimum DRAM command timing
+equations, 577
+protocol table, 575–77
+queue depth, 577–78
+scheduling algorithms, 577–78
+system confi gurations, 570–71
+timing parameters, 575
+workload characteristics, 575
+See also design analysis
+simultaneous switching outputs
+(SSO), 380
+single address space operating sys-
+tems (SASOS), 896
+single-bit error correction, double-bit
+error detection ECC (SECDED
+ECC), 873
+single-bit error correction ECC (SEC
+ECC), 870–72
+3-bit Hamming distance, 870
+code word creation, 871
+defi ned, 870
+single-bit error detection, 871
+two-bit error, 872
+single-bit failures, 867–68
+single data rate SDRAM, 333
+single event upsets (SEUs), 868–69
+single-identifi er architecture, 902
+Single In-line Memory Modules
+(SIMMs), 418
+single-owner, multiple-ID architec-
+ture, 905
+single-owner, no ID architecture
+defi ned, 903
+implementation, 904
+single-owner, single-ID architecture
+defi ned, 903–5
+implementation, 905
+single owner space, 901
+skew
+cylinder, 657
+signal, 392
+track, 657
+skewing, 274–75
+disk drive address mapping, 656–57
+illustrated, 657
+skin depth effect, 384
+skin effect, 380
+skip sequential, 681
+slack, 690
+sleep mode, partitioning for, 152–53
+Small Outline DIMMs (SO-DIMMs),
+419–20
+component placement specifi ca-
+tion, 419
+defi ned, 419
+Small Outline J-lead (SOJ) packages,
+374
+SMBus interface, 531–32
+SMD (Storage Module Device), 604
+snoop-based scheme, 247
+snoopy protocols, 247–49
+coherence communication, 248
+common buses, 247–48
+defi ned, 247
+home snoopy, 249
+implementation, 248–49
+source snoopy, 248–49
+socket interfaces, 391
+soft error mechanism, 867
+soft error rate (SER), 33, 34, 259
+1-bit memory cell, 262
+SRAM, 33, 34
+soft underlayer (SUL), 787
+SoftVM, 88–90
+software cache-coherence mecha-
+nisms, 254–56
+software-managed caches, 59, 60
+defi ned, 87
+explicit management, 86–90
+set-associative, 104–6
+SoftVM, 88–90
+VMP, 87–88
+See also cache(s)
+software pipelining, 158
+software prefetching
+defi ned, 214
+for indexed arrays, 158
+jump pointer techniques, 160–61
+natural pointer techniques, 159–60
+See also prefetching
+software RAID, 778
+source-coupled logic (SCL), 272–73
+southbound command-only frame,
+527
+southbound command plus data
+frame, 527
+south-bridge chipset, 315
+space shuttle memory system, 881
+sparing, 776–78
+defi ned, 776–77
+distributed, 778
+global, 777
+See also RAID
+spatial locality, 2, 62, 63–64, 170
+defi ned, 63
+prefetching, 64
+read caching and, 733
+spatial lookahead, 136
+spatial reuse, 157
+SPECint95, 149
+speculative algorithm, 213
+speculative dirty bits, 908
+spindle motors, 623–25
+bearings, 624–25
+characteristics, 623–24
+cross-section, 625
+defi ned, 623
+illustrated, 624
+spin-down, 30
+spiral tracks, 653
+concentric tracks versus, 692–94
+formatting effi ciency, 692–93
+optical disks, 693–94
+sustained data rate, 693
+See also tracks
+split cache
+defi ned, 59
+illustrated, 60
+SRAM, 2
+1-bit memory cell, 259–62
+address decoding, 262–68
+advanced topics, 293–97
+asynchronous interface, 292
+asynchronous read and write wave-
+forms, 293
+ATD-controlled, 286–87
+cache implementation, 297–300
+cell leakage, 855–57
+components, 286
+control and timing, 286–92
+drowsy, 32, 296–97
+in embedded systems, 14
+error rates, 880
+failure rates, 33
+fl oor plan, 273
+function in memory hierarchy, 3
+implementation, 258–93
+interface, 292–93
+leakage power, 31–32
+low-leakage operation, 293–97
+MoSys 1T, 330–31
+operation correctness, 287
+partitioning, 285–86
+peripheral bitline circuits, 278–81
+physical decoder implementation,
+268–78
+pipelined-burst read access, 294
+power dissipation, 54
+reliability, 33, 34, 54
+scratch-pad, 7
+sense amplifi ers, 281–83
+state-preserving, low-power mode,
+32
+write amplifi ers, 283–84
+SSTF (Shortest-Seek-Time-First), 717
+stack contents, 199
+stacked capacitors, 356
+illustrated, 358
+structure, 357–58
+standard (STD) burst chop, 580–81
+START signal, 287, 288
+static CMOS, 269–70
+static decision, 212
+static management, 208–12
+static-noise margin (SNM), 260–61
+static power, 26, 860
+static scratch-pad management,
+153–54
+static training, 112
+sticky bits, 123
+storage
+non-volatile, 4
+object-based, 798–801
+storage area networks (SANs), 780–82
+benefi ts, 781–82
+defi ned, 780
+FC implementation, 782
+system confi guration, 781
+storage subsystems, 763–83
+data mirroring, 765–70
+data striping, 763–65
+iSCSI, 783
+NAS, 782–83
+RAID, 770–80
+SAN, 780–82
+stream, 130–31
+stream buffers
+defi ned, 130–31
+as FIFO buffer, 131
+organization and operation, 131
+strict consistency, 234–35
+defi ned, 234
+illustrated, 234
+stride collision, 510–11
+INDEX 979
+stride prefetching, 131–32
+stripe size, 764
+stripe units, 764
+substrate doping, 854
+subthreshold leakage, 851–55
+deep quantum phenomena, 851
+drain-source current, 848
+gate bias, 852
+optimized, 850
+See also leakage
+superparamagnetic limit, 785, 790
+sustainable bandwidth
+16-bank versus 8-bank DDR3
+devices, 586, 588
+burst length effect on, 578–79
+RWBS burst merge versus STD chop,
+585
+swapping, 176–77
+symmetric dual channel mode, 507
+sync fi eld, 651
+synchronous DRAM. See SDRAM
+synonym problem, 96–97, 221, 898–99
+system confi gurations
+RAD-based analysis, 559–61
+simulation–based analysis, 570–71
+system controllers, 410
+Intel i875P, 410–11
+typical, 410
+systemic behaviors, 15–17
+defi ned, 16
+existence, 816–18
+in varying of parameters, 818
+system-level arbiter design, 517
+System-Management Bus (SMBus),
+531–32
+system-on-chip (SOC)
+defi ned, 14
+devices, 376
+T
+tagged prefetch, 130
+tDQS, 18–19, 822–23
+Telegrapher’s Equations, 380–82
+temporal locality, 2, 62, 63
+defi ned, 63
+demand-fetch, 63
+profi le-guided positioning, 196
+time passage and, 183
+temporal lookahead, 136
+temporal ordering information,
+196–98
+980 INDEX
+temporal relationship graph (TRG),
+196
+chunk-granularity, 198
+for traces, 197
+termination, 393–95
+DRSL, 399
+function, 394
+on-die, 394–95
+RSL, 399
+series stub, 394
+series stub logic, 398–99
+series stub termination log, 398–99
+voltage references, 398
+See also DRAM; signaling system
+terrestrial neutrons, 866
+test drive, 750
+test generation, 748–49
+tests, 750–55
+benchmark, 755–57
+disk buffer data rate, 751–52
+drive parameters, 757–61
+media data rate, 751
+seek time, 759–61
+sequential read throughput, 752
+sequential write, 753
+write, 750
+See also performance testing
+test sequence characteristics, 748
+tFAW, 18, 453–54, 822
+attainable bandwidth and, 825
+bus speeds and, 825
+thermal asperity, 639
+thermally assisted recording, 790–92
+challenges, 791–92
+concept, 791
+defi ned, 790
+illustrated, 791
+thermal recalibration, 663
+thermal sensors, 532
+Thin, Small Outline Package (TSOP),
+374
+DDR SDRAM device, 476
+SDRAM device, 470
+thin fi lm heads, 628
+throughput
+defi ned, 611
+response time versus, 611
+sequential read, 752
+See also disks
+tiled matrix multiply, 167, 168
+tiling, 167–69
+cache-directed, 168
+defi ned, 167, 215
+time
+data transfer, 679
+locality optimizations and, 182–83
+sampling over, 834–35
+seek, 678
+settle, 685–86
+temporal locality and, 183
+travel, 684–85
+variable retention (VRT), 19
+time-based classifi cation, 214
+time-driven update, 220
+time-to-live (TTL), 101
+timing
+2T command, 454
+column-read-and-precharge
+command, 449–50
+column read command and, 430
+column-write-and-precharge
+command, 450
+column write command and, 431
+constraints, alleviating, 403–4
+data read and write, 404–6
+equations summary, 456
+fl ow access command and, 429
+precharge command and, 432
+read to precharge, 438
+row refresh, 433
+timing parameters, 427–28
+differential sense amplifi er, 365
+DRAM, 18
+DRAM-access protocol, 427–28, 552
+DRAM commands, 427–28
+SDRAM devices, 478
+simulation-based analysis, 575, 576
+timing synchronization, 399–402
+clock forwarding, 400–401
+DLL, 402
+PLL, 401–2
+system-level, 400
+See also DRAM
+to-be-cached objects, 206
+top-down traversal, 887–88
+total access time based scheduling,
+717–23
+access time estimation, 718–19
+aging, 722–23
+environmental change, 722
+N-stop lookahead, 723
+performance comparison,
+719–20
+priority, 722
+SATF issues, 720
+seek time variability, 720–22
+sorting methods, 719
+workload, 722
+trace caches, 106–15
+defi ned, 106
+Intel patent, 115
+mechanism, 106–7
+mechanism illustration, 115
+non-inclusive relationship, 115
+traces
+application, 592
+dedicated shielding, 387
+PCB, 383
+simulation input, 592
+in system board and DRAM memory
+module, 380
+temporal relationship graphs, 197
+trace scheduling, 215
+trace selection, 188, 190
+track following
+defi ned, 662, 667
+servo burst and, 667–69
+track misregistration (TMR), 624
+tracks
+capacity effect, 681–82
+concentric, 653, 692–94
+defi ned, 652
+density effect, 684–86
+guard band between, 631
+id, 664
+innermost, 631
+outermost, 631
+per inch, 637–38, 688
+pitch, 630–31
+skew, 657
+spiral, 653, 692–94
+transaction ordering, 587–90
+transactions per second per dollar,
+829
+transfer-word driver (TWD), 277–78
+defi ned, 277
+disadvantages, 277–78
+transitions
+defi ned, 620
+length, 626
+read heads, 628
+writing, 626
+translation lookaside buffer (TLB),
+893–95
+defi ned, 37
+entry reduction, 226
+global bit, 226
+Itanium-2, 308–12
+MIPS, 40
+miss, 38, 894
+probe, 96
+reach, 894
+refi ll, 917
+RISC-16, 917–20
+slice, 885
+software-managed, 894
+as tags array, 894
+virtual-to-physical address transla-
+tion with, 37
+translation point, 896
+transmission lines
+dielectric loss, 384–86
+discontinuities, 388–90
+Electro-Magnetic Interference
+(EMI), 386
+instantaneous voltage, 390
+ISI, 393
+jitter, 392–93
+LC model, 382–84
+mathematical model, 381
+multi-drop bus, 390–91
+on PCBs, 379–93
+RC model, 382
+real-world, 378
+simplifi ed models, 382
+skew, 392
+skin depth effect, 384
+socket interfaces, 391
+transparent caches, 61, 82–90
+advantage, 86
+existence, 80
+in general-purpose systems, 91
+implicit heuristics, 121
+implicit management, 86
+namespace, 82
+overheads, 92
+policies, 121–22
+searching, 82
+transparent informed prefetching
+(TIP), 178
+transparent management,
+203–4
+travel time, 684–85
+TreadMarks, 254, 255–56
+tree-like instruction word, 111
+trench capacitors, 356
+illustrated, 357
+structure, 357
+Tribology, 639
+tRRD, 452–53, 822
+bus speeds and, 825
+confi gurations, 452, 453
+defi ned, 452
+in nanoseconds, 452
+two-level store, 3
+U
+UMA (Uniform memory access),
+98–99
+defi ned, 98
+illustrated, 98
+Unbuffered DIMMs (UDIMMs), 418
+uniform classifi cation, 213
+unit interval, 525
+unused blocks, powering down,
+30–31
+user page table, 899
+V
+VADDR (virtual address), 89
+variable data rate, 661–62
+variable latency scheduling, 538–40
+variable retention time (VRT),
+19, 826
+variable rotational speed, 661
+variable-size blocks, 650
+vCACTI, 858
+VCDRAM, 465, 495–96
+Vernier mechanism, 347–48
+vertically partitioned hierarchy,
+70
+victim caches, 74, 103–4
+contents, 103
+defi ned, 122
+organization, 122
+virtual-address aliasing, 223–25
+as detrimental, 224–25
+as necessary, 223–24
+support, 223
+virtual addressing
+aliasing, 96
+protection and, 92–97
+virtual aliasing, 898
+virtual caches, 93–96
+combined solutions, 222–23
+consistency problem, 221–25
+fl ushing, 899
+hardware solutions, 221–22
+management, 220–25, 896
+organization, 895
+physically indexed, physically
+tagged, 93–94
+INDEX 981
+physically indexed, virtually tagged,
+94
+protection-bit modifi cation, 96–97
+protection problem, 225
+software solutions, 222
+synonym problem, 96–97, 221
+virtually indexed, physically tagged, 95
+virtually indexed, virtually tagged, 95
+See also cache(s)
+Virtual Channel DRAM (VCDRAM),
+330, 398
+virtualization, 763
+virtual memory, 34–40, 883–920
+address mapping, 886–87
+address spaces, 885–86
+address translation, 35–38
+commercial examples, 39–40
+defi ned, 34, 883
+functions, 883
+implementing, 906–20
+in-order pipe, 908–10
+main memory cache, 885–86
+page tables, 886–93
+pipeline modifi cations, 910–12
+precise interrupts, 910–20
+primer, 884–906
+shared memory, 38–39
+system, 12
+system-level instruction-set
+extensions, 912–14
+tags array, 36
+virtual memory organization,
+738–41
+architecture attributes, 741
+cache lookup procedure,
+740–41
+defi ned, 738
+hashing, 739
+LBA mapping, 738–39
+logical segment, 738
+page table, 739–40
+See also disk caches
+virtual offset, 889
+virtual page numbers (VPNs), 35–36, 144
+VLIW (very long instruction word), 107
+de facto back end, 113
+explicit architecture, 108
+instruction-fetch problem and, 107–8
+tree instructions, 110–11
+VMP multiprocessor, 87–88
+voice coil motor (VCM), 662
+voltage-controlled oscillators
+(VCOs), 401
+982 INDEX
+W
+Wang Rank Hop, 573–74
+weak consistency, 239
+web caches, 100–102
+client-side, 101–2
+defi ned, 100
+issues, 100–101
+server-side, 102
+web-document caches
+defi ned, 61
+illustrated, 60
+wide area networks (WANs), 780
+Wirebond Ball Grid Array (WBGA), 488
+working set, 57
+workload characteristics,
+543–51
+3DWinbench, 548–50
+164.gzip, 544–45
+172.mgrid, 547
+176.gcc, 545
+178.galgel, 548–50
+179.art, 548–50
+183.equake, 548–50
+188.ammp, 548–50
+197.parser, 545–46
+255.vortex, 546–47
+SETI@HOME, 547–48
+Quake 3, 548
+summary, 550–51
+See also design analysis
+workloads
+average of all (close-page systems),
+567
+average of all (open-page systems),
+562–65
+characteristics, 575
+disk performance and, 612
+summary, 543
+WORM drives, 76
+write amplifi ers
+defi ned, 283
+illustrated, 284
+NMOS transistors, 284
+write-back caches, 70
+disadvantages, 70
+using, 242–43
+See also cache(s)
+write broadcasts, 243–44
+write bubble, 626
+write buffers
+defi ned, 218
+Direct RDRAM devices,
+486–87
+write caches, 47, 218, 733–34
+destage, 735
+read hits in, 734–35
+write channel, 643–44
+block diagram, 645
+control signals, 644
+defi ned, 643
+write commands
+avoidance, 734
+disk buffering, 729
+handling, 728–30
+log-structured, 728–29
+queued, scheduling of, 734
+write cycle
+DRAM memory system, 434
+illustrated, 435
+write enable (WE) signal, 355, 369, 463
+write heads, 625–28
+characteristics, 626–27
+defi ned, 620
+illustrated, 627
+inductive, 625–26
+MIG, 627
+perpendicular recording, 786–88
+principle, 625
+thin fi lm, 628
+See also heads
+write-invalidate, 241
+write multiplexer, 280–81
+write tests, 750
+write-through, 218
+write-through caches, 70
+cost, 70
+disadvantages, 70
+system illustration, 241
+using, 241–42
+See also cache(s)
+write-update, 241
+write wide, read narrow,
+630
+writing
+caching, 512–13
+in magnetic recording,
+618–20
+transitions, 626
+X
+XDR DRAM, 406–8
+XDR memory controller, 408
+XDR memory system, 480,
+491–94
+architecture illustration, 493
+defi ned, 491
+device architecture, 492
+early read after write,
+492–94
+FlexPhase, 492, 494
+signaling, 492
+topology, 491–92
+topology illustration, 491
+Z
+Z-buffer algorithm, 64
+zero latency access, 713–15
+average rotational latency with,
+714, 715
+defi ned, 713
+procedure, 715
+zero latency prefetch, 743
+zoned-bit recording (ZBR),
+658–62
+average seek and, 695–96
+average travel time, 696
+defi ned, 660
+embedded servo and,
+669–70
+handling, 661–62
+variable data rate, 661–62
+variable rotational speed, 661
+Zoned Constant Linear velocity
+(ZCLV), 694

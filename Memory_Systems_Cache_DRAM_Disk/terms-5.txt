@@ -1,0 +1,680 @@
+2.5-V Series Stub Terminated Logic (SSTL-2)
+6-transistor memory cell (6TMC)
+access protocol
+actuator
+adaptive formatting
+Advanced Memory Buffers (AMBs)
+agent-centric request queuing
+aging algorithm
+air bearing
+air bearing surface (ABS)
+algorithmic locality
+align strategy
+alpha particle
+analytical modeling
+AND gate
+anti-ferromagnetic material (AFM)
+application-specific integrated circuits (ASICs)
+areal density
+arm flutter
+ASID
+asynchronous DRAM
+ATA interface
+atomic force microscopy (AFM)
+attenuation
+attraction memory
+automatic gain control (AGC)
+Automatic Locality-Improving Storage (ALIS)
+automatic page layout
+availability assurance
+average seek
+backing store
+Ball Grid Array (BGA)
+banded serpentine
+Band Round-Robin (BRR)
+banked sequential
+basic block
+B burst
+bearing
+BEDO DRAM device
+blocking factor
+bottom-up traversal
+buffer pool
+Built-In Self Test (BIST)
+burst chop
+burst duration
+burst length
+burst-mode EDO (BEDO)
+burst ordering
+CACTI
+capacitance
+Capacitor-over-Bitline (COB)
+capacitor
+Capacitor-under-Bitline (CUB)
+capacity-driven update
+careful mapping
+CASHEW system
+CCM (compiler-controlled memory)
+C compression
+chained decluster mirroring
+chipkill
+circular buffer
+classification
+clocked DRAM
+C-LOOK
+clustering
+CMOS
+coarse pointer
+coherence-maintenance granularity
+coherence point
+collapsing buffer
+collision resolution table
+coloring
+column-access strobe (CAS)
+combined approach
+Commodity path
+compiler-controlled memory (CCM)
+concentric track
+Concurrent RDRAM
+conflict-driven update
+conflict miss
+consecutive reads (different banks)
+consecutive reads (different ranks)
+consecutive reads (different rows)
+consecutive writes (ranks)
+consistency management
+consistency with backing store
+consistency with client
+consistency with self
+constant angular velocity (CAV)
+constant linear velocity (CLV)
+constraint
+contact start-stop (CSS)
+content management
+contention
+context-based classification
+control register
+correlation table
+critical reference
+critical working set (CWS) algorithm
+cross-coupled inverter
+crosstalk
+cylinder mode
+cylinder
+cylinder switch
+data-access behavior
+data-access granularity
+data compression
+data layer
+data mirroring
+data rate
+data-reference behavior
+data-reference matrix
+data reorganization
+Data Retention Gated–ground (DRG)
+Data Strobe Signal (DQS)
+data sync
+data transfer time
+data width
+DDR2 SDRAM
+DDR3 SDRAM
+DDR (double data rate)
+DDR SDRAM
+decoder implementation
+decoder
+dedicated servo
+defect management
+defragmentation
+delayed write
+delay-locked loop (DLL)
+demand-paging
+dielectric loss
+die size overhead
+differential Rambus signaling level (DRSL) signaling protocol
+differential sense amplifier
+directory-based protocol
+directory-based scheme
+Direct RDRAM
+dirty data
+discrete track media
+disk buffer data rate
+disk drive interface
+disk drive performance
+disk drive
+distributed sparing
+distributed system
+domino dynamic logic
+Drain-Induced Barrier Lowering (DIBL)
+DRAM
+DRAM-access protocol
+DRAM array
+DRAM cell
+DRAM-centric request scheduling algorithm
+DRAM device
+DRAM memory controllers (DMCs)
+DRAM-optimized proces
+DRAMSim2
+DRCMOS
+DRDRAM
+drive parameters test
+drowsy SRAM
+Drowsy technique
+dual actuator
+dual data rate synchronous DRAM (DDR-SRAM)
+Dual-edge clocking
+Dual In-line Memory Modules (DIMMs)
+Dual In-line Packages (DIP)
+dynamic adjustment
+dynamic CMOS
+dynamic compression
+dynamic decision
+dynamic exclusion
+dynamic grouping
+dynamic management
+dynamic power
+dynamic predictor
+dynamic reordering
+dynamic scratch-pad management
+eCACTI
+EDO DRAM device
+EEPROM (electrically erasable programmable read-only memory)
+electronic
+electronic switching systems (ESS)
+Elevator Seek
+embedded computer system
+embedded DRAM (eDRAM)
+embedded servo
+Enhanced SDRAM (ESDRAM)
+enforced idle cycle
+entry consistency
+EPROM (electrically erasable ROM)
+error detection/correction
+error location table
+error rate
+error-recovery procedure (ERP)
+ESDI (Enhanced Small Device Interface)
+explicit pointer
+extended data-out (EDO)
+external fragmentation
+Extreme Data Rate
+eye diagram
+failing addres
+failing data
+fail-over mode
+failure rate
+failures-in-time (FIT)
+falling edge
+false sharing
+far-end crosstalk
+fast cycle DRAM (FCRAM)
+Fast Page Mode (FPM)
+fast store
+fault isolation
+FCRAM
+feedback-directed scheduling
+ferromagnetism
+Fibre Channel (FC)
+figures of merit
+fill unit
+Fine Ball Grid Array (FBGA)
+first-in-first-out (FIFO)
+First Come First Served (FCFS) scheduling algorithm
+fixed segmentation
+fixed-size block
+flash memory
+FlexPhase
+floor plan
+floppy format
+fluid dynamic bearings (FDBs)
+fly height
+Force Unit Access (FUA)
+formatting
+form factor
+forward-mapped table
+Four-bank Activation Window
+FPM DRAM device
+fragmentation
+frame
+frequency-based classification
+frequency tracking
+full directory
+Fully-Buffered DIMM (FB-DIMM)
+fully patterned media
+garbage collection
+gate bias
+Gate-Induced Drain Leakage (GIDL)
+gated-ground technique
+gated-Vdd technique
+gate
+GDDR2 SDRAM
+GDDR3 SDRAM
+GDDR SDRAM
+geographical locality
+geometric mean
+GMR sensor
+global sparing
+granularity
+Gray code
+Greedy scheduling algorithm
+grown defect
+Handle Stream Error (HSE)
+hard disk drive
+hard failure
+hardware RAID
+hashed page translation table
+hash table anchor (HAT)
+hashing
+head-disk assembly (HDA)
+head-gimbal assembly
+headless format
+head-stack assembly
+heat-assisted magnetic recording (HAMR)
+heat clustering
+heat density
+heat spreader
+hierarchical RAID
+High-Bandwidth path
+High-Speed Toggle Mode
+hint
+histogram example
+Historical-Commodity DRAM device
+history-based classification
+holistic design
+horizontally partitioned hierarchy
+host bus adapter (HBA)
+hot spot
+hybrid directory
+hybrid disk drive
+hysteresis loop
+IBM High-Speed Toggle Mode
+IBM RAMAC 305
+IDE/ATA (Advanced Technology Architecture) interface
+IMPACT compiler
+impulse memory controller
+inclusion
+inductive write head
+in-order pipe
+interleaved decluster mirroring
+internal fragmentation
+international Technology Roadmap for Semiconductors (ITRS)
+Internet SCSI
+interrupt mask register (IMR)
+interrupt service register (ISR)
+inter-symbol interference (ISI)
+iSCSI
+Ivy
+jitter
+Joint Electron Device Engineering Council (JEDEC)
+jump pointer
+lazy release consistency
+LBA (Logical Block Address)
+LBA mapping
+LC transmission line
+LDS log
+leakage
+leakage power
+least-frequently-used (LFU)
+lifetime analysis
+lifetime-conscious heap management
+linear actuator
+linked data structures (LDS)
+load/unload
+local interleaving
+locality optimization
+logical organization
+logic gate
+log-structured file system (LFS)
+log-structured write
+LOOK
+lookahead
+Low-Latency path
+magnetic field
+magnetic flux
+magnetic flux density
+magnetic induction
+magnetic RAM (MRAM)
+magnetic recording
+magnetic rotating storage device
+magnetic tape
+magnetization
+magnetoresistance coefficient
+magnetoresistive (MR) head
+maximal sustainable bandwidth
+media data rate
+memory cell
+memory coherence
+memory controller
+memory forwarding
+memory map
+memory module
+memory request
+memory scrubbing
+memory subsystem
+memory transaction
+MESI protocol
+metal-in-gap (MIG) head
+microactuator
+microcontroller
+micro-jog
+Midway
+MIN algorithm
+miss-rate function
+Mobile DDR SDRAM
+Mobile SDRAM
+mode register-based programmability
+Modern-Commodity DRAM device
+modified frequency modulation (MFM) scheme
+MOESI protocol
+Moore’s Law
+MoSys 1T-SRAM
+motor control
+Mowry’s algorithm
+MRAM
+MSI protocol
+multi-branch predictor
+multi-drop bu
+multiple-identifier architecture
+multiple-owner, multiple-ID architecture
+multiple-owner, no ID architecture
+multiple-owner, single-ID architecture
+multiple-owner space
+Multiple Threshold CMOS (MTCMOS)
+multiplexer
+multiplexing
+multiporting
+multi-supply circuit
+multi-Vt memory cell
+Munin
+NAND gate
+near and skip sequential
+near-end crosstalk
+nearness matrice
+near sequential
+negative cylinder
+negative edge
+nested interrupt
+nested TLB-miss exception
+network attached storage (NAS)
+no identifier architecture
+no-ID format
+non-partitioned code hierarchy
+Non-Repeatable Runout (NRRO)
+non-volatile store
+NOR gate
+NRZI encoding
+N-step lookahead
+NUCA (Non-Uniform Cache Architecture)
+NuRAPID
+object-based storage device (OSD)
+off-line heuristic
+off-line locality optimization
+off-line partitioning heuristic
+on-chip PLL/DLL
+on-die termination (ODT)
+on-line heuristic
+on-line locality optimization
+on-line partitioning heuristic
+on-line transaction processing (OLTP)
+Opal
+operating store
+optimization(s)
+optimizing compiler
+page coloring
+page frame numbers (PFNs)
+page mode
+paired current mirror amplifier (PCMA)
+Parallel In Serial Out (PISO)
+parallel-to-serial interface (PSI)
+Pareto optimality
+parity
+partial directory
+partial hit
+partial miss
+partial store order
+partitioning
+partitioning heuristic
+patterned media
+PC100 SDRAM standard
+PC-based classification
+PC organization
+performance testing
+permanent store
+permeability
+perpendicular recording
+phase-change RAM (PCRAM)
+phase-Locked Loop (PLL)
+physical layer
+platter
+PMOS cross-coupled amplifier (PCCA)
+pointer-chasing code
+position error signal (PES)
+power dissipation
+power-driven update
+PowerPC segmented translation
+preamble
+predecoding
+predication
+predictable behavior
+prediction by partial match compression algorithm
+primary defect
+printed circuit boards (PCBs)
+proactive algorithm
+process status register (PSR)
+profile-directed partitioning
+profile-guided positioning
+programmable burst length
+programmable mode register
+programmer-directed classification
+programmer-directed partition assignment
+program restructuring
+PROM (programmable ROM)
+protocol efficiency
+Psyche
+PTEBase
+pullup network
+queuing delay
+queuing system
+RAID
+random mapping
+random performance
+Rank Round-Robin (RRR)
+rank
+RC transmission line
+reachability matrice
+reactive algorithm
+read clock timing scheme
+Read Continuous (RC)
+read cycle
+read head
+read multiplexer
+read/write head
+read/write transducer
+real time
+redundant array of inexpensive drive
+Reference Prediction Table
+reflection
+region-based classification
+region-based division
+Registered DIMMs (RDIMMs)
+register file
+register
+relocation scheme
+replacement policy
+replacement strategy
+Request/Access Distance (RAD) analytical framework
+RLDRAM
+ROM (read-only memory)
+rotary actuator
+Rotational Position Optimization (RPO)
+rotational vibration safeguard (RVS)
+row-buffer-management policy
+Row-Column (Command) Delay
+row-to-row activation constraint
+row-to-row (activation) delay
+run clustering
+run-length-limited (RLL) code
+SATA Tunneling Protocol
+scratch-pad memory (SPM)
+SCSI
+SDRAM
+SDRAM device
+sector
+segmentation
+self-resetting CMOS (SRCMOS)
+sense amplifier
+sequential performance
+serial ATA (SATA)
+Serial Attached SCSI (SAS)
+serial presence detect (SPD)
+serial-to-parallel interface (SPI)
+Series Stub Terminated Logic (SSTL)
+serpentine formatting
+server-based hint
+servo
+settle
+settle time
+shadow register
+short circuit power
+Shortest-Access-Time-First (SATF)
+Shortest-Positioning-Time-First (SPTF)
+short read burst and short write burst rank
+short write burst bank switching
+simulation-based analysis
+simultaneous switching outputs (SSO)
+single event upsets (SEUs)
+single-identifier architecture
+Single In-line Memory Modules (SIMMs)
+single-owner, multiple-ID architecture
+single-owner, no ID architecture
+single-owner, single-ID architecture
+single owner space
+skew
+skewing
+skin depth effect
+skin effect
+skip sequential
+slack
+sleep mode
+Small Outline DIMMs (SO-DIMMs)
+Small Outline J-lead (SOJ) package
+SMBus interface
+SMD (Storage Module Device)
+snoop-based scheme
+snoopy protocol
+socket interface
+soft error mechanism
+soft error rate (SER)
+soft underlayer (SUL)
+SoftVM
+software pipelining
+software RAID
+source-coupled logic (SCL)
+south-bridge chipset
+sparing
+spatial lookahead
+spatial reuse
+speculative algorithm
+spindle motor
+spiral track
+SRAM
+SSTF (Shortest-Seek-Time-First)
+stack content
+stacked capacitor
+standard (STD) burst chop
+START signal
+static CMOS
+static decision
+static management
+static-noise margin (SNM)
+static power
+static scratch-pad management
+storage area networks (SANs)
+storage subsystem
+stream buffer
+strict consistency
+stride collision
+substrate doping
+subthreshold leakage
+superparamagnetic limit
+sustainable bandwidth
+swapping
+sync field
+synonym problem
+synchronous DRAM
+system configuration
+system controller
+systemic behavior
+System-Management Bus (SMBus)
+system-on-chip (SOC)
+tDQS
+Telegrapher’s Equation
+temporal lookahead
+temporal ordering information
+temporal relationship graph (TRG)
+termination
+terrestrial neutron
+test drive
+test generation
+tFAW
+thermal asperity
+thermally assisted recording
+thermal recalibration
+thermal sensor
+Thin, Small Outline Package (TSOP)
+thin film head
+tiled matrix multiply
+tiling
+time-based classification
+time-driven update
+timing
+timing parameter
+top-down traversal
+trace
+trace scheduling
+trace selection
+track following
+track misregistration (TMR)
+track
+transaction ordering
+transactions per second per dollar
+transition
+translation lookaside buffer (TLB)
+translation point
+transmission line
+transparent management
+travel time
+TreadMark
+trench capacitor
+Tribology
+tRRD
+two-level store
+Unbuffered DIMMs (UDIMMs)
+uniform classification
+unit interval
+unused block
+vCACTI
+VCDRAM
+vertically partitioned hierarchy
+virtual aliasing
+Virtual Channel DRAM (VCDRAM)
+virtual offset
+VMP multiprocessor
+voice coil motor (VCM)
+Wirebond Ball Grid Array (WBGA)
+working set
+workload
+WORM drive
+write amplifier
+write buffer
+write enable (WE) signal
+write head
+write-invalidate
+write multiplexer
+write test
+write-through
+write-update
+write wide, read narrow
+writing
+XDR DRAM
+XDR memory controller
+Zoned Constant Linear velocity (ZCLV)

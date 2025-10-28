@@ -1,0 +1,1347 @@
+@inproceedings{10.1145/3582016.3587050,
+author = {Bhattacharjee, Abhishek},
+title = {Direct Mind-Machine Teaming (Keynote)},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3587050},
+doi = {10.1145/3582016.3587050},
+abstract = {Direct mind-machine teaming will help us treat brain disorders, augment the healthy brain, and shed light on how the brain as an organ gives rise to the mind. Delivering on this promise requires the design of computer systems that delicately balance the tight power, latency, and bandwidth trade-offs needed to decode brain activity, stimulate biological neurons, and control assistive devices most effectively.    This talk presents my group’s design of a standardized and general computer architecture for future brain interfacing. Our design enables the treatment of several neurological disorders (most notably, epilepsy and movement disorders) and lays the groundwork for brain interfacing techniques that can help augment cognitive control and decision-making in the healthy brain. Central to our design is end-to-end hardware acceleration, from the microarchitectural to the distributed system level. Key insights are undergirded via detailed physical synthesis models and chip tape-outs in a 12nm CMOS process.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {1},
+numpages = {1},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3587051,
+author = {Catanzaro, Bryan},
+title = {Language Models: The Most Important Compute Challenge of Our Time (Keynote)},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3587051},
+doi = {10.1145/3582016.3587051},
+abstract = {ChatGPT recently became one of the fastest growing new applications in history, thanks to its intriguing text generation capabilities that are able to answer questions, write poetry, and even problem solve. Large Language Models are now being integrated in fundamental ways into products around the tech industry. The possibilities are extraordinary, but much research remains to make these systems reliable and trustworthy, as well as integrate them into applications seamlessly. Additionally, the computational challenges behind large language modeling are also quite important. Systems for training and deploying these models must be highly scalable and run at extreme efficiency, because the amount of work necessary to converge a model can be extraordinarily large. The cost of deploying these models is a barrier to their deployment and must be lowered significantly. In this talk, I’ll discuss the work we have been doing at NVIDIA to optimize systems for Large Language Model training and inference, and highlight some of the challenges that remain for future work.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {2},
+numpages = {1},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582026,
+author = {Tian, Boyu and Chen, Qihang and Gao, Mingyu},
+title = {ABNDP: Co-optimizing Data Access and Load Balance in Near-Data Processing},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582026},
+doi = {10.1145/3582016.3582026},
+abstract = {Near-Data Processing (NDP) has been a promising architectural paradigm to address the memory wall challenge for data-intensive applications. Typical NDP systems based on 3D-stacked memories contain massive parallel processing units, each of which can access its local memory as well as other remote memory regions in the system. In such an architecture, minimizing remote data accesses and achieving computation load balance exhibit a fundamental tradeoff, where existing solutions can only improve one but sacrifice the other. We propose ABNDP, which leverages novel hardware-software co-optimizations to simultaneously alleviate these two issues without making tradeoffs. ABNDP uses a novel and efficient distributed DRAM cache to allow additional data caching locations in the system, where the computation load at the original data hotspots can be distributed and balanced, without significantly increasing remote accesses. ABNDP also adopts a hybrid task scheduling policy that considers both the remote access cost and the load imbalance impact, and exploits the flexibility of the multiple data caching locations to decide the best computation place. Our evaluation shows that ABNDP successfully achieves the two goals of minimizing remote access cost and maintaining load balance, and significantly outperforms the baseline systems in terms of both performance (1.7\texttimes{}) and energy consumption (25\%).},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {3–17},
+numpages = {15},
+keywords = {DRAM caches, load balance, near-data processing, task scheduling},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582064,
+author = {Odemuyiwa, Toluwanimi O. and Asghari-Moghaddam, Hadi and Pellauer, Michael and Hegde, Kartik and Tsai, Po-An and Crago, Neal C. and Jaleel, Aamer and Owens, John D. and Solomonik, Edgar and Emer, Joel S. and Fletcher, Christopher W.},
+title = {Accelerating Sparse Data Orchestration via Dynamic Reflexive Tiling},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582064},
+doi = {10.1145/3582016.3582064},
+abstract = {Tensor algebra involving multiple sparse operands is severely memory bound, making it a challenging target for acceleration. Furthermore, irregular sparsity complicates traditional techniques—such as tiling—for ameliorating memory bottlenecks. Prior sparse tiling schemes are sparsity unaware: they carve tensors into uniform coordinate-space shapes, which leads to low-occupancy tiles and thus lower exploitable reuse. To address these challenges, this paper proposes dynamic reflexive tiling (DRT), a novel tiling method that improves data reuse over prior art for sparse tensor kernels, unlocking significant performance improvement opportunities. DRT’s key idea is dynamic sparsity-aware tiling. DRT continuously re-tiles sparse tensors at runtime based on the current sparsity of the active regions of all input tensors, to maximize accelerator buffer utilization while retaining the ability to co-iterate through tiles of distinct tensors. Through an extensive evaluation over a set of SuiteSparse matrices, we show how DRT can be applied to multiple prior accelerators with different dataflows (ExTensor, OuterSPACE, MatRaptor), improving their performance (by 3.3\texttimes{}, 5.1\texttimes{} and 1.6\texttimes{}, respectively) while adding negligible area overhead. We apply DRT to higher-order tensor kernels to reduce DRAM traffic by 3.9\texttimes{} and 16.9\texttimes{} over a CPU implementation and prior-art tiling scheme, respectively. Finally, we show that the technique is portable to software, with an improvement of 7.29\texttimes{} and 2.94\texttimes{} in memory overhead compared to untiled sparse-sparse matrix multiplication (SpMSpM).},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {18–32},
+numpages = {15},
+keywords = {Hardware Acceleration, Sparse Computation, Tensor Algebra},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582070,
+author = {Melchert, Jackson and Feng, Kathleen and Donovick, Caleb and Daly, Ross and Sharma, Ritvik and Barrett, Clark and Horowitz, Mark A. and Hanrahan, Pat and Raina, Priyanka},
+title = {APEX: A Framework for Automated Processing Element Design Space Exploration using Frequent Subgraph Analysis},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582070},
+doi = {10.1145/3582016.3582070},
+abstract = {The architecture of a coarse-grained reconfigurable array (CGRA) processing element (PE) has a significant effect on the performance and energy-efficiency of an application running on the CGRA. This paper presents APEX, an automated approach for generating specialized PE architectures for an application or an application domain. APEX first analyzes application domain benchmarks using frequent subgraph mining to extract commonly occurring computational subgraphs. APEX then generates specialized PEs by merging subgraphs using a datapath graph merging algorithm. The merged datapath graphs are translated into a PE specification from which we automatically generate the PE hardware description in Verilog along with a compiler that maps applications to the PE. The PE hardware and compiler are inserted into a flexible CGRA generation and compilation toolchain that allows for agile evaluation of CGRAs. We evaluate APEX for two domains, machine learning and image processing. For image processing applications, our automatically generated CGRAs with specialized PEs achieve from 5\% to 30\% less area and from 22\% to 46\% less energy compared to a general-purpose CGRA. For machine learning applications, our automatically generated CGRAs consume 16\% to 59\% less energy and 22\% to 39\% less area than a general-purpose CGRA. This work paves the way for creation of application domain-driven design-space exploration frameworks that automatically generate efficient programmable accelerators, with a much lower design effort for both hardware and compiler generation.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {33–45},
+numpages = {13},
+keywords = {CGRA, design space exploration, domain-specific accelerators, graph analysis, hardware-software co-design, processing elements, reconfigurable accelerators, subgraph},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582020,
+author = {Cheng, Lin and Ruttenberg, Max and Jung, Dai Cheol and Richmond, Dustin and Taylor, Michael and Oskin, Mark and Batten, Christopher},
+title = {Beyond Static Parallel Loops: Supporting Dynamic Task Parallelism on Manycore Architectures with Software-Managed Scratchpad Memories},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582020},
+doi = {10.1145/3582016.3582020},
+abstract = {Manycore architectures integrate hundreds of cores on a single chip by using simple cores and simple memory systems usually based on software-managed scratchpad memories (SPMs). However, such architectures are notoriously challenging to program, since the programmers need to manually manage all aspects of data movement and synchronization for both correctness and performance. We argue that this manycore programmability challenge is one of the key barriers to achieving the promise of manycore architectures. At the same time, the dynamic task parallel programming model is enjoying considerable success in addressing the programmability challenge of multi-core processors with tens of complex cores and hardware cache coherence. Conventional wisdom suggests a work-stealing runtime, which forms the core of most dynamic task parallel programming models, is ill-suited for manycore architectures. In this work, we demonstrate that a work-stealing runtime is not just feasible on manycore architectures with SPMs, but such a runtime can also significantly improve the performance of irregular workloads when executing on these architectures. We also explore three optimizations that allow the runtime to leverage unused SPM space for further performance benefit. Our dynamic task parallel programming framework achieves 1.2–28.5\texttimes{} speedup on workloads that benefit from our techniques, and only induces minimal overhead for workloads that do not.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {46–58},
+numpages = {13},
+keywords = {Manycore architecture, fine-grained threading, load-balancing, parallel programming, scratchpad memory},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582030,
+author = {Hua, Fei and Jin, Yuwei and Chen, Yanhao and Vittal, Suhas and Krsulich, Kevin and Bishop, Lev S. and Lapeyre, John and Javadi-Abhari, Ali and Zhang, Eddy Z.},
+title = {CaQR: A Compiler-Assisted Approach for Qubit Reuse through Dynamic Circuit},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582030},
+doi = {10.1145/3582016.3582030},
+abstract = {Quantum measurement is important to quantum computing as it extracts out the outcome of the circuit at the end of the computation. Previously, all measurements have to be done at the end of the circuit. Otherwise, it will incur significant errors. But it is not the case now. Recently IBM starts supporting dynamic circuit through hardware (instead of software by simulator). With mid-circuit hardware measurement, we can improve circuit efficacy and fidelity from three aspects: (a) reduced qubit usage, (b) reduced swap insertion, and (c) improved fidelity. We demonstrate this using real-world applications Bernstein Verizani on real hardware and show that circuit resource usage can be improved by 60\%, and circuit fidelity can be improved by 15\%. We design a compiler-assisted tool that can find and exploit the tradeoff between qubit reuse, fidelity, gate count, and circuit duration. We also developed a method for identifying whether qubit reuse will be beneficial for a given application. We evaluated our method on a representative set of important applications. We can reduce resource usage by up to 80\% and improve circuit fidelity by up to 20\%.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {59–71},
+numpages = {13},
+keywords = {circuit fidelity, mid-circuit measurement, qubit reuse, qubit usage},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582036,
+author = {Gao, Xiangyu and Raghunathan, Divya and Fang, Ruijie and Wang, Tao and Zhu, Xiaotong and Sivaraman, Anirudh and Narayana, Srinivas and Gupta, Aarti},
+title = {CaT: A Solver-Aided Compiler for Packet-Processing Pipelines},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582036},
+doi = {10.1145/3582016.3582036},
+abstract = {Compiling high-level programs to high-speed packet-processing pipelines is a challenging combinatorial optimization problem. The compiler must configure the pipeline’s resources to match the semantics of the program’s high-level specification, while packing all of the program’s computation into the pipeline’s limited resources. State of the art approaches tackle individual aspects of this problem. Yet, they miss opportunities to produce globally high-quality outcomes within reasonable compilation times.   We develop a framework to decompose the compilation problem for such pipelines into three phases—making extensive use of solver engines (e.g., ILP, SMT, and program synthesis) to simplify the development of these phases. Transformation rewrites programs to use more abundant pipeline resources, avoiding scarce ones. Synthesis breaks complex transactional code into configurations of pipelined compute units. Allocation maps the program’s compute and memory to the pipeline’s hardware resources.   We prototype these ideas in a compiler, CaT, which targets (1) the Tofino programmable switch pipeline and (2) Menshen, a cycle-accurate simulator of a Verilog description of the RMT pipeline. CaT can handle programs that existing compilers cannot currently run on pipelines and generates code faster than existing compilers, where the generated code uses fewer pipeline resources.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {72–88},
+numpages = {17},
+keywords = {Programmable switches, code generation, integer linear programming, packet processing pipelines, program synthesis},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7592970,
+author = {Gao, Xiangyu and Raghunathan, Divya and Fang, Ruijie and Wang, Tao and Zhu, Xiaotong and Sivaraman, Anirudh and Narayana, Srinivas and Gupta, Aarti},
+title = {Reproduction Package for Article CaT: A Solver-Aided Compiler for Packet-Processing Pipelines},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7592970},
+abstract = {
+    <p>This is the artifact evaluation part for the CaT compiler, proposed in our paper. The instruction helps reproduce the results from all tables and figures in IMPLEMENTATION AND EVALUATION section.</p>
+
+},
+keywords = {code generation, integer linear programming, packet processing pipelines, program synthesis, Programmable switches}
+}
+
+@inproceedings{10.1145/3582016.3582065,
+author = {Garimella, Karthik and Ghodsi, Zahra and Jha, Nandan Kumar and Garg, Siddharth and Reagen, Brandon},
+title = {Characterizing and Optimizing End-to-End Systems for Private Inference},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582065},
+doi = {10.1145/3582016.3582065},
+abstract = {In two-party machine learning prediction services, the client’s goal is to query a remote server’s trained machine learning model to perform neural network inference in some application domain. However, sensitive information can be obtained during this process by either the client or the server, leading to potential collection, unauthorized secondary use, and inappropriate access to personal information. These security concerns have given rise to Private Inference (PI), in which both the client’s personal data and the server’s trained model are kept confidential. State-of-the-art PI protocols consist of a pre-processing or offline phase and an online phase that combine several cryptographic primitives: Homomorphic Encryption (HE), Secret Sharing (SS), Garbled Circuits (GC), and Oblivious Transfer (OT). Despite the need and recent performance improvements, PI remains largely arcane today and is too slow for practical use. This paper addresses PI’s shortcomings with a detailed characterization of a standard high-performance protocol to build foundational knowledge and intuition in the systems community. Our characterization pinpoints all sources of inefficiency – compute, communication, and storage. In contrast to prior work, we consider inference request arrival rates rather than studying individual inferences in isolation and we find that the pre-processing phase cannot be ignored and is often incurred online as there is insufficient downtime to hide pre-compute latency. Finally, we leverage insights from our characterization and propose three optimizations to address the storage (Client-Garbler), computation (layer-parallel HE), and communication (wireless slot allocation) overheads. Compared to the state-of-the-art PI protocol, these optimizations provide a total PI speedup of 1.8 \texttimes{} with the ability to sustain inference requests up to a 2.24 \texttimes{} greater rate. Looking ahead, we conclude our paper with an analysis of future research innovations and their effects and improvements on PI latency.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {89–104},
+numpages = {16},
+keywords = {cryptography, machine learning, private inference protocols, systems for machine learning},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7633678,
+author = {Garimella, Karthik and Ghodsi, Zahra and Jha, Nandan Kumar and Garg, Siddharth and Reagen, Brandon},
+title = {Source Code for "Characterizing and Optimizing End-to-End Systems for Private Inference"},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7633678},
+abstract = {
+    <p>We open source our private inference simulator at the following GitHub repo: <a href="https://github.com/kvgarimella/characterizing-private-inference">https://github.com/kvgarimella/characterizing-private-inference</a>. We construct a model of a system for private inference and a simulator using Simpy to explore and evaluate tradeoffs under different system conditions. We model a single-client, single-server setting where inferences are queued in a FIFO manner and are generated by sampling from a Poisson distribution.</p>
+<p>The repository itself contains four high-level directories. The directory <code>garbled_circuits</code> contains the raw data for benchmarking ReLU Garbling and Evaluation on an Intel Atom Z8350 embedded device (1.92GHz, 4 cores, 2GB RAM) and an AMD EPYC 7502 server (2.5GHz, 32 cores, 256GB RAM). These two devices represent our client and server, respectively. Next, the directory <code>layer_parallel_HE</code> contains our code and the raw data for applying layer-parallelism to linear layer homomorphic evaluations. The directory <code>simulator</code> contains our private inference simulator. Finally, <code>artifact</code> contains scripts to replicate key figures in our paper.</p>
+
+},
+keywords = {cryptography, machine learning, private inference protocols, systems for machine learning}
+}
+
+@inproceedings{10.1145/3582016.3582059,
+author = {Wei, Tianrui and Turtayeva, Nazerke and Orenes-Vera, Marcelo and Lonkar, Omkar and Balkind, Jonathan},
+title = {Cohort: Software-Oriented Acceleration for Heterogeneous SoCs},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582059},
+doi = {10.1145/3582016.3582059},
+abstract = {Philosophically, our approaches to acceleration focus on the extreme. We must optimise accelerators to the maximum, leaving software to fix any hardware-software mismatches. Today’s software abstractions for programming accelerators leak hardware details, requiring changes to data formats and manual memory and coherence management, among other issues. This harms generality and requires deep hardware knowledge to efficiently program accelerators, a state which we consider hardware-oriented. This paper proposes Software-Oriented Acceleration (SOA), where software uses existing abstractions, like software shared-memory queues, to interact with accelerators. We introduce the Cohort engine which exploits these queues’ standard semantics to efficiently connect producers and consumers in software with accelerators with minimal application changes. Accelerators are even usable in chains which can be runtime reconfigured by software. Cohort significantly reduces the burden to add new accelerators while maintaining system-level guarantees. We implement a Cohort FPGA prototype which supports SOA applications running on multicore Linux. Our evaluation shows speedups for Cohort over traditional approaches ranging from 1.83\texttimes{} to 8.38\texttimes{} over MMIO, and from 1.69\texttimes{} to 11.24\texttimes{} for DMA baselines. Our software-oriented batching optimisations within Cohort also improve performance from 2.32\texttimes{} to 8.10\texttimes{}, demonstrating the power of SOA.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {105–117},
+numpages = {13},
+keywords = {accelerators, heterogeneous systems, programming models, shared memory},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582057,
+author = {Malik, Raghav and Sheth, Kabir and Kulkarni, Milind},
+title = {Coyote: A Compiler for Vectorizing Encrypted Arithmetic Circuits},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582057},
+doi = {10.1145/3582016.3582057},
+abstract = {Fully Homomorphic Encryption (FHE) is a scheme that allows a computational circuit to operate on encrypted data and produce a result that, when decrypted, yields the result of the unencrypted computation. While FHE enables privacy-preserving computation, it is extremely slow. However, the mathematical formulation of FHE supports a SIMD-like execution style, so recent work has turned to vectorization to recover some of the missing performance. Unfortunately, these approaches do not work well for arbitrary computations: they do not account for the high cost of rotating vector operands to allow data to be used in multiple operations. Hence, the cost of rotation can outweigh the benefits of vectorization.    This paper presents Coyote, a new approach to vectorizing encrypted circuits that specifically aims to optimize the use of rotations.   It tackles the scheduling and data layout problems simultaneously, operating at the level of subcircuits that can be vectorized without incurring excessive data movement overhead.   By jointly searching for good vectorization and lane placement, Coyote finds schedules that avoid sacrificing one for the other.   This paper shows that Coyote is effective at vectorizing computational kernels while minimizing rotations, thus finding efficient vector schedules and smart rotation schemes to achieve substantial speedups.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {118–133},
+numpages = {16},
+keywords = {Arithmetic Circuits, Homomorphic Encryption, Vectorization},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7591603,
+author = {Malik, Raghav and Sheth, Kabir and Kulkarni, Milind},
+title = {Coyote: A Compiler for Vectorizing Encrypted Arithmetic Circuits (artifact)},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7591603},
+abstract = {
+    <p>This artifact contains everything necessary to replicate the results of the paper, including: * An implementation of the compiler described in the paper * A backend test harness for profiling vectorized code * Implementations of all benchmarks used in the evaluation * Scripts necessary to automate the process of compiling, running, and collecting data from the benchmarks.</p>
+
+},
+keywords = {arithmetic circuits, Homomorphic encryption, vectorization}
+}
+
+@inproceedings{10.1145/3582016.3582017,
+author = {Hanson, Edward and Horton, Mark and Li, Hai (Helen) and Chen, Yiran},
+title = {DefT: Boosting Scalability of Deformable Convolution Operations on GPUs},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582017},
+doi = {10.1145/3582016.3582017},
+abstract = {Deformable Convolutional Networks (DCN) have been proposed as a powerful tool to boost the representation power of Convolutional Neural Networks (CNN) in computer vision tasks via adaptive sampling of the input feature map. Much like vision transformers, DCNs utilize a more flexible inductive bias than standard CNNs and have also been shown to improve performance of particular models. For example, drop-in DCN layers were shown to increase the AP score of Mask RCNN by 10.6 points while introducing only 1\% additional parameters and FLOPs, improving the state-of-the-art model at the time of publication. However, despite evidence that more DCN layers placed earlier in the network can further improve performance, we have not seen this trend continue with further scaling of deformations in CNNs, unlike for vision transformers. Benchmarking experiments show that a realistically sized DCN layer (64H\texttimes{}64W, 64 in-out channel) incurs a 4\texttimes{} slowdown on a GPU platform, discouraging the more ubiquitous use of deformations in CNNs. These slowdowns are caused by the irregular input-dependent access patterns of the bilinear interpolation operator, which has a disproportionately low arithmetic intensity (AI) compared to the rest of the DCN. To address the disproportionate slowdown of DCNs and enable their expanded use in CNNs, we propose DefT, a series of workload-aware optimizations for DCN kernels. DefT identifies performance bottlenecks in DCNs and fuses specific operators that are observed to limit DCN AI. Our approach also uses statistical information of DCN workloads to adapt the workload tiling to the DCN layer dimensions, minimizing costly out-of-boundary input accesses. Experimental results show that DefT mitigates up to half of DCN slowdown over the current-art PyTorch implementation. This translates to a layerwise speedup of up to 134\% and a reduction of normalized training time of 46\% on a fully DCN-enabled ResNet model.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {134–146},
+numpages = {13},
+keywords = {AI acceleration, GPU systems, compiler techniques and optimizations, dynamic models, neural networks},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582027,
+author = {Shu, Junyi and Zhu, Ruidong and Ma, Yun and Huang, Gang and Mei, Hong and Liu, Xuanzhe and Jin, Xin},
+title = {Disaggregated RAID Storage in Modern Datacenters},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582027},
+doi = {10.1145/3582016.3582027},
+abstract = {RAID (Redundant Array of Independent Disks) has been widely adopted for decades, as it provides enhanced throughput and redundancy beyond what a single disk can offer. Today, enabled by fast datacenter networks, accessing remote block devices with acceptable overhead (i.e. disaggregated storage) becomes a reality (e.g., for serverless applications). Combining RAID with remote storage can provide the same benefits while creating better fault tolerance and flexibility than its monolithic counterparts. The key challenge of disaggregated RAID is to handle extra network traffic generated by RAID, which can consume a vast amount of NIC bandwidth. We present dRAID, a disaggregated RAID system that achieves near-optimal read and write throughput. dRAID exploits peer-to-peer disaggregated data access to reduce bandwidth consumption in both normal and degraded states. It employs non-blocking multi-stage writes to maximize inter-node parallelism, and applies pipelined I/O processing to maximize inter-device parallelism. We introduce bandwidth-aware reconstruction for better load balancing. We show that dRAID provides up to 3\texttimes{} bandwidth improvement. The results on a lightweight object store show that dRAID brings 1.5\texttimes{}-2.35\texttimes{} throughput improvement on various workloads.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {147–163},
+numpages = {17},
+keywords = {Disaggregated Storage, NVMe-oF, RAID, RDMA},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7598726,
+author = {Shu, Junyi and Zhu, Ruidong and Ma, Yun and Huang, Gang and Mei, Hong and Liu, Xuanzhe and Jin, Xin},
+title = {Reproduction Package for Article 'Disaggregated RAID Storage in Modern Datacenters'},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7598726},
+abstract = {
+    <p>We provide the artifact for the ASPLOS 2023 paper “Disaggregated RAID Storage in Modern Datacenters”, including:</p>
+<ul>
+<li>The main implementation of dRAID.</li>
+<li>CloudLab testbed setup scripts.</li>
+<li>FIO experiment scripts (Sec 9.2-9.5), which get the main results of the paper.</li>
+<li>YCSB experiment scripts (Sec 9.6).</li>
+</ul>
+
+},
+keywords = {Disaggregated Storage, NVMe-oF, RAID, RDMA}
+}
+
+@inproceedings{10.1145/3582016.3582044,
+author = {Lin, Mao and Zhou, Keren and Su, Pengfei},
+title = {DrGPUM: Guiding Memory Optimization for GPU-Accelerated Applications},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582044},
+doi = {10.1145/3582016.3582044},
+abstract = {GPUs are widely used in today’s computing platforms to accelerate applications in various domains. However, scarce GPU memory resources are often the dominant limiting factor in strengthening the applicability of GPU computing. In this paper, we propose DrGPUM, the first profiler that systematically investigates patterns of memory inefficiencies in GPU-accelerated applications. The strength of DrGPUM, when compared to a large class of existing GPU profilers, is its ability to (1) correlate problematic memory usage with data objects and GPU APIs, (2) identify and categorize object-level and intra-object memory inefficiencies, and (3) provide rich insights to guide memory optimization. DrGPUM works on fully-optimized and unmodified GPU binaries, requires no modification to hardware or OS, and features a user-friendly GUI, which makes it attractive to use in production. Our evaluation with well-known benchmarks and applications shows DrGPUM’s effectiveness in identifying memory inefficiencies with moderate overhead. Eliminating these inefficiencies requires less than nine source lines of code modifications and yields significant reductions in peak memory usage (up to 83\%) and/or significant performance improvements (up to 2.48\texttimes{}). Our optimization patches have been confirmed by application developers and upstreamed to their repositories.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {164–178},
+numpages = {15},
+keywords = {CUDA, GPU profilers, GPUs, Memory management},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7588406,
+author = {Lin, Mao and Zhou, Keren and Su, Pengfei},
+title = {Reproduction Package for Article 'DrGPUM: Guiding Memory Optimization for GPU-Accelerated Applications'},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7588406},
+abstract = {
+    <p>The artifact includes DrGPUM and benchmarks, along with instructions to reproduce the results shown in the paper.</p>
+
+},
+keywords = {CUDA, GPU profilers, GPUs, Memory management}
+}
+
+@inproceedings{10.1145/3582016.3582052,
+author = {Raina, Ashwini and Lu, Jianan and Cidon, Asaf and Freedman, Michael J.},
+title = {Efficient Compactions between Storage Tiers with PrismDB},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582052},
+doi = {10.1145/3582016.3582052},
+abstract = {In recent years, emerging storage hardware technologies have focused on divergent goals: better performance or lower cost-per-bit. Correspondingly, data systems that employ these technologies are typically optimized either to be fast (but expensive) or cheap (but slow). We take a different approach: by architecting a storage engine to natively utilize two tiers of fast and low-cost storage technologies, we can achieve a Pareto efficient balance between performance and cost-per-bit. This paper presents the design and implementation of PrismDB, a novel key-value store that exploits two extreme ends of the spectrum of modern NVMe storage technologies (3D XPoint and QLC NAND) simultaneously. Our key contribution is how to efficiently migrate and compact data between two different storage tiers. Inspired by the classic cost-benefit analysis of log cleaning, we develop a new algorithm for multi-tiered storage compaction that balances the benefit of reclaiming space for hot objects in fast storage with the cost of compaction I/O in slow storage. Compared to the standard use of RocksDB on flash in datacenters today, PrismDB’s average throughput on tiered storage is 3.3\texttimes{} faster, its read tail latency is 2\texttimes{} better, and it is 5\texttimes{} more durable using equivalently-priced hardware.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {179–193},
+numpages = {15},
+keywords = {PrismDB, compaction, key-value store, storage, tiered},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7668541,
+author = {Raina, Ashwini and Lu, Jianan and Cidon, Asaf and Freedman, Michael J.},
+title = {ASPLOS 2023 Artifact for "Efficient Compactions Between Storage Tiers with PrismDB"},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7668541},
+abstract = {
+    <p>This artifact consists of the source code of PrismDB and the necessary scripts to reproduce the evaluation of the paper “Efficient Compactions Between Storage Tiers with PrismDB”, ASPLOS 23.</p>
+<p>NOTE: Source code for the baselines rocksdb and mutant is not provided here. For rocksdb baseline, please refer to its official documentation on GitHub. For mutant baseline please follow the mutant SoCC paper.</p>
+
+},
+keywords = {compaction, key-value store, PrismDB, storage, tiered}
+}
+
+@inproceedings{10.1145/3582016.3582054,
+author = {Ma, Teng and Chen, Shanpei and Wu, Yihao and Deng, Erwei and Song, Zhuo and Chen, Quan and Guo, Minyi},
+title = {Efficient Scheduler Live Update for Linux Kernel with Modularization},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582054},
+doi = {10.1145/3582016.3582054},
+abstract = {The scheduler is a critical component of the operating system (OS)and is tightly coupled with Linux. Production-level clouds often host various workloads, and these workloads require different schedulers to achieve high performance. Thus the capability of updating the scheduler lively without rebooting the OS is crucial for the production environments. However, emerging live update techniques only apply for the fine-grained function-level updates or require extra constraints such as microkernel. It fails to update the entire heavy process scheduler subsystem lively.   We therefore propose Plugsched to enable scheduler live update, and there are two key novelties. First of all, with the idea of modularization, Plugsched decouples the scheduler from the Linux kernel to be an independent module; Secondly, Plugsched uses the data rebuild technique to migrate the state from the old scheduler to the new one. This scheme can be directly applied to the Linux kernel scheduler in production environments without modifying kernel code. Unlike current function-level live update solutions, Plugsched allows developers to update the entire scheduler subsystem and modify internal scheduler data via the rebuilding technique. Moreover, an optimized stack inspection method is introduced to further effectively reduce the downtime due to the update. Experimental and production results show that Plugsched can effectively update kernel scheduler lively and the downtime is less than tens of milliseconds.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {194–207},
+numpages = {14},
+keywords = {Linux scheduler, kernel, live update},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.6084/m9.figshare.22029956.v1,
+author = {Ma, Teng and Chen, Shanpei and Wu, Yihao and Deng, Erwei and Song, Zhuo and Chen, Quan and Guo, Minyi},
+title = {Reproduction Package for Paper "Efficient Scheduler Live Update for Linux Kernel with Modularization"},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.6084/m9.figshare.22029956.v1},
+abstract = {
+    <p>Plugsched is a SDK that enables live updating the Linux kernel scheduler. It can dynamically replace the scheduler subsystem without rebooting the system or applications, with milliseconds downtime. Plugsched can help developers to dynamically add, delete and modify kernel scheduling features in the production environment, which allows customizing the scheduler for different specific scenarios.</p>
+
+},
+keywords = {kernel, Linux scheduler, live update}
+}
+
+@inproceedings{10.1145/3582016.3582035,
+author = {Rivitti, Alessandro and Bifulco, Roberto and Tulumello, Angelo and Bonola, Marco and Pontarelli, Salvatore},
+title = {eHDL: Turning eBPF/XDP Programs into Hardware Designs for the NIC},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582035},
+doi = {10.1145/3582016.3582035},
+abstract = {Scaling network packet processing performance to meet the increasing speed of network ports requires software programs to carefully leverage the network devices’ hardware features. This is a complex task for network programmers, who need to learn and deal with the heterogeneity of device architectures, and re-think their software to leverage them. In this paper we make first steps to reverse this design process, enabling the automatic generation of tailored hardware designs starting from a network packet processing program. We introduce eHDL, a high-level synthesis tool that automatically generates hardware pipelines from unmodified Linux’s eBPF/XDP programs. eHDL is designed to enable software developers to directly define and implement the hardware functions they need in the NIC. We prototype eHDL targeting a Xilinx Alveo U50 FPGA NIC, and evaluate it with a set of 5 eBPF/XDP programs. Our results show that the generated pipelines are efficient in terms of required hardware resources, using only 6.5\%-13.3\% of the FPGA, and always achieve the line rate forwarding throughput with about 1 microsecond of per-packet forwarding latency. Compared to other network-specific high-level synthesis tool, eHDL enables software programmers with no hardware expertise to describe stateful functions that operate on the entire packet data. Compared to alternative processor-based solutions that perform eBFP/XDP offloading to a NIC, eHDL provides 10-100x higher throughput.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {208–223},
+numpages = {16},
+keywords = {FPGA, HLS, Hardware Offloading, Network Programming, eBPF},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582042,
+author = {Yasukata, Kenichi and Tazaki, Hajime and Aublin, Pierre-Louis},
+title = {Exit-Less, Isolated, and Shared Access for Virtual Machines},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582042},
+doi = {10.1145/3582016.3582042},
+abstract = {This paper explores Exit-Less, Isolated, and Shared Access (ELISA), a novel in-memory object sharing scheme for Virtual Machines (VMs).   ELISA has the isolation advantage over the shared memory directly exposed to guest VMs while its overhead is smaller than that of host-interposition relying on the costly exit from the VM context.   In a nutshell, ELISA isolates shared in-memory objects by Extended Page Table (EPT) separation, and a guest VM accesses them by switching the EPT context using VMFUNC, a low-overhead CPU instruction of Intel CPUs.   Our experiment shows that the overhead of ELISA is 3.5 times smaller than that of VMCALL-oriented host-interposition.   We demonstrate the benefits of ELISA through two use cases; by replacing VMCALL with ELISA, a VM networking system and an in-memory key-value store exhibit 163\% and 64\% higher performance respectively.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {224–237},
+numpages = {14},
+keywords = {Isolation, Shared Memory, Virtualization},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582053,
+author = {Li, Shaohua and Su, Zhendong},
+title = {Finding Unstable Code via Compiler-Driven Differential Testing},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582053},
+doi = {10.1145/3582016.3582053},
+abstract = {Unstable code refers to code that has inconsistent or unstable run-time semantics due to undefined behavior (UB) in the program. Compilers exploit UB by assuming that UB never occurs, which allows them to generate efficient but potentially semantically inconsistent binaries. Practitioners have put great research and engineering effort into designing dynamic tools such as sanitizers for frequently occurring UBs. However, it remains a big challenge how to detect UBs that are beyond the reach of current techniques. In this paper, we introduce compiler-driven differential testing (CompDiff), a simple yet effective approach for finding unstable code in C/C++ programs. CompDiff relies on the fact that when compiling unstable code, different compiler implementations may produce semantically inconsistent binaries. Our main approach is to examine the outputs of different binaries on the same input. Discrepancies in outputs may signify the existence of unstable code. To detect unstable code in real-world programs, we also integrate CompDiff into AFL++, the most widely-used and actively-maintained general-purpose fuzzer. Despite its simplicity, CompDiff is effective in practice: on the Juliet benchmark programs, CompDiff uniquely detected 1,409 bugs compared to sanitizers; on 23 popular open-source C/C++ projects, CompDiff-AFL++ uncovered 78 new bugs, 52 of which have been fixed by developers and 36 cannot be detected by sanitizers. Our evaluation also reveals the fact that CompDiff is not designed to replace current UB detectors but to complement them.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {238–251},
+numpages = {14},
+keywords = {compiler, undefined behavior, unstable code},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7612226,
+author = {Li, Shaohua and Su, Zhendong},
+title = {Artifact for "Finding Unstable Code via Compiler-Driven Differential Testing"},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7612226},
+abstract = {
+    <p>The artifact contains the code and datasets we used for our experiments, as well as scripts to generate the numbers, tables, and figures of our evaluation. Specifically, it includes (a) the Juliet testsuite used for evaluation; (b) scripts for running CompDiff, sanitizers, Coverity, CppCheck, and Infer on the Juliet testsuite; (c) scripts for reporting detection results of these tools; (d) scripts for generating bug statistics on 23 real-world programs; and (e) scripts for fuzzing a target with CompDiff-AFL++. Everything is packaged and pre-built as a docker image. A standard X86 Linux machine running docker is necessary to evaluate this artifact.</p>
+
+},
+keywords = {compiler, fuzzing, undefined behavior, Unstable code}
+}
+
+@inproceedings{10.1145/3582016.3582069,
+author = {Mu\~{n}oz-Mart\'{\i}nez, Francisco and Garg, Raveesh and Pellauer, Michael and Abell\'{a}n, Jos\'{e} L. and Acacio, Manuel E. and Krishna, Tushar},
+title = {Flexagon: A Multi-dataflow Sparse-Sparse Matrix Multiplication Accelerator for Efficient DNN Processing},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582069},
+doi = {10.1145/3582016.3582069},
+abstract = {Sparsity is a growing trend in modern DNN models.    Existing Sparse-Sparse Matrix Multiplication (SpMSpM) accelerators are tailored to a particular SpMSpM dataflow (i.e., Inner Product, Outer Product or Gustavson's), which determines their overall efficiency. We demonstrate that this static decision inherently results in a suboptimal dynamic solution. This is because different SpMSpM kernels show varying features (i.e., dimensions, sparsity pattern, sparsity degree), which makes each dataflow better suited to different data sets.    In this work we present Flexagon, the first SpMSpM reconfigurable accelerator that is capable of performing SpMSpM computation by using the particular dataflow that best matches each case. Flexagon accelerator is based on a novel Merger-Reduction Network (MRN) that unifies the concept of reducing and merging in the same substrate, increasing efficiency. Additionally, Flexagon also includes a new L1 on-chip memory organization, specifically tailored to the different access characteristics of the input and output compressed matrices. Using detailed cycle-level simulation of contemporary DNN models from a variety of application domains, we show that Flexagon achieves average performance benefits of 4.59x, 1.71x, and 1.35x with respect to the state-of-the-art SIGMA-like, SpArch-like and GAMMA-like accelerators (265\%, 67\%, and 18\%, respectively, in terms of average performance/area efficiency).},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {252–265},
+numpages = {14},
+keywords = {Dataflow, Deep Neural Network Accelerators, Memory Hierarchy, Merger-Reduction Network, Sparse-Sparse Matrix Multiplication},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582023,
+author = {Narayan, Shravan and Garfinkel, Tal and Taram, Mohammadkazem and Rudek, Joey and Moghimi, Daniel and Johnson, Evan and Fallin, Chris and Vahldiek-Oberwagner, Anjo and LeMay, Michael and Sahita, Ravi and Tullsen, Dean and Stefan, Deian},
+title = {Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582023},
+doi = {10.1145/3582016.3582023},
+abstract = {We introduce Hardware-assisted Fault Isolation (HFI), a simple extension to   existing processors to support secure, flexible, and efficient in-process   isolation. HFI addresses the limitations of existing software-based isolation   (SFI) systems including: runtime overheads, limited scalability, vulnerability   to Spectre attacks, and limited compatibility with existing code. HFI can   seamlessly integrate with current SFI systems (e.g., WebAssembly), or directly   sandbox unmodified native binaries. To ease adoption, HFI relies only on   incremental changes to the data and control path of existing high-performance   processors. We evaluate HFI for x86-64 using the gem5 simulator and   compiler-based emulation on a mix of real and synthetic workloads.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {266–281},
+numpages = {16},
+keywords = {SFI, Wasm, hardware-based isolation, sandboxing},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582029,
+author = {Ye, Haojie and Vedula, Sanketh and Chen, Yuhan and Yang, Yichen and Bronstein, Alex and Dreslinski, Ronald and Mudge, Trevor and Talati, Nishil},
+title = {GRACE: A Scalable Graph-Based Approach to Accelerating Recommendation Model Inference},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582029},
+doi = {10.1145/3582016.3582029},
+abstract = {The high memory bandwidth demand of sparse embedding layers continues to be a critical challenge in scaling the performance of recommendation models. While prior works have exploited heterogeneous memory system designs and partial embedding sum memoization techniques, they offer limited benefits. This is because prior designs either target a very small subset of embeddings to simplify their analysis or incur a high processing cost to account for all embeddings, which does not scale with the large sizes of modern embedding tables. This paper proposes GRACE-a lightweight and scalable graph-based algorithm-system co-design framework to significantly improve the embedding layer performance of recommendation models. GRACE proposes a novel Item Co-occurrence Graph (ICG) that scalably records item co-occurrences. GRACE then presents a new system-aware ICG clustering algorithm to find frequently accessed item combinations of arbitrary lengths to compute and memoize their partial sums. High-frequency partial sums are stored in a software-managed cache space to reduce memory traffic and improve the throughput of computing sparse features. We further present a cache data layout and low-cost address computation logic to efficiently lookup item embeddings and their partial sums. Our evaluation shows that GRACE significantly outperforms the state-of-the-art techniques SPACE and MERCI by 1.5x and 1.4x, respectively.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {282–301},
+numpages = {20},
+keywords = {Algorithm-System Co-Design, DLRM, Embedding Reduction},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7699872,
+author = {Ye, Haojie and Vedula, Sanketh and Chen, Yuhan and Yang, Yichen and Bronstein, Alex and Dreslinski, Ronald and Mudge, Trevor and Talati, Nishil},
+title = {Reproduction Package for Article "GRACE: A Scalable Graph-Based Approach To Accelerating Recommendation Model Inference"},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7699872},
+abstract = {
+    <p>Our paper “GRACE: A Scalable Graph-Based Approach To Accelerating Recommendation Model Inference” presents an algorithm-system co-design for improving the performance of the embedding layer in Deep Learning Recommendation Models (DLRMs). This artifact reproduces some of the main results of our paper. The performance results shown in the paper are machine-dependent. For example, Fig. 8, Fig. 13, and Fig. 14 show results on a CPU-GPU system, HBM-only system, and DIMM-HBM system with Processing-In-Memory (PIM) capability, respectively. To enable reproducing results in a timely fashion on different machines, we reproduce the main result of our paper that is machine-independent (Fig. 10). Specifically, our instructions include 1) how to download the input datasets, 2) how to pre-process these datasets, 3) how to reproduce the memory traffic reduction results for each baseline, and 4) how to generate a plot similar to Fig. 10. Expected result: compared to a no-reduction baseline, GRACE reduces the memory traffic by 1.7x.</p>
+
+},
+keywords = {Algorithm-System Co-Design, DLRM, Embedding Reduction}
+}
+
+@inproceedings{10.1145/3582016.3582018,
+author = {Hagedorn, Bastian and Fan, Bin and Chen, Hanfeng and Cecka, Cris and Garland, Michael and Grover, Vinod},
+title = {Graphene: An IR for Optimized Tensor Computations on GPUs},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582018},
+doi = {10.1145/3582016.3582018},
+abstract = {Modern GPUs accelerate computations and data movements of multi-dimensional tensors in hardware. However, expressing optimized tensor computations in software is extremely challenging even for experts. Languages like CUDA C++ are centered around flat buffers in one-dimensional memory and lack reasonable abstractions for multi-dimensional data and threads. Existing tensor IRs are not expressive enough to represent the complex data-to-thread mappings required by the GPU tensor instructions.   In this paper, we introduce Graphene, an intermediate representation (IR) for optimized tensor computations on GPUs. Graphene is a low-level target language for tensor compilers and performance experts while being closer to the domain of tensor computations than languages offering the same level of control such as CUDA C++ and PTX. In Graphene, multi-dimensional data and threads are represented as first-class tensors. Graphene’s tensors are hierarchically decomposable into tiles allowing to represent optimized tensor computations as mappings between data and thread tiles.   We evaluate Graphene using some of the most important tensor computations in deep learning today, including GEMM, Multi-Layer Perceptron (MLP), Layernorm, LSTM, and Fused Multi-Head Attention (FMHA). We show that Graphene is capable of expressing all optimizations required to achieve the same practical peak performance as existing library implementations. Fused kernels beyond library routines expressed in Graphene significantly improve the end-to-end inference performance of Transformer networks and match or outperform the performance of cuBLAS(Lt), cuDNN, and custom handwritten kernels.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {302–313},
+numpages = {12},
+keywords = {Code Generation, Compiler, Deep Learning, GPU, Intermediate Representation, Optimization, Tensor Computations},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582061,
+author = {Bi, Jun and Guo, Qi and Li, Xiaqing and Zhao, Yongwei and Wen, Yuanbo and Guo, Yuxuan and Zhou, Enshuai and Hu, Xing and Du, Zidong and Li, Ling and Chen, Huaping and Chen, Tianshi},
+title = {Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582061},
+doi = {10.1145/3582016.3582061},
+abstract = {Deep Learning Accelerators (DLAs) are effective to improve both performance and energy efficiency of compute-intensive deep learning algorithms. A flexible and portable mean to exploit DLAs is using high-performance software libraries with well-established APIs, which are typically either manually implemented or automatically generated by exploration-based compilation approaches. Though exploration-based approaches significantly reduce programming efforts, they fail to find optimal or near-optimal programs from a large but low-quality search space because the massive inherent constraints of DLAs cannot be accurately characterized.    In this paper, we propose Heron, a novel exploration-based approach, to efficiently generate high-performance libraries of DLAs. The key is to automatically (rather than manually) enforce massive sophisticated while accurate constraints through the entire program generation including constrained space generation and constrained space exploration. By conducting static analysis on compute, sophisticated constraints are automatically generated to properly characterize inherent constraints of DLAs, and thus greatly prune invalid program candidates to produce a high-quality constrained search space. To efficiently explore the resultant search space, we further propose a novel constraint-based genetic algorithm, which features that the evolutionary process is conducted on formulated constraint satisfactory problems instead of concrete solutions. Thus, the sophisticated constraints of the search space are strictly preserved during the entire exploration process.   We conduct extensive experiments on 3 representative DLAs, i.e., NVIDIA TensorCore, Intel DL Boost Acceleration, and TVM Versatile Tensor Accelerator. Experimental results demonstrate that Heron averagely achieves 2.71x speedup over four state-of-the-art automatic generation approaches. Also, compared to vendor-provided hand-tuned libraries, Heron achieves 2.00x speedup on average.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {314–328},
+numpages = {15},
+keywords = {code generation, compiler optimization, tensor computation},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7583399,
+author = {Bi, Jun and Guo, Qi and Li, Xiaqing and Zhao, Yongwei and Wen, Yuanbo and Guo, Yuxuan and Zhou, Enshuai and Hu, Xing and Du, Zidong and Li, Ling and Chen, Huaping and Chen, Tianshi},
+title = {Reproduction pakage for Heron},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7583399},
+abstract = {
+    <p>This artifact describes how to set up the compilation infrastructure of HERON and how to run the workloads described in Section 6.2. Concretely, this guide provides instructions to: • Set up the experimental environment of HERON. • Run experiments to demonstrate the optimization ability of HERON as shown in Figure 6, Figure 7, Figure 8, and Figure 10. • Visualization of the search spaces as shown in Figure 11. • Run experiments to demonstrate the effectiveness of CGA as shown in Figure 12 and Figure 13.</p>
+
+},
+keywords = {code generation, compiler optimization, tensor computation}
+}
+
+@inproceedings{10.1145/3582016.3582022,
+author = {Swamy, Tushar and Zulfiqar, Annus and Nardi, Luigi and Shahbaz, Muhammad and Olukotun, Kunle},
+title = {Homunculus: Auto-Generating Efficient Data-Plane ML Pipelines for Datacenter Networks},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582022},
+doi = {10.1145/3582016.3582022},
+abstract = {Support for Machine Learning (ML) applications in networking has significantly improved over the last decade. The availability of public datasets and programmable switching fabrics (including low-level languages to program them) presents a full-stack to the programmer for deploying in-network ML. However, the diversity of tools involved, coupled with complex optimization tasks of ML model design and hyperparameter tuning while complying with the network constraints (like throughput and latency), puts the onus on the network operator to be an expert in ML, network design, and programmable hardware.    We present Homunculus, a high-level framework that enables network operators to specify their ML requirements in a declarative rather than imperative way. Homunculus takes as input the training data and accompanying network and hardware constraints, and automatically generates and installs a suitable model onto the underlying switching target. It performs model design-space exploration, training, and platform code-generation as compiler stages, leaving network operators to focus on acquiring high-quality network data. Our evaluations on real-world ML applications show that Homunculus’s generated models achieve up to 12\% better F1 scores compared to hand-tuned alternatives, while operating within the resource limits of the underlying targets. We further demonstrate the high performance and increased reactivity (seconds to nanoseconds) of the generated models on emerging per-packet ML platforms to showcase Homunculus’s timely and practical significance.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {329–342},
+numpages = {14},
+keywords = {ML Compilers, Per-packet ML, Self-driving Networks},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.6084/m9.figshare.22081901.v1,
+author = {Swamy, Tushar and Zulfiqar, Annus and Nardi, Luigi and Shahbaz, Muhammad and Olukotun, Kunle},
+title = {Artifact for "Homunculus: Auto-Generating Efficient Data-Plane ML Pipelines for Datacenter Networks" - ASPLOS 2023},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.6084/m9.figshare.22081901.v1},
+abstract = {
+    <p>The artifact contains the source code for the titular Homunculus compiler, a backend for the Taurus ASIC switch architecture, as well as three representative applications. We used these applications to demonstrate the core results of our paper, i.e., how Homunculus-generated models outperform or match the hand-tuned baseline versions. We include applications for anomaly detection, traffic classification, and botnet detection. Homunculus also generates the appropriate hardware code for each of these applications to run on a Taurus switch architecture.</p>
+
+},
+keywords = {ML Compilers, Per-packet ML, Self-driving Networks}
+}
+
+@inproceedings{10.1145/3582016.3582049,
+author = {Li, Sheng and Andersen, Garrett and Chen, Tao and Cheng, Liqun and Grady, Julian and Huang, Da and Le, Quoc V. and Li, Andrew and Li, Xin and Li, Yang and Liang, Chen and Lu, Yifeng and Ni, Yun and Pang, Ruoming and Tan, Mingxing and Wicke, Martin and Wu, Gang and Zhu, Shengqi and Ranganathan, Parthasarathy and Jouppi, Norman P.},
+title = {Hyperscale Hardware Optimized Neural Architecture Search},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582049},
+doi = {10.1145/3582016.3582049},
+abstract = {Recent advances in machine learning have leveraged dramatic increases in computational power, a trend expected to continue in the future. This paper introduces the first Hyperscale Hardware Optimized Neural Architecture Search (H2O-NAS) to automatically design accurate and performant machine learning models tailored to the underlying hardware architecture. H2O-NAS consists of three key components: a new massively parallel “one-shot” search algorithm with intelligent weight sharing, which can scale to search spaces of O(10280) and handle large volumes of production traffic; hardware-optimized search spaces for diverse ML models on heterogeneous hardware; and a novel two-phase hybrid performance model and a multi-objective reward function optimized for large scale deployments. H2O-NAS has been implemented around state-of-the-art machine learning models (e.g. convolutional models, vision transformers, and deep learning recommendation models) and deployed at zettaflop scale in production. Our results demonstrate significant improvements in performance (22\% ∼ 56\%) and energy efficiency (17\% ∼25\%) at same or better quality. Our solution is designed for largescale deployment, streamlining privacy and security processes and reducing manual overhead. This facilitates a smooth and automated transition from research to production.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {343–358},
+numpages = {16},
+keywords = {Accelerator, Deep Learning, GPU, Hyperscale Hardware, Machine Learning, Neural Architecture Search, Pareto Optimization, TPU},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582032,
+author = {Wang, Zhengrong and Liu, Christopher and Arora, Aman and John, Lizy and Nowatzki, Tony},
+title = {Infinity Stream: Portable and Programmer-Friendly In-/Near-Memory Fusion},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582032},
+doi = {10.1145/3582016.3582032},
+abstract = {In-memory computing with large last-level caches is promising to dramatically alleviate data movement bottlenecks and expose massive bitline-level parallelization opportunities. However, key challenges from its unique execution model remain unsolved: automated parallelization, transparently orchestrating data transposition/alignment/broadcast for bit-serial logic, and mixing in-/near-memory computing. Most importantly, the solution should be programmer friendly and portable across platforms. Our key innovation is an execution model and intermediate representation (IR) that enables hybrid CPU-core, in-memory, and near-memory processing. Our IR is the tensor dataflow graph (tDFG), which is a unified representation of in-memory and near-memory computation. The tDFG exposes tensor-data structure information so that the hardware and runtime can automatically orchestrate data management for bitserial execution, including runtime data layout transformations. To enable microarchitecture portability, we use a two-phase, JIT-based compilation approach to dynamically lower the the tDFG to in-memory commands. Our design, infinity stream, is evaluated on a cycle-accurate simulator. Across data-processing workloads with fp32, it achieves 2.6\texttimes{} speedup and 75\% traffic reduction over a state-of-the-art near-memory computing technique, with 2.4\texttimes{} energy efficiency.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {359–375},
+numpages = {17},
+keywords = {In-Memory Computing, Near-Memory Computing, Programmer-Transparent Acceleration, Stream-Based ISAs},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582037,
+author = {Liu, Shuo and Wang, Qiaoling and Zhang, Junyi and Wu, Wenfei and Lin, Qinliang and Liu, Yao and Xu, Meng and Canini, Marco and Cheung, Ray C. C. and He, Jianfei},
+title = {In-Network Aggregation with Transport Transparency for Distributed Training},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582037},
+doi = {10.1145/3582016.3582037},
+abstract = {Recent In-Network Aggregation (INA) solutions offload the all-reduce operation onto network switches to accelerate and scale distributed training (DT). On end hosts, these solutions build custom network stacks to replace the transport layer. The INA-oriented network stack cannot take advantage of the state-of-the-art performant transport layer implementation, and also causes complexity in system development and operation. We design a transport-transparent INA primitive named NetReduce for modern multi-rack data centers. NetReduce runs beneath the transport layer. The switch performs aggregation operations but preserves	data transmission connections. The host uses RoCE as its transport layer to deliver gradient messages and receive aggregation results. NetReduce achieves performance gains from both INA and RoCE: linear scalability, traffic reduction, and bandwidth freeing-up from INA — high throughput, low latency, and low CPU overhead from RoCE. For jobs spanning several multi-GPU machines, we also devise parallel all-reduce based on NetReduce to make use of intra-machine and inter-machine bandwidth efficiently. We prototype NetReduce on an FPGA board attached to an Ethernet switch. We compare NetReduce with existing programmable switch-based solutions and justify the FPGA-based design choice. We evaluate NetReduce’s performance by training typical Deep Neural Network models on single-GPU and multi-GPU testbeds. NetReduce inter-operates with the existing Ethernet transport layer, is training-framework friendly, accelerates network-intensive DT jobs effectively (e.g., 70\% for AlexNet), reduces CPU overheads (e.g., only one core for transmission), and is cost-effective (e.g., only 2.40\% more capital expense and 0.68\% more power consumption making 12.3-57.9\% more performance acceleration).},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {376–391},
+numpages = {16},
+keywords = {Distributed Training, FPGA, In-Network Aggregation, RDMA},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582043,
+author = {Denby, Bradley and Chintalapudi, Krishna and Chandra, Ranveer and Lucia, Brandon and Noghabi, Shadi},
+title = {Kodan: Addressing the Computational Bottleneck in Space},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582043},
+doi = {10.1145/3582016.3582043},
+abstract = {Decreasing costs of deploying space vehicles to low-Earth orbit have fostered an emergence of large constellations of satellites. However, high satellite velocities, large image data quantities, and brief ground station contacts create a data downlink challenge. Orbital edge computing (OEC), which filters data at the space edge, addresses this downlink bottleneck but shifts the challenge to the inelastic computational capabilities onboard satellites. In this work, we present Kodan: an OEC system that maximizes the utility of saturated satellite downlinks while mitigating the computational bottleneck. Kodan consists of two phases. A one-time transformation step uses a reference implementation of a satellite data analysis application, along with a representative dataset, to produce specialized ML models targeted for deployment to the space edge. After deployment to a target satellite, a runtime system dynamically selects the best specialized models for each data sample to maximize valuable data downlinked within the constraints of the computational bottleneck. By intelligently filtering low-value data and prioritizing high-value data for transmit via the saturated downlink, Kodan increases the data value density between 89 and 97 percent.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {392–403},
+numpages = {12},
+keywords = {IoT, edge computing, embedded systems},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582050,
+author = {Zhang, Chong and Li, Songfan and Song, Yihang and Meng, Qianhe and Chen, Minghua and Bai, YanXu and Lu, Li and Zhu, Hongzi},
+title = {LEGO: Empowering Chip-Level Functionality Plug-and-Play for Next-Generation IoT Devices},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582050},
+doi = {10.1145/3582016.3582050},
+abstract = {Versatile Internet of Things (IoT) applications call for re-configurable IoT devices that can easily extend new functionality on demand. However, the heterogeneity of functional chips brings difficulties in device customization, leading to inadequate flexibility. In this paper, we propose LEGO, a novel architecture for chip-level re-configurable IoT devices that supports plug-and-play with Commercial Off-The-Shelf (COTS) chips. To combat the heterogeneity of functional chips, we first design a novel Unified Chip Description Language (UCDL) with meta-operation and chip specifications to access various types of functional chips uniformly. Then, to achieve chips plug-and-play, we build up a novel platform and shift all chip control logic to the gateway, which makes IoT devices entirely decoupled from specific applications and does not need to make any changes when plugging in new functional chips. Finally, to handle communications overheads, we built up a novel orchestration architecture for gateway instructions, which minimizes instruction transmission frequency in remote chip control. We implement the prototype and conduct extensive evaluations with 100+ types of COTS functional chips. The results show that new functional chips can be automatically accessed by the system within 0.13 seconds after being plugged in, and only bringing 0.53 kb of communication load on average, demonstrating the efficacy of LEGO design.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {404–418},
+numpages = {15},
+keywords = {IoT architecture, description language, function plug-and-play},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582038,
+author = {Jin, Ouwen and Xing, Qinghui and Li, Ying and Deng, Shuiguang and He, Shuibing and Pan, Gang},
+title = {Mapping Very Large Scale Spiking Neuron Network to Neuromorphic Hardware},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582038},
+doi = {10.1145/3582016.3582038},
+abstract = {Neuromorphic hardware is a multi-core computer system specifically designed to run Spiking Neuron Network (SNN) applications. As the scale of neuromorphic hardware increases, it becomes very challenging to efficiently map a large SNN to hardware. In this paper, we proposed an efficient approach to map very large scale SNN applications to neuromorphic hardware, aiming to reduce energy consumption, spike latency, and on-chip network communication congestion. The approach consists of two steps. Firstly, it solves the initial placement using the Hilbert curve, a space-filling curve with unique properties that are particularly suitable for mapping SNNs. Secondly, the Force Directed (FD) algorithm is developed to optimize the initial placement. The FD algorithm formulates the connections of clusters as tension forces, thus converts the local optimization of placement as a force analysis problem. The proposed approach is evaluated with the scale of 4 billion neurons, which is more than 200 times larger than previous research. The results show that our approach achieves state-of-the-art performance, significantly exceeding existing approaches.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {419–432},
+numpages = {14},
+keywords = {Network on chip (NOC), Neuromorphic computing, Spiking Neural Networks (SNN), mapping},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582021,
+author = {Gosakan, Krishnan and Han, Jaehyun and Kuszmaul, William and Mubarek, Ibrahim N. and Mukherjee, Nirjhar and Sriram, Karthik and Tagliavini, Guido and West, Evan and Bender, Michael A. and Bhattacharjee, Abhishek and Conway, Alex and Farach-Colton, Martin and Gandhi, Jayneel and Johnson, Rob and Kannan, Sudarsun and Porter, Donald E.},
+title = {Mosaic Pages: Big TLB Reach with Small Pages},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582021},
+doi = {10.1145/3582016.3582021},
+abstract = {The TLB is increasingly a bottleneck for big data applications. In most designs, the number of TLB entries are highly constrained by latency requirements, and growing much more slowly than the working sets of applications. Many solutions to this problem, such as huge pages, perforated pages, or TLB coalescing, rely on physical contiguity for performance gains, yet the cost of defragmenting memory can easily nullify these gains. This paper introduces mosaic pages, which increase TLB reach by compressing multiple, discrete translations into one TLB entry.   Mosaic leverages virtual contiguity for locality, but does not use physical contiguity. Mosaic relies on recent advances in hashing theory to constrain memory mappings, in order to realize this physical address compression without reducing memory utilization or increasing swapping. This paper presents a full-system prototype of Mosaic, in gem5 and modified Linux. In simulation and with comparable hardware to a traditional design, mosaic reduces TLB misses in several workloads by 6-81\%. Our results show that Mosaic’s constraints on memory mappings do not harm performance, we never see conflicts before memory is 98\% full in our experiments — at which point, a traditional design would also likely swap. Once memory is over-committed, Mosaic swaps fewer pages than Linux in most cases. Finally, we present timing and area analysis for a verilog implementation of the hashing function required on the critical path for the TLB, and show that on a commercial 28nm CMOS process; the circuit runs at a maximum frequency of 4 GHz, indicating that a mosaic TLB is unlikely to affect clock frequency.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {433–448},
+numpages = {16},
+keywords = {TLB, address translation, hashing, paging, virtual memory},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7709303,
+author = {Gosakan, Krishnan and Han, Jaehyun and Kuszmaul, William and Mubarek, Ibrahim N. and Mukherjee, Nirjhar and Sriram, Karthik and Tagliavini, Guido and West, Evan and Bender, Michael A. and Bhattacharjee, Abhishek and Conway, Alex and Farach-Colton, Martin and Gandhi, Jayneel and Johnson, Rob and Kannan, Sudarsun and Porter, Donald E.},
+title = {Mosaic Pages: Big TLB Reach with Small Pages},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7709303},
+abstract = {
+    <p>There are three artifacts for this paper: a Gem5 model to reproduce Figure 4, a modified Linux kernel to reproduce Tables 3 and 4, and Verilog code to reproduce Table 5. The Linux artifact includes scripts to setup a KVM environment with Mosaic and vanilla Linux kernels. The artifact also includes scripts to run the Linux workloads in a VM and a script to generate tables.</p>
+
+},
+keywords = {address translation, gem5, hashing, linux, paging, TLB, verilog, virtual memory}
+}
+
+@inproceedings{10.1145/3582016.3582068,
+author = {Hsia, Samuel and Gupta, Udit and Acun, Bilge and Ardalani, Newsha and Zhong, Pan and Wei, Gu-Yeon and Brooks, David and Wu, Carole-Jean},
+title = {MP-Rec: Hardware-Software Co-design to Enable Multi-path Recommendation},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582068},
+doi = {10.1145/3582016.3582068},
+abstract = {Deep learning recommendation systems serve personalized content under diverse tail-latency targets and input-query loads. In order to do so, state-of-the-art recommendation models rely on terabyte-scale embedding tables to learn user preferences over large bodies of contents. The reliance on a fixed embedding representation of embedding tables not only imposes significant memory capacity and bandwidth requirements but also limits the scope of compatible system solutions. This paper challenges the assumption of fixed embedding representations by showing how synergies between embedding representations and hardware platforms can lead to improvements in both algorithmic- and system performance. Based on our characterization of various embedding representations, we propose a hybrid embedding representation that achieves higher quality embeddings at the cost of increased memory and compute requirements. To address the system performance challenges of the hybrid representation, we propose MP-Rec — a co-design technique that exploits heterogeneity and dynamic selection of embedding representations and underlying hardware platforms. On real system hardware, we demonstrate how matching custom accelerators, i.e., GPUs, TPUs, and IPUs, with compatible embedding representations can lead to 16.65\texttimes{} performance speedup. Additionally, in query-serving scenarios, MP-Rec achieves 2.49\texttimes{} and 3.76\texttimes{} higher correct prediction throughput and 0.19\% and 0.22\% better model quality on a CPU-GPU system for the Kaggle and Terabyte datasets, respectively.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {449–465},
+numpages = {17},
+keywords = {Deep Learning, Hardware-Software Co-Design, Recommender Systems},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582025,
+author = {Wang, Shuke and Zhang, Mingxing and Yang, Ke and Chen, Kang and Ma, Shaonan and Jiang, Jinlei and Wu, Yongwei},
+title = {NosWalker: A Decoupled Architecture for Out-of-Core Random Walk Processing},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582025},
+doi = {10.1145/3582016.3582025},
+abstract = {Out-of-core random walk system has recently attracted a lot of attention as an economical way to run billions of walkers over large graphs. However, existing out-of-core random walk systems are all built upon general out-of-core graph processing frameworks, and hence do not take advantage of the unique properties of random walk applications. Different from traditional graph analysis algorithms, the sampling process of random walk can be decoupled from the processing of the walkers. It enables the system to reserve only pre-sample results in memory, which are typically much smaller than the entire edge set. Moreover, in random walk, it is not the number of walkers but the number of steps moved per second that dominates the overall performance. Thus, with independent walkers, there is no need to process all the walkers simultaneously. In this paper, we present NosWalker, an out-of-core random walk system that replaces the graph oriented scheduling with a decoupled system architecture that provides walker oriented scheduling. NosWalker is able to adaptively generate walkers and flexibly adjust the distribution of reserved pre-sample results in memory. Instead of processing all the walkers at once, NosWalker only tries its best to keep a few walkers able to continuously move forward. Experimental results show that NosWalker can achieve up to two orders of magnitude speedup compared to state-of-the-art out-of-core random walk systems. In particular, NosWalker demonstrates superior performance when the memory capacity can only hold about 10\%-50\% of the graph data, which can be a common case when the user needs to run billions of walkers over large graphs.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {466–482},
+numpages = {17},
+keywords = {graph processing, out-of-core, random walk},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582046,
+author = {Zhang, Zhongcheng and Ou, Yan and Liu, Ying and Wang, Chenxi and Zhou, Yongbin and Wang, Xiaoyu and Zhang, Yuyang and Ouyang, Yucheng and Shan, Jiahao and Wang, Ying and Xue, Jingling and Cui, Huimin and Feng, Xiaobing},
+title = {Occamy: Elastically Sharing a SIMD Co-processor across Multiple CPU Cores},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582046},
+doi = {10.1145/3582016.3582046},
+abstract = {SIMD extensions are widely adopted in multi-core processors to exploit data-level parallelism. However, when co-running workloads on different cores, compute-intensive workloads cannot take advantage of the underutilized SIMD lanes allocated to memoryintensive workloads, reducing the overall performance. This paper proposes Occamy, a SIMD co-processor that can be shared by multiple CPU cores, so that their co-running workloads can spatially share its SIMD lanes. The key idea is to enable elastic spatial sharing by dynamically partitioning all the SIMD lanes across different workloads based on their phase behaviors, so that each workload may execute in variable-length SIMD mode. We also introduce an Occamy compiler to support such variable-length vectorization by analyzing such phase behaviors and generating the vectorized code that works with varying vector lengths. We demonstrate that Occamy can improve SIMD utilization, and consequently, performance over three representative SIMD architectures, with negligible chip area cost.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {483–497},
+numpages = {15},
+keywords = {Architecture, Auto Vectorization, Simd},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582055,
+author = {Ruan, Chaoyi and Zhang, Yingqiang and Bi, Chao and Ma, Xiaosong and Chen, Hao and Li, Feifei and Yang, Xinjun and Li, Cheng and Aboulnaga, Ashraf and Xu, Yinlong},
+title = {Persistent Memory Disaggregation for Cloud-Native Relational Databases},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582055},
+doi = {10.1145/3582016.3582055},
+abstract = {The recent emergence of commodity persistent memory (PM) hardware has altered the landscape of the storage hierarchy. It brings multi-fold benefits to database systems, with its large capacity, low latency, byte addressability, and persistence. However, PM has not been incorporated into the popular disaggregated architecture of cloud-native databases.    In this paper, we present PilotDB, a cloud-native relational database designed to fully utilize disaggregated PM resources. PilotDB possesses a new disaggregated DB architecture that allows compute nodes to be computation-heavy yet data-light, as enabled by large buffer pools and fast data persistence offered by remote PMs. We then propose a suite of novel mechanisms to facilitate RDMA-friendly remote PM accesses and minimize operations involving CPUs on the computation-light PM nodes. In particular, PilotDB adopts a novel compute-node-driven log organization that reduces network/PM bandwidth consumption and a log-pull design that enables fast, optimistic remote PM reads aggressively bypassing the remote PM node CPUs. Evaluation with both standard SQL benchmarks and a real-world production workload demonstrates that PilotDB (1) achieves excellent performance as compared to the best-performing baseline using local, high-end resources, (2) significantly outperforms a state-of-the-art DRAM-disaggregation system and the PM-disaggregation solution adapted from it, (3) enables faster failure recovery and cache buffer warm-up, and (4) offers superior cost-effectiveness.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {498–512},
+numpages = {15},
+keywords = {cloud-native database, memory disaggregation, persistent memory},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582056,
+author = {Norman, Chase and Godbole, Adwait and Manerkar, Yatin A.},
+title = {PipeSynth: Automated Synthesis of Microarchitectural Axioms for Memory Consistency},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582056},
+doi = {10.1145/3582016.3582056},
+abstract = {Formal verification can help ensure the correctness of today’s processors. However, such formal verification requires formal specifications of the processors being verified. Today, these specifications are mostly written by hand, which is tedious and error-prone. Furthermore, architects and hardware engineers generally do not have formal methods experience, making it even harder for them to write formal specifications. Existing methods for the automated synthesis of formal microarchitectural specifications utilise RTL implementations of processors for their synthesis, preventing their usage until RTL implementation of the processor has completed. This hampers the effectiveness of formal verification for processors, as catching design bugs pre-RTL can reduce verification overhead and overall development time. In response, we present PipeSynth, an automated formal methodology and tool for the synthesis of µspec microarchitectural ordering axioms from small example programs (litmus tests) and microarchitectural execution traces. PipeSynth helps architects automatically generate formal specifications for their microarchitectures before RTL is even written, enabling greater use of formal verification on today’s microarchitectures. We evaluate PipeSynth’s capability to synthesise single axioms and multiple axioms at the same time across four microarchitectures. Our evaluated microarchitectures include an out-of-order processor and one with a non-traditional coherence protocol. In single-axiom synthesis, PipeSynth is capable of synthesising replacement axioms for 42 out of 46 axioms from our evaluated microarchitectures in under 2 hours per axiom. When doing multi-axiom synthesis, we are able to synthesise an entire microarchitectural specification for the in-order Multi-V-scale processor in under 1 hour, and can synthesise at least 4 nontrivial axioms at the same time for our other microarchitectures.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {513–527},
+numpages = {15},
+keywords = {formal methods, memory consistency, microarchitecture, synthesis},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7592848,
+author = {Norman, Chase and Godbole, Adwait and Manerkar, Yatin A.},
+title = {Code for Article 'PipeSynth: Automated Synthesis of Microarchitectural Axioms for Memory Consistency'},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7592848},
+abstract = {
+    <p>This is the code for the ASPLOS 2023 paper ‘PipeSynth: Automated Synthesis of Microarchitectural Axioms for Memory Consistency’.</p>
+
+},
+keywords = {formal methods, memory consistency, microarchitecture, synthesis}
+}
+
+@inproceedings{10.1145/3582016.3582066,
+author = {Jelesnianski, Christopher and Ismail, Mohannad and Jang, Yeongjin and Williams, Dan and Min, Changwoo},
+title = {Protect the System Call, Protect (Most of) the World with BASTION},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582066},
+doi = {10.1145/3582016.3582066},
+abstract = {System calls are a critical building block in many serious security attacks, such as control-flow hijacking and privilege escalation attacks. Security-sensitive system calls (e.g., execve, mprotect), especially play a major role in completing attacks. Yet, few defense efforts focus to ensure their legitimate usage, allowing attackers to maliciously leverage system calls in attacks. In this paper, we propose a novel System Call Integrity, which enforces the correct use of system calls throughout runtime. We propose three new contexts enforcing (1) which system call is called and how it is invoked (Call Type), (2) how a system call is reached (Control Flow), and (3) that arguments are not corrupted (Argument Integrity). Our defense mechanism thwarts attacks by breaking the critical building block in their attack chains. We implement BASTION, as a compiler and runtime monitor system, to demonstrate the efficacy of the three system call contexts. Our security case study shows that BASTION can effectively stop all the attacks including real-world exploits and recent advanced attack strategies. Deploying BASTION on three popular system call-intensive programs, NGINX, SQLite, and vsFTPd, we show BASTION is secure and practical, demonstrating overhead of 0.60\%, 2.01\%, and 1.65\%, respectively.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {528–541},
+numpages = {14},
+keywords = {Argument Integrity, Code Re-use Attacks, Exploit Mitigation, System Call Protection, System Call Specialization, System Calls},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582041,
+author = {Ajdari, Mohammadamin and Peykani Sani, Pouria and Moradi, Amirhossein and Khanalizadeh Imani, Masoud and Bazkhanei, Amir Hossein and Asadi, Hossein},
+title = {Re-architecting I/O Caches for Emerging Fast Storage Devices},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582041},
+doi = {10.1145/3582016.3582041},
+abstract = {I/O caching has widely been used in enterprise storage systems to enhance the system performance with minimal cost. Using Solid-State Drives (SSDs) as an I/O caching layer on the top of arrays of Hard Disk Drives (HDDs) has been well studied in numerous studies. With emergence of ultra fast storage devices, recent studies suggest to use them as an I/O cache layer on top of mainstream SSDs in I/O intensive applications. Our detailed analysis shows despite significant potential of ultra-fast storage devices, existing I/O cache architectures may act as a major performance bottleneck in enterprise storage systems, which prevents to take advantage of the device full performance potentials. In this paper, using an enterprise-grade all-flash storage system, we first present a thorough analysis on the performance of I/O cache modules when ultra-fast memories are used as a caching layer on top of mainstream SSDs. Unlike traditional SSD-based caching on HDD arrays, we show the use of ultra-fast memory as an I/O cache device on SSD arrays exhibit completely unexpected performance behavior. As an example, we show two popular cache architectures exhibit similar throughput due to performance bottleneck on the traditional SSD/HDD devices, but with ultra-fast memory on SSD arrays, their true potential is released and show 5\texttimes{} performance difference. We then propose an experimental evaluation framework to systematically examine the behavior of I/O cache modules on emerging ultra-fast devices. Our framework enables system architects to examine performance-critical design choices including multi-threading, locking granularity, promotion logic, cache line size, and flushing policy. We further offer several optimizations using the proposed framework, integrate the proposed optimizations, and evaluate them on real use-cases. The experiments on an industry-grade storage system show our I/O cache architecture optimally configured by the proposed framework provides up to 11\texttimes{} higher throughput and up to 30\texttimes{} improved tail latency over a non-optimal architecture.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {542–555},
+numpages = {14},
+keywords = {All-Flash Storage System, I/O Cache, Performance, Persistent Memory, RAM Disk, Solid-State Drive, Storage Area Network},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582048,
+author = {Landgraf, Joshua and Giordano, Matthew and Yoon, Esther and Rossbach, Christopher J.},
+title = {Reconfigurable Virtual Memory for FPGA-Driven I/O},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582048},
+doi = {10.1145/3582016.3582048},
+abstract = {FPGAs are increasingly used to accelerate modern applications, and cloud providers offer FPGA platforms on-demand with a variety of FPGAs, I/O peripherals, and memory options. FPGA vendors expose I/O with low-level interfaces that limit application portability. Current approaches to abstracting these interfaces trade level of abstraction against performance. We present FSRF, File System for Reconfigurable Fabrics, which abstracts FPGA I/O at a high level without sacrificing performance. Rather than exposing platform-specific I/O interfaces, FSRF enables files to be mapped directly into FPGA virtual memory from the host. On the FPGA, powerful OS-managed virtual memory hardware provides performant access to FPGA-local resources and helps coordinate access to remote data. FSRF leverages reconfigurability to specialize its virtual memory implementation to applications, including selecting between SRAM and DRAM TLBs, adapting FPGA DRAM striping, and tuning DMA I/O. On Amazon F1 FPGAs, FSRF outperforms techniques from FPGA OSes such as Coyote and AmorphOS with improvements of up to 64\texttimes{} and 2.3\texttimes{}, respectively (+75\% and +27\% geometric mean), and performance close to that of physical addressing (90\% geometric mean).},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {556–571},
+numpages = {16},
+keywords = {FPGAs, Operating Systems, Virtual Memory, Virtualization},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.1145/3554353,
+author = {Landgraf, Joshua and Giordano, Matthew and Yoon, Esther and Rossbach, Christopher J.},
+title = {File System for Reconfigurable Fabrics Codebase},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.1145/3554353},
+abstract = {
+    <p>This artifact contains the software and hardware code for FSRF, File System for Reconfigurable Fabrics, along with corresponding scripts and documentation for preparing test data, setting up the system, and running workloads and experiments.</p>
+
+},
+keywords = {FPGAs, Operating Systems, Virtual Memory, Virtualization}
+}
+
+@inproceedings{10.1145/3582016.3582034,
+author = {Wang, Haoyuan and Beamer, Scott},
+title = {RepCut: Superlinear Parallel RTL Simulation with Replication-Aided Partitioning},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582034},
+doi = {10.1145/3582016.3582034},
+abstract = {Register transfer level (RTL) simulation is an invaluable tool for developing, debugging, verifying, and validating hardware designs. Despite the parallel nature of hardware, existing parallel RTL simulators yield speedups unattractive for practical application due to high communication and synchronization costs incurred by typical circuit topologies. We present RepCut, a novel parallel RTL simulation methodology. RepCut is enabled by our replication-aided partitioning approach that cuts the circuit into balanced partitions with small overlaps. By replicating the overlaps, RepCut eliminates problematic data dependences between partitions and significantly reduces expensive synchronization overhead between parallel threads. RepCut outperforms state-of-the-art simulators, and when simulating a large system-on-chip with multiple out-of-order cores, it achieves a 27.10\texttimes{} speedup (superlinear) using 24 threads with only a 3.81\% replication cost.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {572–585},
+numpages = {14},
+keywords = {RTL simulation, full-cycle simulation, parallel simulation, replication-aided partitioning},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7621336,
+author = {Wang, Haoyuan and Beamer, Scott},
+title = {RepCut: Superlinear Parallel RTL Simulation with Replication-Aided Partitioning},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7621336},
+abstract = {
+    <p>This package contains the artifact for of RepCut: Superlinear Parallel RTL Simulation with Replication-Aided Partitioning, DOI 10.1145/3582016.3582034</p>
+<p>This artifact contains the source code for RepCut, as well as other open source projects that are required to reproduce the results in the paper. We include Verilator 4.226 as a baseline. In addition, this artifact also contains scripts and a Makefile to compile and run the generated simulators, as well as to reproduce every figure and table from experiment data.</p>
+<p>Please find more details in README.md</p>
+
+},
+keywords = {Parallel RTL Simulation, RepCut}
+}
+
+@inproceedings{10.1145/3582016.3582067,
+author = {Khazraee, Moein and Forencich, Alex and Papen, George C. and Snoeren, Alex C. and Schulman, Aaron},
+title = {Rosebud: Making FPGA-Accelerated Middlebox Development More Pleasant},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582067},
+doi = {10.1145/3582016.3582067},
+abstract = {We introduce an approach to designing FPGA-accelerated middleboxes that simplifies development, debugging, and performance tuning by decoupling the tasks of hardware-accelerator implementation and software-application programming. Rosebud is a framework that links hardware accelerators to a high-performance packet processing pipeline through a standardized hardware/software interface. This separation of concerns allows hardware developers to focus on optimizing custom accelerators while freeing software programmers to reuse, configure, and debug accelerators in a fashion akin to software libraries. We show the benefits of the Rosebud framework by building a firewall based on a large blacklist and porting the Pigasus IDS pattern-matching accelerator in less than a month. Our experiments demonstrate that Rosebud delivers high performance, serving ∼200 ‍Gbps of traffic while adding only 0.7–7 microseconds of latency.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {586–605},
+numpages = {20},
+keywords = {200G, FPGA, Hardware-Software Co-design, Middlebox},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7651655,
+author = {Khazraee, Moein and Forencich, Alex and Papen, George C. and Snoeren, Alex C. and Schulman, Aaron},
+title = {Code for Rosebud, Making FPGA-Accelerated Middlebox Development More Pleasant},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7651655},
+abstract = {
+    <p>This artifact contains the code to generate the Rosebud image, alongside code for simulation and runtime development. It also describes how new applications can be accelerated using this framework.</p>
+
+},
+keywords = {200G, FPGA, Hardware-Software Co-design, Middlebox}
+}
+
+@inproceedings{10.1145/3582016.3582019,
+author = {Laeufer, Kevin and Iyer, Vighnesh and Biancolin, David and Bachrach, Jonathan and Nikoli\'{c}, Borivoje and Sen, Koushik},
+title = {Simulator Independent Coverage for RTL Hardware Languages},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582019},
+doi = {10.1145/3582016.3582019},
+abstract = {We demonstrate a new approach to implementing automated coverage metrics including line, toggle, and finite state machine coverage. Each metric is implemented through a compiler pass with a report generator. They are decoupled from the backend simulation, emulation, or formal verification tool through a simple API designed around a single new cover primitive. Our prototype for the Chisel hardware construction language demonstrates support across three software simulators, the FPGA-accelerated FireSim simulator and a formal tool. We demonstrate collecting line coverage while booting Linux with FireSim at a target frequency of 65MHz. By construction, coverage can be trivially merged across backends.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {606–615},
+numpages = {10},
+keywords = {FPGA, FSM Coverage, Hardware Compiler, Line Coverage, RTL, Toggle Coverage},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7685681,
+author = {Laeufer, Kevin and Iyer, Vighnesh and Biancolin, David and Bachrach, Jonathan and Nikoli\'{c}, Borivoje and Sen, Koushik},
+title = {Simulator Independent Coverage for RTL Hardware Languages - Software Artifact},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7685681},
+abstract = {
+    <p>The code to reproduce results from our ASPLOS’23 paper on “Simulator Independent Coverage for RTL Hardware Languages”. Most results can be reproduced on a standard x86 Linux computer, however, for the FireSim performance and area/frequency results a more complicated setup on AWS cloud FPGAs is necessary. Please consult the Readme.md in <code>simulator-independent-coverage.tar.gz</code> for more instructions.</p>
+
+},
+keywords = {Chisel, ChiselTest, FireSim, FIRRTL, FPGA, FSM Coverage, Hardware Compiler, Line Coverage, RTL, Toggle Coverage}
+}
+
+@inproceedings{10.1145/3582016.3582024,
+author = {Tine, Blaise and Saxena, Varun and Srivatsan, Santosh and Simpson, Joshua R. and Alzammar, Fadi and Cooper, Liam and Kim, Hyesoon},
+title = {Skybox: Open-Source Graphic Rendering on Programmable RISC-V GPUs},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582024},
+doi = {10.1145/3582016.3582024},
+abstract = {Graphics rendering remains one of the most compute   intensive and memory bound applications of GPUs and has   been driving their push for performance and energy efficiency   since its inception. Early GPU architectures focused only on   accelerating graphics rendering and implemented dedicated fixed-   function rasterizer hardware to speed-up their rendering pipeline.   As GPUs have become more programmable and ubiquitous in   other application domains such as scientific computing, machine   learning, graph analytics, and crypto-currency, generalizing   GPU microarchitectures for area and power efficiency becomes   necessary, especially for mobile and IoT devices. In this work,   we present Skybox, a full-stack open-source GPU architecture   with integrated software, compiler, hardware, and simulation   environment, that enables end-to-end GPU research. Using   Skybox, we explore the design space of software versus hardware   graphics rendering and propose and hybrid micro-architecture   that accelerates the state-of-the art Vulkan graphics API. Skybox   also introduces novel compiler and system optimizations to support   its unique RISC-V ISA baseline. We evaluated Skybox on high-   end Altera and also Xilinx FPGAs. We were able to generate and   execute a 32 cores (512 threads) Skybox graphics processor on   Altera Stratix 10 FPGA, delivering a peak fill rate of 3.7 GPixels at 230 MHz.   Skybox is the first open-source full-stack   GPU software and hardware implementation that supports the   Vulkan API},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {616–630},
+numpages = {15},
+keywords = {graphics, hardware accelerator, microarchitecture},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582028,
+author = {Yang, Fangkai and Wang, Lu and Xu, Zhenyu and Zhang, Jue and Li, Liqun and Qiao, Bo and Couturier, Camille and Bansal, Chetan and Ram, Soumya and Qin, Si and Ma, Zhen and Goiri, \'{I}\~{n}igo and Cortez, Eli and Yang, Terry and R\"{u}hle, Victor and Rajmohan, Saravan and Lin, Qingwei and Zhang, Dongmei},
+title = {Snape: Reliable and Low-Cost Computing with Mixture of Spot and On-Demand VMs},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582028},
+doi = {10.1145/3582016.3582028},
+abstract = {Cloud providers often have resources that are not being fully utilized, and they may offer them at a lower cost to make up for the reduced availability of these resources. However, customers may be hesitant to use such offerings (such as spot VMs) as making trade-offs between cost and resource availability is not always straightforward. In this work, we propose Snape (Spot On-demand Perfect Mixture), an intelligent framework to optimize the cost and resource availability by dynamically mixing on-demand VMs with spot VMs. Through a detailed characterization based on real production traces, we verify that the eviction of spot VMs is predictable to some extent. Snape also leverages constrained reinforcement learning to adjust the mixture policy online. Experiments across different configurations show that Snape achieves 44\% savings compared to using only on-demand VMs while maintaining 99.96\% availability, which is 2.77\% higher than using only spot VMs.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {631–643},
+numpages = {13},
+keywords = {Spot virtual machine, dynamic mixture, eviction prediction},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582062,
+author = {Liu, Jiesong and Zhang, Feng and Guan, Jiawei and Sung, Hsin-Hsuan and Guo, Xiaoguang and Du, Xiaoyong and Shen, Xipeng},
+title = {Space-Efficient TREC for Enabling Deep Learning on Microcontrollers},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582062},
+doi = {10.1145/3582016.3582062},
+abstract = {Deploying deep neural networks (DNNs) for a resource-constrained environment and achieving satisfactory performance is challenging. It is especially so on microcontrollers for their stringent space and computing power. This paper focuses on new ways to make TREC, an optimization recently proposed to enable computation reuse in DNNs, space and time efficient on Microcontrollers. The solution maximizes the performance benefits while keeping the DNN accuracy stable. Experiments show that the solution eliminates over 96\% computations in DNNs and makes them fit well into microcontrollers, producing 3.4-5\texttimes{} speedups with only marginal accuracy loss.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {644–659},
+numpages = {16},
+keywords = {compiler optimization, real-time machine learning},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7702231,
+author = {Liu, Jiesong and Zhang, Feng and Guan, Jiawei and Sung, Hsin-Hsuan and Guo, Xiaoguang and Du, Xiaoyong and Shen, Xipeng},
+title = {Artifact for Article "Space Efficient TREC for Enabling Deep Learning on Microcontrollers"},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7702231},
+abstract = {
+    <p>This directory contains the artifact for Space Efficient TREC for Enabling Deep Learning on Microcontrollers published in ASPLOS 2023. For detailed information, please see the readme.md in TREC-Artifact.zip.</p>
+
+},
+keywords = {Compiler Optimization, Real-time Machine Learning}
+}
+
+@inproceedings{10.1145/3582016.3582047,
+author = {Ye, Zihao and Lai, Ruihang and Shao, Junru and Chen, Tianqi and Ceze, Luis},
+title = {SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582047},
+doi = {10.1145/3582016.3582047},
+abstract = {Sparse tensors are rapidly becoming critical components of modern deep learning workloads. However, developing high-performance sparse operators can be difficult and tedious, and existing vendor libraries cannot satisfy the escalating demands from new operators. Sparse tensor compilers simplify the development of operators, but efficient sparse compilation for deep learning remains challenging because a single sparse format cannot maximize hardware efficiency, and single-shot compilers cannot keep up with latest hardware and system advances. In this paper, we observe that the key to addressing both these challenges is to leverage composable formats and composable transformations. We propose SparseTIR, a sparse tensor compilation abstraction that offers composable formats and composable transformations for deep learning workloads. SparseTIR constructs a search space over these composable components for performance tuning. With these improvements, SparseTIR obtains consistent performance speedups vs vendor libraries on GPUs for single operators: 1.20-2.34x for GNN operators, 1.05-2.98x for sparse attention operators, and 0.56-7.45x for sparse convolution operators. SparseTIR also accelerates end-to-end GNNs by 1.08-1.52x for GraphSAGE training, and 4.20-40.18x for RGCN inference.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {660–678},
+numpages = {19},
+keywords = {Code Generation and Optimizations, Kernel Fusion, Scheduling, Sparse Computation, Tensor Compilers, Tensor Cores, Vectorization},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7643745,
+author = {Ye, Zihao and Lai, Ruihang and Shao, Junru and Chen, Tianqi and Ceze, Luis},
+title = {SparseTIR Artifact},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7643745},
+abstract = {
+    <p>This repository contains scripts for setting up environments and reproducing results presented in the ASPLOS 2023 paper entitled SparseTIR: Composable Abstractions for Deep Learning.</p>
+<p>Please read the README.md file or visit https://github.com/uwsampl/sparsetir-artifact for instructions on how to run and install this artifact.</p>
+
+},
+keywords = {Deep-Learning-Compilers, Sparse-Computation, Tensor-Compilers}
+}
+
+@inproceedings{10.1145/3582016.3582058,
+author = {Tan, Zujun and Chon, Yebin and Kruse, Michael and Doerfert, Johannes and Xu, Ziyang and Homerding, Brian and Campanoni, Simone and August, David I.},
+title = {SPLENDID: Supporting Parallel LLVM-IR Enhanced Natural Decompilation for Interactive Development},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582058},
+doi = {10.1145/3582016.3582058},
+abstract = {Manually writing parallel programs is difficult and error-prone.   Automatic parallelization could address this issue, but profitability can be limited by not having facts known only to the programmer.   A parallelizing compiler that collaborates with the programmer can increase the coverage and performance of parallelization while reducing the errors and overhead associated with manual parallelization.   Unlike collaboration involving analysis tools that report program properties or make parallelization suggestions to the programmer, decompiler-based collaboration could leverage the strength of existing parallelizing compilers to provide programmers with a natural compiler-parallelized starting point for further parallelization or refinement.  Despite this potential, existing decompilers fail to do this because they do not generate portable parallel source code compatible with any compiler of the source language.  This paper presents SPLENDID, an LLVM-IR to C/OpenMP decompiler that enables collaborative parallelization by producing standard parallel OpenMP code.   Using published manual parallelization of the PolyBench benchmark suite as a reference, SPLENDID's collaborative approach produces programs twice as fast as either Polly-based automatic parallelization or manual parallelization alone.   SPLENDID's portable parallel code is also more natural than that from existing decompilers, obtaining a 39x higher average BLEU score.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {679–693},
+numpages = {15},
+keywords = {collaborative parallelization, decompilation},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7592823,
+author = {Tan, Zujun and Chon, Yebin and Kruse, Michael and Doerfert, Johannes and Xu, Ziyang and Homerding, Brian and Campanoni, Simone and August, David I.},
+title = {SPLENDID: Supporting Parallel LLVM-IR Enhanced Natural Decompilation for Interactive Development},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7592823},
+abstract = {
+    <p>The artifact for this paper contains tools and data to reproduce, with minimal effort, the entire testing flow and corroborate its claims. All results can be generated from scratch (source codes) and run across different platforms with the provided docker image. The pre-built docker image supports runs across different platforms with software dependencies taken care of, including a pre-compiled copy of the proposed decompiler, its variants, state-of-the-art decompilers used for comparison, and miscellaneous software such as vim and python. We provide an easy top level interface,  to simplify the testing process.</p>
+
+},
+keywords = {ASPLOS'23, Automatic Parallelization, Decompiler}
+}
+
+@inproceedings{10.1145/3582016.3582045,
+author = {Kolokasis, Iacovos G. and Evdorou, Giannos and Akram, Shoaib and Kozanitis, Christos and Papagiannis, Anastasios and Zakkak, Foivos S. and Pratikakis, Polyvios and Bilas, Angelos},
+title = {TeraHeap: Reducing Memory Pressure in Managed Big Data Frameworks},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582045},
+doi = {10.1145/3582016.3582045},
+abstract = {Big data analytics frameworks, such as Spark and Giraph, need to process and cache massive amounts of data that do not always fit on the managed heap. Therefore, frameworks temporarily move long-lived objects outside the managed heap (off-heap) on a fast storage device. However, this practice results in (1) high serialization/deserialization (S/D) cost and (2) high memory pressure when off-heap objects are moved back to the heap for processing.    In this paper, we propose TeraHeap, a system that eliminates S/D overhead and expensive GC scans for a large portion of the objects in big data frameworks. TeraHeap relies on three concepts. (1) It eliminates S/D cost by extending the managed runtime (JVM) to use a second high-capacity heap (H2) over a fast storage device. (2) It offers a simple hint-based interface, allowing big data analytics   frameworks to leverage knowledge about objects to populate H2. (3) It reduces GC cost by fencing the garbage collector from scanning H2 objects while maintaining the illusion of a single managed heap.    We implement TeraHeap in OpenJDK and evaluate it with 15 widely used applications in two real-world big data frameworks, Spark and Giraph. Our evaluation shows that for the same DRAM size, TeraHeap improves performance by up to 73\% and 28\% compared to native Spark and Giraph, respectively. Also, it provides better performance by consuming up to 4.6\texttimes{} and 1.2\texttimes{} less DRAM capacity than native Spark and Giraph, respectively. Finally, it outperforms Panthera, a state-of-the-art garbage collector for hybrid memories, by up to 69\%.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {694–709},
+numpages = {16},
+keywords = {Java Virtual Machine (JVM), fast storage devices, garbage collection, large analytics datasets, large managed heaps, memory hierarchy, memory management, serialization},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7590151,
+author = {Kolokasis, Iacovos G. and Evdorou, Giannos and Akram, Shoaib and Kozanitis, Christos and Papagiannis, Anastasios and Zakkak, Foivos S. and Pratikakis, Polyvios and Bilas, Angelos},
+title = {TeraHeap: Reducing Memory Pressure in Managed Big Data Frameworks},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7590151},
+abstract = {
+    <p>How to Access. All scripts are available in the GitHub repository https://github.com/CARV-ICS-FORTH/asplos2023_ae. All sources, including JVM, frameworks, and benchmarks, are included as public git submodules. Also, the artifact is available at https://doi.org/10.5281/zenodo.7590151.</p>
+<p>Hardware Dependencies. We recommend a dual-socket server that is equipped with two Intel(R) Xeon(R) CPU E5-2630 v3 CPUs running at 2.4 GHz, each with eight physical cores and 16 hyper-threads for a total of 32 hyper-threads. The server should have at least 128 GB DRAM. We recommend using two 1 TB Samsung PM983 PCI Express NVMe SSDs and an HDD (larger than 1.5 TB) to allocate the datasets. For the evaluation with NVM, we consider using a dual-socket server with two Intel Xeon Platinum 8260M CPUs at 2.4 GHz, with 24 cores and (96 hyper-threads), and 192 GB of DDR4 DRAM. We use Intel Optane DC Persistent Memory with a total capacity of 3 TB, of which 1 TB is in Memory mode and 2 TB are in AppDirect mode.</p>
+<p>Software Dependencies. The compilation environment and the provided scripts assume Centos 7, which uses Linux Kernel v.3.10 and v.4.14.</p>
+<p>Data Sets. The required datasets for Spark workloads (except BC) are automatically generated using the SparkBench suite dataset generator. The dataset will be generated when executing the specific scripts to run Spark workloads. The datasets for Spark-BC and Giraph workloads are downloaded automatically before each workload execution.</p>
+
+},
+keywords = {fast storage devices, garbage collection, Java Virtual Machine (JVM), large analytics datasets, large managed heaps, memory hierarchy, memory management, serialization}
+}
+
+@inproceedings{10.1145/3582016.3582051,
+author = {Hsu, Olivia and Strange, Maxwell and Sharma, Ritvik and Won, Jaeyeon and Olukotun, Kunle and Emer, Joel S. and Horowitz, Mark A. and Kj\o{}lstad, Fredrik},
+title = {The Sparse Abstract Machine},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582051},
+doi = {10.1145/3582016.3582051},
+abstract = {We propose the Sparse Abstract Machine (SAM), an abstract machine model for targeting sparse tensor algebra to reconfigurable and fixed-function spatial dataflow accelerators. SAM defines a streaming dataflow abstraction with sparse primitives that encompass a large space of scheduled tensor algebra expressions. SAM dataflow graphs naturally separate tensor formats from algorithms and are expressive enough to incorporate arbitrary iteration orderings and many hardware-specific optimizations. We also present Custard, a compiler from a high-level language to SAM that demonstrates SAM's usefulness as an intermediate representation. We automatically bind from SAM to a streaming dataflow simulator. We evaluate the generality and extensibility of SAM, explore the performance space of sparse tensor algebra optimizations using SAM, and show SAM's ability to represent dataflow hardware.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {710–726},
+numpages = {17},
+keywords = {abstract machine, domain-specific, sparse tensor algebra, streams},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7591742,
+author = {Hsu, Olivia and Strange, Maxwell and Sharma, Ritvik and Won, Jaeyeon and Olukotun, Kunle and Emer, Joel S. and Horowitz, Mark A. and Kj\o{}lstad, Fredrik},
+title = {Reproduction Package for 'The Sparse Abstract Machine'},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7591742},
+abstract = {
+    <p>This artifact describes how to set up and run our Sparse Abstract Machine (SAM) Python simulator and the C++ CUSTARD compiler, which compiles from concrete index notation (CIN) to SAM graphs (represented and stored in the DOT file format). The artifact also describes how to reproduce the quantitative experimental results in this paper. The artifact can be executed with any X86-64 or M-series Apple machine with Docker support and Python 3, at least 32 GB of RAM, and more than 20 GB of disk space.</p>
+<p>Additionally, all instructions and dependencies for using the artifact are contained in the artifact appendix of the paper.</p>
+
+},
+keywords = {abstract machine, compilers, cycle-approximate modeling, sparse tensor algebra, streaming dataflow}
+}
+
+@inproceedings{10.1145/3582016.3582031,
+author = {Duraisamy, Padmapriya and Xu, Wei and Hare, Scott and Rajwar, Ravi and Culler, David and Xu, Zhiyi and Fan, Jianing and Kennelly, Christopher and McCloskey, Bill and Mijailovic, Danijela and Morris, Brian and Mukherjee, Chiranjit and Ren, Jingliang and Thelen, Greg and Turner, Paul and Villavieja, Carlos and Ranganathan, Parthasarathy and Vahdat, Amin},
+title = {Towards an Adaptable Systems Architecture for Memory Tiering at Warehouse-Scale},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582031},
+doi = {10.1145/3582016.3582031},
+abstract = {Fast DRAM increasingly dominates infrastructure spend in large scale computing environments and this trend will likely worsen without an architectural shift. The cost of deployed memory can be reduced by replacing part of the conventional DRAM with lower cost albeit slower memory media, thus creating a tiered memory system where both tiers are directly addressable and cached. But, this poses numerous challenges in a highly multi-tenant warehouse-scale computing setting. The diversity and scale of its applications motivates an application-transparent solution in the general case, adaptable to specific workload demands.    This paper presents TMTS(Transparent Memory Tiering System), an application-transparent memory tiering management system that implements an adaptive, hardware-guided architecture to dynamically optimize access to the various directly-addressed memory tiers without faults. TMTS has been deployed at scale for two years serving thousands of production services, successfully meeting service level objectives (SLOs) across diverse application classes in the fleet. The solution is developed in terms of system level metrics it seeks to optimize and evaluated across the diverse workload mix to guide advanced policies embodied in a user-level agent. It sustains less than 5\% overall performance degradation while replacing 25\% of DRAM with a much slower medium.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {727–741},
+numpages = {15},
+keywords = {Memory Management, Memory Tiering, Warehouse-Scale Computing},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582063,
+author = {Maruf, Hasan Al and Wang, Hao and Dhanotia, Abhishek and Weiner, Johannes and Agarwal, Niket and Bhattacharya, Pallab and Petersen, Chris and Chowdhury, Mosharaf and Kanaujia, Shobhit and Chauhan, Prakash},
+title = {TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582063},
+doi = {10.1145/3582016.3582063},
+abstract = {The increasing demand for memory in hyperscale applications has led to memory becoming a large portion of the overall datacenter spend. The emergence of coherent interfaces like CXL enables main memory expansion and offers an efficient solution to this problem. In such systems, the main memory can constitute different memory technologies with varied characteristics. In this paper, we characterize memory usage patterns of a wide range of datacenter applications across the server fleet of Meta. We, therefore, demonstrate the opportunities to offload colder pages to slower memory tiers for these applications. Without efficient memory management, however, such systems can significantly degrade performance.    We propose a novel OS-level application-transparent page placement mechanism (TPP) for CXL-enabled memory. TPP employs a lightweight mechanism to identify and place hot/cold pages to appropriate memory tiers. It enables a proactive page demotion from local memory to CXL-Memory. This technique ensures a memory headroom for new page allocations that are often related to request processing and tend to be short-lived and hot. At the same time, TPP can promptly promote performance-critical hot pages trapped in the slow CXL-Memory to the fast local memory, while minimizing both sampling overhead and unnecessary migrations. TPP works transparently without any application-specific knowledge and can be deployed globally as a kernel release.    We evaluate TPP with diverse memory-sensitive workloads in the production server fleet with early samples of new x86 CPUs with CXL 1.1 support. TPP makes a tiered memory system performant as an ideal baseline (&lt;1\% gap) that has all the memory in the local tier. It is 18\% better than today’s Linux, and 5–17\% better than existing solutions including NUMA Balancing and AutoTiering. Most of the TPP patches have been merged in the Linux v5.18 release while the remaining ones are just pending for more discussion.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {742–755},
+numpages = {14},
+keywords = {CXL-Memory, Datacenters, Heterogeneous System, Memory Management, Operating Systems, Tiered-Memory},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582060,
+author = {Chen, Zizhan and Shao, Zili},
+title = {Transparent Runtime Change Handling for Android Apps},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582060},
+doi = {10.1145/3582016.3582060},
+abstract = {Mobile devices often face runtime configuration changes, such as screen orientation changes, screen resizing, and language switching. The current Android design adopts a restarting-based solution to load the corresponding resources according to the new configuration. Therefore, application developers must explicitly deal with state preservation and restoration brought about by the activity restarting. Otherwise, the runtime change will cause state loss and even app crash issues. To solve the runtime change handling issues, we propose RCHDroid, a transparent runtime change handling approach for apps at the Android system level. When a configuration change occurs, we do not restart the activity, but instead, create a new activity according to the new configuration and migrate states from the old one to the new one, while putting the old activity into an inactive mode. We propose a lazy-migration scheme to handle asynchronous tasks that remain working on the old activity, which migrates the result events when the asynchronous tasks return. We have implemented a prototype of RCHDroid with real hardware and released the source code for public access. Overall, using RCHDroid, existing apps can handle runtime configuration changes without any modifications and save the runtime change handling time by 25.46\%.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {756–770},
+numpages = {15},
+keywords = {embedded systems, mobile systems, operating systems, runtime configuration change handling},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7583154,
+author = {Chen, Zizhan and Shao, Zili},
+title = {Reproduction Package for Article ‘Transparent Runtime Change Handling for Android Apps’},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7583154},
+abstract = {
+    <p>The artifact provides the source code of RCHDroid, along with the instructions to generate the results. The artifact allows users to reproduce key results from the paper, including Figure 7, Figure 8, Figure 9, Figure 10, and Figure 14. The hardware must contain the ROC-RK3399-PC-PLUS development board connected to a screen. We provide compiled images to simplify the experiment workflow. Users can also build images from the source code.</p>
+
+},
+keywords = {embedded systems, mobile systems, operating systems}
+}
+
+@inproceedings{10.1145/3582016.3582033,
+author = {Zhao, Zirui Neil and Morrison, Adam and Fletcher, Christopher W. and Torrellas, Josep},
+title = {Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582033},
+doi = {10.1145/3582016.3582033},
+abstract = {Partitioning a hardware structure dynamically among multiple security domains leaks some information but can deliver high performance. To understand the performance-security tradeoff of dynamic partitioning, it would be useful to formally quantify the leakage of these schemes. Unfortunately, this is hard, as what partition resizing decisions are made and when they are made are entangled. In this paper, we present Untangle, a novel framework for constructing low-leakage and high-performance dynamic partitioning schemes. Untangle formally splits the leakage into leakage from deciding what resizing action to perform (action leakage) and leakage from deciding when the resizing action occurs (scheduling leakage). Based on this breakdown, Untangle introduces a set of principles that decouple program timing from the action leakage. Moreover, Untangle introduces a new way to model the scheduling leakage without analyzing program timing. With these techniques, Untangle quantifies the leakage in a dynamic resizing scheme more tightly than prior work. To demonstrate Untangle, we apply it to dynamically partition the last-level cache. On average, workloads leak 78\% less under Untangle than under a conventional dynamic partitioning approach, for the same workload performance.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {771–788},
+numpages = {18},
+keywords = {Microarchitectural side-channel defense, information leakage, resource partitioning},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@inproceedings{10.1145/3582016.3582039,
+author = {Feng, Yuan and Xu, Yingte},
+title = {Verification of Nondeterministic Quantum Programs},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582039},
+doi = {10.1145/3582016.3582039},
+abstract = {Nondeterministic choice is a useful program construct that provides a way to describe the behaviour of a program without specifying the details of possible implementations. It supports the stepwise refinement of programs, a method that has proven useful in software development. Nondeterminism has also been introduced in quantum programming, and termination of nondeterministic quantum programs has been extensively analysed. In this paper, we go beyond termination analysis to investigate the verification of nondeterministic quantum programs where properties are given by sets of hermitian operators on the associated Hilbert space. Hoare-type logic systems for partial and total correctness are proposed which turn out to be both sound and relatively complete with respect to their corresponding semantic correctness. To show the utility of these proof systems, we analyse some quantum algorithms such as quantum error correction scheme, Deutsch algorithm, and a nondeterministic quantum walk. Finally, a proof assistant prototype is implemented to aid in the automated reasoning of nondeterministic quantum programs.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {789–805},
+numpages = {17},
+keywords = {Hoare logic, Quantum programming, nondeterminism, program verification},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7564087,
+author = {Feng, Yuan and Xu, Yingte},
+title = {NQPV},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7564087},
+abstract = {
+    <p>NQPV is a verification assistant prototype of nondeterministic quantum programs. It implements the verification logic of partial correctness in the numerical form, with soundness guaranteed by the theory and experiments.</p>
+
+},
+keywords = {nondeterminism, program verification, quantum programming}
+}
+
+@inproceedings{10.1145/3582016.3582040,
+author = {Zuo, Gefei and Ma, Jiacheng and Quinn, Andrew and Kasikci, Baris},
+title = {Vidi: Record Replay for Reconfigurable Hardware},
+year = {2023},
+isbn = {9781450399180},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3582016.3582040},
+doi = {10.1145/3582016.3582040},
+abstract = {Developers are turning to heterogeneous computing devices, such as Field Programmable Gate Arrays (FPGAs), to accelerate data center and cloud computing workloads. FPGAs enable rapid prototyping and should facilitate an agile software-like development workflow to fix correctness bugs, performance issues, and security vulnerabilities. Unfortunately, hardware development still does not have a vast ecosystem of tools needed to support the agile hardware development vision. The capability to record and replay FPGA executions would constitute a key building block that will inspire the development of many tools, similar to what record/replay did for software. However, building a practical record/replay tool for FPGA is challenging; existing approaches either record too much or too little information and cannot support real-world executions.   In this paper, we present VIDI, the first record/replay system for real-world FPGA applications running on hardware. VIDI is based on the observation that widely-used communication protocols have well-defined input/output transactions to hide cycle-specific information from developers, which enables a more efficient design than heavyweight cycle-accurate record/replay approaches. VIDI proposes (1) the transaction determinism insight to track and enforce only necessary orderings of transaction events across record and replay, and (2) the coarse-grained input recording mechanism to record transaction-level information. We evaluate VIDI on Amazon EC2 F1 instances with 10 applications and two use cases (debugging, testing) and find that it incurs on average low performance slowdown (1.98\%) and resource overhead (5.48\%), making it practical for real-world deployments.},
+booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3},
+pages = {806–820},
+numpages = {15},
+keywords = {Debugging, FPGA, Record Replay},
+location = {Vancouver, BC, Canada},
+series = {ASPLOS 2023}
+}
+
+@software{10.5281/zenodo.7680535,
+author = {Zuo, Gefei and Ma, Jiacheng and Quinn, Andrew and Kasikci, Baris},
+title = {Reproduction Package for Article "Vidi: Record Replay for Reconfigurable Hardware"},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.5281/zenodo.7680535},
+abstract = {
+    <p>Source code is available at https://github.com/efeslab/aws-fpga</p>
+<p>This artifact is prepared for ASPLOS 2023 artifact evaluation. Please refer to the <code>artifact-eval/README.md</code> for usage instructions.</p>
+
+},
+keywords = {Debugging, FPGA, Record Replay}
+}
+

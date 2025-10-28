@@ -1,0 +1,796 @@
+computer architecture
+hard-wired control
+fiber channel over Ethernet protocol
+FCoE protocol
+latency
+recirculating network
+circuit switching
+wormhole routing
+crossbar network
+stage control
+critical path
+dynamic network
+flushing time
+inter forwarding
+rearrangeable network
+flow control strategies
+interconnecting network
+fat tree network
+transmission path delay
+exchange permutation
+virtual terminal
+loop transmission
+cut through switching
+determine routing
+wire delay
+bisection width
+hypercube network
+n-dimension mesh network
+virtual cut-through
+blocking network
+multicast tree
+perfect shuffle
+switch lattice
+fiber channel arbitrated loop
+FC-AL
+one-aside network
+synchronization overhead
+k-ary n-cube network
+software defined network
+SDN
+shift network
+asynchronous communication
+routing function
+multistage network
+static network
+adaptive routing
+inverse perfect shuffle
+network degree of node
+delayed load
+setup time
+bus network
+network distance
+baseline network
+zero copy protocol
+network scale
+deadlock-free routing
+latency hiding
+InfiniBand network
+IB network
+data manipulator network
+network bandwidth
+data packet
+butterfly permutation
+network diameter
+alignment network
+permutation function
+shuffle-exchange network
+message passing
+self-organized computing network
+n-dimension torus network
+synchronous operation
+vector looping method
+forbidden list
+instruction stack
+pipeline stall
+interrupt mechanism
+micro-instruction
+branch target address
+array pipeline
+clock cycle
+clock period
+clock tick
+code motion
+draining of pipeline
+pipeline efficiency
+addressing mode
+in order stream
+microkernel operating system
+instruction
+vectorization ratio
+reservation station
+instruction control unit
+greedy cycle
+out order stream
+pipeline data hazard
+cycles per instruction
+CPI
+odd-even merge sort
+command
+clock pulse
+random schedule
+instructions per cycle
+IPC
+micro-programmed control
+branch hazard
+branch prediction
+pseudo-instruction
+processor utilization
+check sum
+instruction processing unit
+IPU
+interrupt vector
+dynamic instruction scheduling
+master clock
+dynamic branch prediction
+reservation table
+fan-out modular
+operation control unit
+static branch prediction
+pipeline
+vectorization
+synchronization
+branch history table
+vector processor
+dynamic dependency check
+wasted cycle
+binary operation
+linear pipeline
+pipeline latency
+maskable interrupt
+precise interrupt
+instruction dependency
+vector pipeline
+array control unit
+advanced instruction station
+central processing unit
+CPU
+vector instruction
+instruction level parallelism
+ILP
+threshold search
+correlation control unit
+user CPU time
+instruction issue
+dynamic pipeline
+migration overhead
+data-dependent hazard
+system CPU time
+normalization
+pipeline chaining
+space-time diagram
+high-end general chip
+branch point
+non-linear pipeline
+operation
+cold start
+very long instruction word
+VLIW
+wrap-around operation
+general purpose graphic processing unit
+GPGPU
+branch delay slot
+out-of-order commit
+control hazard
+task graph
+serial-parallel conversion
+compare and swap
+self-checking circuit
+prefetching technique
+clock recovery
+out-of-order execution
+vector mask
+multi-instruction issue
+postponed-jump technique
+processor status word
+PSW
+explicitly parallel instruction computing
+EPIC
+atomic operation
+data transfer instruction
+machine cycle
+cycle stealing
+double precision
+serial-parallel converter
+instruction stream
+Wallace tree
+static dependency check
+macro-instruction
+collision vector
+microcommand
+in-order execution
+microprogramming
+recursive vector instruction
+data hazard
+commit unit
+static multifunctional pipeline
+scheduling of multiprocessor
+in-order commit
+scalar pipeline
+warm start
+address calculation
+context switch
+cyclic redundancy check
+CRC
+vector interrupt
+pipeline interlock control
+static pipeline
+masking vector
+floating-point processing unit
+FPU
+out-of-band transmission
+disk scrubbing
+stack pop-up
+parallel and distributed storage system
+paging mode
+storage device virtualization
+restore
+virtual memory address
+fetch
+redirect-on-write
+ROW
+virtual memory
+cache directory
+disk cache
+buffer flushing
+differential incremental backup
+cacheline
+prefetch
+out-place write
+memory management unit
+MMU
+mirrors
+mirrored disk
+physical address
+cache conflict
+write penalty
+multi-port memory
+sense line
+service level objective
+just a bunch of disks
+JBOD
+full backup
+initiator
+distributed directory
+socket direct protocol
+SDP
+stripe
+usable capacity
+big-endian
+segmented memory system
+row address
+row address strobe
+set-associative cache
+object-based storage device and system
+flushes
+cache
+bit drive
+write data line
+multi-access memory
+drive pulse
+virtual tape
+address identifier
+self-organized storage network
+storage interoperability
+hierarchical storage system
+hard zone
+release consistency model
+shared cache
+recovery time objective
+RTO
+global virtual memory
+system thrashing
+mass storage
+non-uniform memory access
+NUMA
+fully-associative cache
+in-place write
+stack push-down
+bypassing
+non-linear mapping
+block virtualization
+storage management initiative specification
+SMI-S
+parallel search memory
+scratchpad memory
+backup to tape
+B2T
+virtually addressing cache
+drive letter
+address resolution
+cumulative incremental backup
+branch target buffer
+data backup
+storage system
+volume pool
+interleaved memory
+service incident standard
+warm spare disk
+centralized refresh
+refresh
+storage service
+pre-charge
+row selection
+local memory
+memory conflict-free access
+translation look-ahead buffer
+transaction memory
+page fault
+cache block replacement
+memory average access time
+network storage system
+refresh testing
+massive array of idle disks
+MAID
+read select line
+write-once protocol
+address translation
+miss rate
+row decoding
+shared virtual memory
+read data line
+direct mapping
+asynchronous replication
+column decoding
+real-time copy
+write cycle
+physically addressing cache
+little-endian
+distributed storage
+least recently used
+LRU
+word drive
+storage domain
+second level cache
+bank conflict
+locality of reference
+strip
+column selection
+memory array
+intelligent memory
+virtual page number
+cache coherence protocol
+in-band virtualization
+spare extent
+address mapping
+data replication
+set-associative mapping
+backup manager
+infrastructure-based virtualization
+backup window
+chip selection
+miss penalty
+virtual space
+write protect
+volume group
+page replacement
+virtual block
+row-major vector storage
+write through
+posted memory write
+network backup
+software defined storage
+SDS
+retention period
+static relocation
+index
+strip size
+point-in-time copy
+distributed shared memory
+DSM
+cache miss
+snooping coherence
+read-out time
+access time
+remote access
+dynamic address translation
+deduplication
+paged memory system
+volume manager
+address
+memory cycle
+backup to disk
+B2D
+hierarchical storage management
+memory system
+write broadcast
+initiator session identifier
+read signal
+data striping
+private cache
+data transfer rate
+data lifecycle management
+copy-on-write
+COW
+storage resource management
+write invalidate
+page table
+spare disk
+parallel memory
+memory conflict
+degraded mode
+virtual disk system
+tag
+sequential consistency model
+split mirror
+service level agreement
+SLA
+column address strobe
+scatter read
+split mirror copy
+cache only memory access
+COMA
+refresh rate
+information storage technology
+dynamic buffering
+refresh circuit
+weak consistency model
+dirty state
+file system virtualization
+write update protocol
+storage interconnect protocol
+in-band transmission
+single addressing space
+write lockout
+memory consistency model
+write select line
+multilevel cache
+virtual block address
+copyback
+memory bank
+addressing technique
+dynamic relocation
+distributed refresh
+program relocation
+interrupt-driven input/output
+fully associative mapping
+interleaving access
+gather write
+hit ratio
+hot file
+uniform memory access
+UMA
+read noise
+meta data management
+memory hierarchy
+sense circuit
+refresh cycle
+archive storage
+strobe signal
+hot spare disk
+backup cache
+data transfer capacity
+disk image backup
+storage security
+stripe element
+online backup
+direct-associative cache
+access path
+continuous data protection
+CDP
+column address
+error checking and correction
+ECC
+memory bandwidth
+out-of-band virtualization
+write back
+command descriptor block
+disk shadowing
+disk mirroring
+offline backup
+direct memory access
+DMA
+parallel processing
+SPEC benchmark
+hardware multithreading
+sequential processing
+heterogeneous architecture
+NAS parallel benchmark
+NPB
+compute unified device architecture
+CUDA
+open system architecture
+OSA
+non-computing delay
+computer organization
+benchmark suite
+spatial locality
+hexadecimal system
+array processing
+variable
+micro-benchmark
+Booth's algorithm
+cache coherent non-uniform memory access
+CC-NUMA
+heterogeneous computing
+significant bit
+reliability rate
+Gustafson's law
+capability computing
+systolic array architecture
+worst-case design
+explicit parallelism
+fine grain
+multi-core microprocessor
+instructions per second
+IPS
+byte
+implicit parallelism
+resource dependence
+compute-intensive task
+system expandability
+fault coverage
+system resource
+fixed-memory speedup
+asynchronous event
+Amdahl's law
+custom structure
+parallel optimization
+parallelizing compilation
+multiple program multiple data
+MPMD
+message passing interface
+MPI
+bit
+binary equivalent
+simultaneous multi-threading
+SMT
+system on chip
+system on a chip
+SoC
+LINPACK benchmark
+meta data
+macroscopic parallelism
+scalability analysis
+thread management
+word
+system availability
+centralized control
+object-oriented architecture
+mean time to first failure
+binary system
+super-pipelined architecture
+adaptive supercomputing
+automatic parallelization
+load-store architecture
+overlap processing
+octal system
+capacity computing
+distributed data processing
+parallel debugging
+superscalar architecture
+software defined architecture
+computer implementation
+constellations architecture
+biquinary system
+cooperative processing
+character set
+heterogeneous supercomputing
+graphic character
+barrier synchronization
+chip multithreading
+CMT
+mean time to failure
+MTTF
+system fault tolerance
+SFT
+harmonic mean
+static redundancy
+commodity-off-the-shelf
+COTS
+concurrent read and concurrent write
+CRCW
+data driven
+parallel virtual machine
+PVM
+massively parallel processing
+MPP
+mean time between failures
+MTBF
+item
+vector
+streaming supercomputing
+performance evaluation
+mean time to repair
+MTTR
+scalable architecture
+decimal system
+peak performance
+processor consistency model
+duplication redundancy
+parallelization
+data parallelism
+processor-in-memory
+PIM
+floating-point operations per second
+FLOPS
+global operation
+single program multiple data
+SPMD
+fixed-time speedup
+TPC benchmark
+benchmark
+asynchronous parallelism
+parallel operation environment
+POE
+memory wall
+message passing libr-ary
+MPL
+temporal locality
+microscopic parallelism
+degree of parallelism
+fixed-load speedup
+scalar
+sustained performance
+character
+parallel vector processing
+split input/output request
+von Neumann architecture
+Gibson mix
+standard program approach
+computational ecology
+macro-benchmark
+reliability
+availability and serviceability
+RAS
+guard bit
+dynamic redundancy
+server cluster
+fault handling
+parallel algorithm
+Harvard structure
+character string
+IEEE754 floating-point standard
+closed architecture
+client-server computing
+data representation
+binary word
+single system image
+SSI
+very long instruction word processor
+VLIW processor
+distributed control
+program locality
+word length
+coarse grain
+input/output processor
+I/O processor
+systolic arrays
+control flow computer
+scalar computer
+vector supercomputer
+shared disk multiprocessor system
+host machine
+unicomputer system
+floating-point computer
+scheduling monitor computer
+network processor
+asymmetric multiprocessor
+homogeneous multiprocessor
+single-instruction stream multiple-data stream system
+SIMD system
+media processor
+shared nothing multiprocessor system
+multiple-instruction stream single-data stream system
+MISD system
+system maintenance processor
+load balancing cluster
+loosely coupled system
+digital signal processor
+DSP
+hot standby cluster
+reconfigurable multi-processors
+network of workstations
+NOW
+peripheral computer
+virtual computer
+array computer
+attached processor
+massively parallel computer
+MPC
+symmetric multiprocessor
+SMP
+associative processor
+super-minicomputer
+high performance computing cluster
+HPC cluster
+distributed processing system
+real-time computer
+stored-program computer
+high availability cluster
+HA cluster
+sequential computer
+shared memory multiprocessor system
+single-address computer
+distributed computer
+heterogeneous cluster
+virtual machine
+array processor
+peripheral processor
+simulation computer
+client-server system
+tightly coupled system
+cluster of workstations
+COW
+multiple issue processor
+scalable multi-computer
+string reduction machine
+multiple-address computer
+slave processor
+single-board computer
+heterogeneous multiprocessor
+vector computer
+multiprocessor system
+mini-supercomputer
+master-slave computer
+multiple-instruction stream multiple-data stream system
+MIMD system
+graphic workstation
+reconfigurable system
+reduced instruction set computer
+RISC
+fixed-point computer
+bit-slice computer
+database machine
+shared everything multiprocessor system
+cellular array processor
+graph reduction machine
+single-instruction stream single-data stream system
+SISD system
+reduction machine
+sequential inference machine
+target machine
+multi-computer system
+parallel inference machine
+variable-structured system
+data flow computer
+complex instruction set computer
+CISC
+pipeline computer
+grid computing platform
+autonomous channel operation
+input/output load balancing
+channel capacity
+multiplexor channel
+byte multiplexor channel
+input/output
+I/O
+input/output bottleneck
+peripheral component interconnection local bus
+channel status word
+CSW
+channel request
+CPCI bus
+input/output bus
+throughput-intensive application
+selector channel
+channel controller
+packet switched bus
+multi-bus
+channel adapter
+bus structure
+interface requirements
+universal serial bus
+USB
+input loading
+data path
+extended industry standard architecture bus
+EISA bus
+data channel
+control bus
+bus arbitration
+parallel port
+input/output interface
+block multiplexor channel
+intelligent input/output interface
+extended industry standard architecture
+EISA
+input/output controller
+input routine
+channel interface
+general purpose interface bus
+bus master
+full-duplex channel
+channel command word
+CCW
+channel
+industry standard architecture bus
+ISA bus
+daisy chain
+uni-bus
+channel overload
+serial port
+input/output port
+bus mother board
+programmable communication interface
+PCI-e-bus
